@@ -17,6 +17,12 @@
 		(uuid "8da89072-5988-4eaa-b7ec-f9db85633260")
 	)
 	(junction
+		(at 171.45 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d0ad3925-ff0a-4683-9255-7360653da2af")
+	)
+	(junction
 		(at 124.46 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -34,13 +40,13 @@
 	)
 	(bus
 		(pts
-			(xy 189.23 92.71) (xy 189.23 140.97)
+			(xy 189.23 110.49) (xy 189.23 140.97)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "19ad361a-ee01-4d0d-804a-edeb38340cb8")
+		(uuid "2c1bdc8f-7f05-4411-8eea-f3de977c6ca0")
 	)
 	(bus
 		(pts
@@ -51,6 +57,16 @@
 			(type default)
 		)
 		(uuid "3128bb9b-0dfe-45f5-a860-5e2822dbd8a7")
+	)
+	(wire
+		(pts
+			(xy 171.45 99.06) (xy 194.31 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "411c6bb2-aad3-44a2-a0cb-5cbb43fcb4d9")
 	)
 	(bus
 		(pts
@@ -92,15 +108,35 @@
 		)
 		(uuid "76d69247-123a-4b2f-b112-aca976253529")
 	)
-	(bus
+	(wire
 		(pts
-			(xy 194.31 92.71) (xy 189.23 92.71)
+			(xy 194.31 134.62) (xy 171.45 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8a35647e-0703-4112-87ff-d946271935ad")
+		(uuid "7e856548-304b-46f3-819d-9d886a409a2b")
+	)
+	(wire
+		(pts
+			(xy 171.45 134.62) (xy 171.45 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a49f8b43-87c6-46d9-bdce-b6f383f45137")
+	)
+	(bus
+		(pts
+			(xy 189.23 110.49) (xy 194.31 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0632d7f-69f5-45d3-8e95-1b8bae35b730")
 	)
 	(bus
 		(pts
@@ -121,6 +157,16 @@
 			(type default)
 		)
 		(uuid "c7a5b8da-1015-421f-b71d-5ddfcd0b3ad1")
+	)
+	(wire
+		(pts
+			(xy 119.38 99.06) (xy 171.45 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8b166fa-13ee-48cb-ae59-fb097d259b1a")
 	)
 	(bus
 		(pts
@@ -181,6 +227,16 @@
 				(justify left)
 			)
 			(uuid "7752f3e4-a551-4846-8bf9-8827f3353f03")
+		)
+		(pin "~{FPGA_EN}{slash}RPi_EN" input
+			(at 194.31 134.62 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6c5781ce-6163-4163-b849-51dea2d4ba69")
 		)
 		(instances
 			(project "led-panel"
@@ -287,6 +343,16 @@
 				(justify right)
 			)
 			(uuid "36ae4340-eafb-48d0-a959-a4c2dbe0b982")
+		)
+		(pin "~{FPGA_EN}{slash}RPi_EN" output
+			(at 119.38 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e599db76-3446-4648-9f52-473e81d59af6")
 		)
 		(instances
 			(project "led-panel"
@@ -451,7 +517,7 @@
 			)
 		)
 		(pin "Trig{Triggers}" input
-			(at 194.31 92.71 180)
+			(at 194.31 110.49 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -469,6 +535,16 @@
 				(justify left)
 			)
 			(uuid "76d64768-c538-49a0-9e22-d4666d92e5ac")
+		)
+		(pin "~{FPGA_EN}{slash}RPi_EN" input
+			(at 194.31 99.06 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2d0f8425-fef5-45fa-8957-2a3fcb61b4a3")
 		)
 		(instances
 			(project "led-panel"
