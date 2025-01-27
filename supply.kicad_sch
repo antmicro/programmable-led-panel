@@ -2144,7 +2144,7 @@
 		)
 		(uuid "cae8582b-e458-4344-bfa4-95651afba666")
 	)
-	(label "2V5_EN"
+	(label "3V3_EN"
 		(at 109.22 110.49 0)
 		(fields_autoplaced yes)
 		(effects

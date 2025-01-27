@@ -586,6 +586,26 @@
     [
       "558630aa-e7f2-4066-9d03-1c648a6adc39",
       "Supply"
+    ],
+    [
+      "50c5f44e-0866-4019-828a-f0d4c007daad",
+      "Trigger connector 1"
+    ],
+    [
+      "06971436-f55c-4c9a-b2a5-5e1b832e9517",
+      "uC RP2040"
+    ],
+    [
+      "0f1bd089-cb15-4e08-bb57-9fcbc9174dd1",
+      "Trigger connector 2"
+    ],
+    [
+      "4155e8b1-3e20-438f-8975-680719ad641f",
+      "USB"
+    ],
+    [
+      "4a8c8e0e-1171-44e1-a868-b4d68419a221",
+      "Matrix Drive"
     ]
   ],
   "text_variables": {}

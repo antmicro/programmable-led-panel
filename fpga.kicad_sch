@@ -4218,6 +4218,69 @@
 		(color 0 0 0 0)
 		(uuid "ee475282-cec7-4662-8072-3828330e8b81")
 	)
+	(bus_entry
+		(at 58.42 67.31)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e3fb61f-1468-4d65-ab26-a7ed377e4519")
+	)
+	(bus_entry
+		(at 58.42 67.31)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6992cd21-ae0d-4bda-bfe3-330e9c998de1")
+	)
+	(bus_entry
+		(at 58.42 49.53)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce7f7df6-ed54-49ec-b6c0-df47bd867fba")
+	)
+	(bus_entry
+		(at 58.42 59.69)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9d50224-2f10-4013-87a0-758d2b75dd73")
+	)
+	(bus_entry
+		(at 58.42 46.99)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddd65f4b-8539-42b7-94f6-130b0875c9b2")
+	)
+	(bus_entry
+		(at 58.42 64.77)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e68c3f67-d940-4b2e-a8b3-d4be367314c5")
+	)
+	(bus_entry
+		(at 58.42 62.23)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0939bac-3895-4cbe-81b9-7efb81215dc7")
+	)
 	(wire
 		(pts
 			(xy 101.6 161.29) (xy 101.6 162.56)
@@ -4240,6 +4303,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 67.31) (xy 62.23 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0304521e-3fc3-4b67-b125-a9e33f196835")
+	)
+	(wire
+		(pts
 			(xy 269.24 220.98) (xy 269.24 222.25)
 		)
 		(stroke
@@ -4247,6 +4320,16 @@
 			(type default)
 		)
 		(uuid "073c84bf-0764-47e3-a9fd-dbe6756d509a")
+	)
+	(bus
+		(pts
+			(xy 58.42 67.31) (xy 58.42 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b922922-dff3-4a5a-a4d7-ec1a3212c12f")
 	)
 	(wire
 		(pts
@@ -4348,6 +4431,16 @@
 		)
 		(uuid "20608590-4df6-40f1-be4f-1a8558af6951")
 	)
+	(bus
+		(pts
+			(xy 58.42 62.23) (xy 58.42 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20d0728f-dd21-4107-ab23-16b9322d0064")
+	)
 	(wire
 		(pts
 			(xy 259.08 218.44) (xy 259.08 220.98)
@@ -4407,6 +4500,16 @@
 			(type default)
 		)
 		(uuid "35b264b3-dabd-4d20-b3f3-9959d06dccd5")
+	)
+	(wire
+		(pts
+			(xy 69.85 52.07) (xy 60.96 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35b7d793-2072-413b-868a-1e5250e5e2e5")
 	)
 	(wire
 		(pts
@@ -4478,6 +4581,16 @@
 		)
 		(uuid "4a40f42f-a273-47ce-a949-b4ff2de5261b")
 	)
+	(bus
+		(pts
+			(xy 58.42 46.99) (xy 58.42 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c8478ce-b863-4eda-82a8-5ae57f326881")
+	)
 	(wire
 		(pts
 			(xy 121.92 124.46) (xy 140.97 124.46)
@@ -4507,6 +4620,16 @@
 			(type default)
 		)
 		(uuid "506a2ce2-f4f3-4a3e-a743-2753b5be7c40")
+	)
+	(bus
+		(pts
+			(xy 58.42 64.77) (xy 58.42 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50787cf7-cd0d-46b8-8865-c7fc93a0767f")
 	)
 	(wire
 		(pts
@@ -4597,6 +4720,26 @@
 			(type default)
 		)
 		(uuid "63543b85-5582-411f-9496-359df1352093")
+	)
+	(bus
+		(pts
+			(xy 58.42 59.69) (xy 58.42 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "650f5950-1d9f-45ac-a5a9-f6194d722028")
+	)
+	(wire
+		(pts
+			(xy 71.12 49.53) (xy 60.96 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66e33b69-50fc-44d2-95a1-609b1c5ca334")
 	)
 	(wire
 		(pts
@@ -4900,6 +5043,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 62.23) (xy 62.23 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c00c1072-ac11-48b3-805c-69527ee7dc29")
+	)
+	(wire
+		(pts
 			(xy 101.6 173.99) (xy 101.6 175.26)
 		)
 		(stroke
@@ -4927,6 +5080,16 @@
 			(type default)
 		)
 		(uuid "c4201c6d-2339-41ea-89b8-cb11f5962bef")
+	)
+	(bus
+		(pts
+			(xy 57.15 46.99) (xy 58.42 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c54bedda-62a6-4cf5-80cf-ab881421fdad")
 	)
 	(wire
 		(pts
@@ -4978,6 +5141,16 @@
 		)
 		(uuid "d3bfbb03-4247-41af-acae-c41ebbae5034")
 	)
+	(bus
+		(pts
+			(xy 58.42 58.42) (xy 57.15 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3c0e244-107e-426f-ada9-6727bfd9cdb4")
+	)
 	(wire
 		(pts
 			(xy 151.13 175.26) (xy 121.92 175.26)
@@ -4987,6 +5160,16 @@
 			(type default)
 		)
 		(uuid "d9f66d09-7551-4d45-8a4c-54cac0d73db3")
+	)
+	(wire
+		(pts
+			(xy 60.96 64.77) (xy 62.23 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcc3b1b9-a4bb-442a-bc5d-2e8c87d1560e")
 	)
 	(wire
 		(pts
@@ -5027,6 +5210,16 @@
 			(type default)
 		)
 		(uuid "e886d760-4908-4aaf-ab8c-f9cbfffef38f")
+	)
+	(wire
+		(pts
+			(xy 60.96 69.85) (xy 62.23 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8aeeafe-23d4-456d-835d-7764117f766c")
 	)
 	(wire
 		(pts
@@ -5189,6 +5382,17 @@
 		)
 		(uuid "00e90387-4130-443c-b750-4ebc7f1bc1b4")
 	)
+	(label "Trig.CAM"
+		(at 62.23 62.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "07a4fa13-9901-4632-82df-3028698d4eed")
+	)
 	(label "FPGA_CDONE"
 		(at 160.02 66.04 0)
 		(fields_autoplaced yes)
@@ -5255,6 +5459,17 @@
 		)
 		(uuid "3801e6f6-af30-4f5c-8584-5b42b477f20f")
 	)
+	(label "Trig.LED"
+		(at 62.23 64.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "48babf14-dd74-4e34-882c-d1ee071a126c")
+	)
 	(label "FPGA_CLK"
 		(at 306.07 218.44 180)
 		(fields_autoplaced yes)
@@ -5288,6 +5503,28 @@
 		)
 		(uuid "832a5020-d98b-4417-9811-be5577242a03")
 	)
+	(label "Trig.EXT2"
+		(at 62.23 69.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9063c7a3-81eb-46fb-9d4f-e93b5aa3cf7b")
+	)
+	(label "USB.D+"
+		(at 60.96 49.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "abfea6aa-6ff7-4e7f-a309-9b522450479d")
+	)
 	(label "FPGA_MOSI"
 		(at 160.02 101.6 0)
 		(fields_autoplaced yes)
@@ -5310,6 +5547,17 @@
 		)
 		(uuid "c25d4ef2-8467-4568-92a2-e0740da0bb87")
 	)
+	(label "Trig.EXT1"
+		(at 62.23 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cb219200-8c83-4f22-bf7a-44a1fd933b18")
+	)
 	(label "FPGA_~{SS}"
 		(at 160.02 106.68 0)
 		(fields_autoplaced yes)
@@ -5320,6 +5568,17 @@
 			(justify left bottom)
 		)
 		(uuid "cd312be6-0e73-49d8-9278-31b33e5f8ed7")
+	)
+	(label "USB.D-"
+		(at 60.96 52.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d5f65692-1c9d-481e-822f-dea1c1496793")
 	)
 	(label "VPP_2V5"
 		(at 160.02 116.84 0)
@@ -5353,6 +5612,30 @@
 			(justify right bottom)
 		)
 		(uuid "ed1865a7-7327-48b1-a0d1-31265ec90167")
+	)
+	(hierarchical_label "USB{USB}"
+		(shape bidirectional)
+		(at 57.15 46.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "19fa9bf8-bcaa-451f-a448-fcdad174f4b2")
+	)
+	(hierarchical_label "Trig{Triggers}"
+		(shape input)
+		(at 57.15 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e4fc53d0-142e-4d9e-a210-7706b915f203")
 	)
 	(symbol
 		(lib_id "antmicroCapacitors0402:C_100n_0402")

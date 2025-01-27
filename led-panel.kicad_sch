@@ -10,9 +10,381 @@
 		(rev "1.0.0")
 	)
 	(lib_symbols)
+	(junction
+		(at 189.23 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8da89072-5988-4eaa-b7ec-f9db85633260")
+	)
+	(junction
+		(at 124.46 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d43e524d-53dd-4804-a732-c2474eacfdb6")
+	)
+	(bus
+		(pts
+			(xy 119.38 76.2) (xy 194.31 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0799cec2-d5a9-4749-be15-8674a654b32e")
+	)
+	(bus
+		(pts
+			(xy 189.23 92.71) (xy 189.23 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19ad361a-ee01-4d0d-804a-edeb38340cb8")
+	)
+	(bus
+		(pts
+			(xy 124.46 140.97) (xy 124.46 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3128bb9b-0dfe-45f5-a860-5e2822dbd8a7")
+	)
+	(bus
+		(pts
+			(xy 119.38 80.01) (xy 180.34 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a7046ac-aa15-48a9-a06c-bd88118d141f")
+	)
+	(bus
+		(pts
+			(xy 180.34 128.27) (xy 194.31 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c8de4b7-d50f-41ca-b2fd-b9f8c980bb5b")
+	)
+	(bus
+		(pts
+			(xy 124.46 140.97) (xy 189.23 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f2a85fc-4ade-470c-aa13-b82cdb1cc9ce")
+	)
+	(bus
+		(pts
+			(xy 124.46 194.31) (xy 119.38 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76d69247-123a-4b2f-b112-aca976253529")
+	)
+	(bus
+		(pts
+			(xy 194.31 92.71) (xy 189.23 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a35647e-0703-4112-87ff-d946271935ad")
+	)
+	(bus
+		(pts
+			(xy 180.34 80.01) (xy 180.34 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bac34c46-ee1a-4c12-81f3-dc861cf00081")
+	)
+	(bus
+		(pts
+			(xy 189.23 140.97) (xy 194.31 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7a5b8da-1015-421f-b71d-5ddfcd0b3ad1")
+	)
+	(bus
+		(pts
+			(xy 119.38 140.97) (xy 124.46 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1009839-3f9d-4e0d-ba2c-e70350dbac73")
+	)
 	(sheet
-		(at 139.7 76.2)
-		(size 43.18 48.26)
+		(at 194.31 125.73)
+		(size 40.64 39.37)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "06971436-f55c-4c9a-b2a5-5e1b832e9517")
+		(property "Sheetname" "uC RP2040"
+			(at 194.31 125.0184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "uc_rp2040.kicad_sch"
+			(at 194.31 165.6846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USB{USB}" bidirectional
+			(at 194.31 128.27 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "86d14076-10ff-4ecd-bea9-c0d9e6b23207")
+		)
+		(pin "Trig{Triggers}" input
+			(at 194.31 140.97 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7752f3e4-a551-4846-8bf9-8827f3353f03")
+		)
+		(instances
+			(project "led-panel"
+				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 78.74 190.5)
+		(size 40.64 39.37)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0f1bd089-cb15-4e08-bb57-9fcbc9174dd1")
+		(property "Sheetname" "Trigger connector 2"
+			(at 78.74 189.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "connector_triggers.kicad_sch"
+			(at 78.74 230.4546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Trig{Triggers}" output
+			(at 119.38 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8e399bdc-da74-4532-89a0-cbd8ba49a5e4")
+		)
+		(instances
+			(project "led-panel"
+				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 78.74 71.12)
+		(size 40.64 39.37)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4155e8b1-3e20-438f-8975-680719ad641f")
+		(property "Sheetname" "USB"
+			(at 78.74 70.4084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB.kicad_sch"
+			(at 78.74 111.0746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USB_FPGA{USB}" bidirectional
+			(at 119.38 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d239d791-bc94-44c6-bb3d-302ac43e0df4")
+		)
+		(pin "USB_RPi{USB}" bidirectional
+			(at 119.38 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "36ae4340-eafb-48d0-a959-a4c2dbe0b982")
+		)
+		(instances
+			(project "led-panel"
+				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 270.51 96.52)
+		(size 40.64 39.37)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4a8c8e0e-1171-44e1-a868-b4d68419a221")
+		(property "Sheetname" "Matrix Drive"
+			(at 270.51 95.8084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "matrix_drive.kicad_sch"
+			(at 270.51 136.4746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "led-panel"
+				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 78.74 138.43)
+		(size 40.64 39.37)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "50c5f44e-0866-4019-828a-f0d4c007daad")
+		(property "Sheetname" "Trigger connector 1"
+			(at 78.74 137.7184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "connector_triggers.kicad_sch"
+			(at 78.74 178.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Trig{Triggers}" output
+			(at 119.38 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bd7d7c86-7e3d-4897-9edc-89bc1071a58f")
+		)
+		(instances
+			(project "led-panel"
+				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 130.81 17.78)
+		(size 40.64 39.37)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -23,7 +395,7 @@
 		)
 		(uuid "558630aa-e7f2-4066-9d03-1c648a6adc39")
 		(property "Sheetname" "Supply"
-			(at 139.7 75.4884 0)
+			(at 130.81 17.0684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32,7 +404,7 @@
 			)
 		)
 		(property "Sheetfile" "supply.kicad_sch"
-			(at 139.7 125.0446 0)
+			(at 130.81 57.7346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49,8 +421,8 @@
 		)
 	)
 	(sheet
-		(at 73.66 74.93)
-		(size 57.15 49.53)
+		(at 194.31 73.66)
+		(size 40.64 39.37)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -61,7 +433,7 @@
 		)
 		(uuid "e726b9bd-c9dd-498e-8f0b-14c371b4e345")
 		(property "Sheetname" "FPGA"
-			(at 73.66 74.2184 0)
+			(at 194.31 72.9484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -70,13 +442,33 @@
 			)
 		)
 		(property "Sheetfile" "fpga.kicad_sch"
-			(at 73.66 125.0446 0)
+			(at 194.31 113.6146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "Trig{Triggers}" input
+			(at 194.31 92.71 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1cb948cf-12de-46a9-bc11-6624d4b266f8")
+		)
+		(pin "USB{USB}" bidirectional
+			(at 194.31 76.2 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "76d64768-c538-49a0-9e22-d4666d92e5ac")
 		)
 		(instances
 			(project "led-panel"
