@@ -1,0 +1,94 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "a86e1cab-ea0a-45e6-9194-d44b0d5c9450")
+	(paper "A3")
+	(title_block
+		(title "LED Panel")
+		(date "27.01.2025")
+		(rev "1.0.0")
+	)
+	(lib_symbols)
+	(sheet
+		(at 139.7 76.2)
+		(size 43.18 48.26)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "558630aa-e7f2-4066-9d03-1c648a6adc39")
+		(property "Sheetname" "Supply"
+			(at 139.7 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "supply.kicad_sch"
+			(at 139.7 125.0446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "led-panel"
+				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 73.66 74.93)
+		(size 57.15 49.53)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e726b9bd-c9dd-498e-8f0b-14c371b4e345")
+		(property "Sheetname" "FPGA"
+			(at 73.66 74.2184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fpga.kicad_sch"
+			(at 73.66 125.0446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "led-panel"
+				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
