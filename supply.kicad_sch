@@ -2503,13 +2503,12 @@
 		(dnp no)
 		(uuid "2bdb9614-49f6-42ef-a051-7f7803954dc0")
 		(property "Reference" "R14"
-			(at 104.648 112.522 0)
+			(at 106.68 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "R_10k_0402"
@@ -2599,13 +2598,12 @@
 			)
 		)
 		(property "Val" "10k"
-			(at 104.902 110.49 0)
+			(at 106.68 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify right)
 			)
 		)
 		(property "Tolerance" "1%"
@@ -4435,13 +4433,12 @@
 		(dnp no)
 		(uuid "b6de9d51-b3a8-41cf-ae11-ae4ea07f03d6")
 		(property "Reference" "R13"
-			(at 104.648 132.842 0)
+			(at 106.68 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "R_10k_0402"
@@ -4531,13 +4528,12 @@
 			)
 		)
 		(property "Val" "10k"
-			(at 104.902 130.81 0)
+			(at 106.68 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify right)
 			)
 		)
 		(property "Tolerance" "1%"
@@ -4766,13 +4762,12 @@
 		(dnp no)
 		(uuid "d1e829eb-3254-452d-a870-61cd0c90584c")
 		(property "Reference" "R12"
-			(at 104.648 90.932 0)
+			(at 106.68 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "R_10k_0402"
@@ -4862,13 +4857,12 @@
 			)
 		)
 		(property "Val" "10k"
-			(at 104.902 88.9 0)
+			(at 106.68 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify right)
 			)
 		)
 		(property "Tolerance" "1%"
