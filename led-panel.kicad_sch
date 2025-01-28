@@ -11,16 +11,34 @@
 	)
 	(lib_symbols)
 	(junction
+		(at 252.73 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0b6f2afc-2a42-4405-aa7a-86b489c1f4d0")
+	)
+	(junction
 		(at 189.23 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8da89072-5988-4eaa-b7ec-f9db85633260")
+		(uuid "36e8d3b2-1811-49b6-9641-3e31a1025729")
 	)
 	(junction
-		(at 171.45 99.06)
+		(at 179.07 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d0ad3925-ff0a-4683-9255-7360653da2af")
+		(uuid "3cfb00ba-89d9-4cfd-a4f1-6534db099c3f")
+	)
+	(junction
+		(at 255.27 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6dcfa61e-2af1-4ab9-8a24-e7379137283a")
+	)
+	(junction
+		(at 184.15 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8586e5c2-7c8d-4201-9c8b-d8a1fb5774e7")
 	)
 	(junction
 		(at 124.46 140.97)
@@ -28,15 +46,57 @@
 		(color 0 0 0 0)
 		(uuid "d43e524d-53dd-4804-a732-c2474eacfdb6")
 	)
-	(bus
+	(junction
+		(at 243.84 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ee4dfe4d-72de-4e15-9dd7-0e70ca76355b")
+	)
+	(junction
+		(at 246.38 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f694b7fd-bfb9-4ecf-8ff2-7e895781bbcc")
+	)
+	(wire
 		(pts
-			(xy 119.38 76.2) (xy 194.31 76.2)
+			(xy 179.07 102.87) (xy 179.07 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0799cec2-d5a9-4749-be15-8674a654b32e")
+		(uuid "00aa6152-9ab4-45ae-9dad-78149f454025")
+	)
+	(bus
+		(pts
+			(xy 252.73 110.49) (xy 252.73 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12d72de9-b809-48dc-b888-cd522d21a6bf")
+	)
+	(bus
+		(pts
+			(xy 252.73 132.08) (xy 264.16 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "177a0970-a082-4aab-992a-e8a07b6026b0")
+	)
+	(bus
+		(pts
+			(xy 234.95 110.49) (xy 252.73 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23c64ca3-708b-47bb-96c7-3d914d98645c")
 	)
 	(bus
 		(pts
@@ -50,6 +110,16 @@
 	)
 	(bus
 		(pts
+			(xy 243.84 124.46) (xy 243.84 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f5f9f66-0b3b-4465-ba81-e0c7eee33395")
+	)
+	(bus
+		(pts
 			(xy 124.46 140.97) (xy 124.46 194.31)
 		)
 		(stroke
@@ -60,33 +130,63 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 127) (xy 194.31 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e47cd15-0948-4125-bdba-9c399a5d673b")
+	)
+	(bus
+		(pts
+			(xy 246.38 127) (xy 246.38 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e804d5c-b3ce-49c3-b940-afd4b8d8d12e")
+	)
+	(bus
+		(pts
+			(xy 304.8 105.41) (xy 325.12 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48a93f14-1200-4bc0-9050-bd8922ac36f3")
+	)
+	(bus
+		(pts
 			(xy 171.45 99.06) (xy 194.31 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "411c6bb2-aad3-44a2-a0cb-5cbb43fcb4d9")
+		(uuid "4bef1bc3-35ed-4942-b7b6-a8013f433d69")
 	)
-	(bus
+	(wire
 		(pts
-			(xy 119.38 80.01) (xy 180.34 80.01)
+			(xy 184.15 106.68) (xy 184.15 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4a7046ac-aa15-48a9-a06c-bd88118d141f")
+		(uuid "5755da24-b43e-4b08-9d93-e31fd99f1e13")
 	)
 	(bus
 		(pts
-			(xy 180.34 128.27) (xy 194.31 128.27)
+			(xy 255.27 129.54) (xy 264.16 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4c8de4b7-d50f-41ca-b2fd-b9f8c980bb5b")
+		(uuid "5bb1a128-914c-473b-bff3-62028be9e114")
 	)
 	(bus
 		(pts
@@ -98,6 +198,36 @@
 		)
 		(uuid "5f2a85fc-4ade-470c-aa13-b82cdb1cc9ce")
 	)
+	(wire
+		(pts
+			(xy 194.31 123.19) (xy 184.15 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "662524ad-fb95-41ed-b8f1-8910c40dc686")
+	)
+	(bus
+		(pts
+			(xy 234.95 129.54) (xy 255.27 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "690f6c6d-0c3c-41aa-9bcb-3c3303d12892")
+	)
+	(bus
+		(pts
+			(xy 304.8 132.08) (xy 325.12 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bd732d1-63cb-4e5b-85c7-46dc0bfccc3d")
+	)
 	(bus
 		(pts
 			(xy 124.46 194.31) (xy 119.38 194.31)
@@ -108,25 +238,115 @@
 		)
 		(uuid "76d69247-123a-4b2f-b112-aca976253529")
 	)
-	(wire
+	(bus
 		(pts
-			(xy 194.31 134.62) (xy 171.45 134.62)
+			(xy 171.45 130.81) (xy 194.31 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7e856548-304b-46f3-819d-9d886a409a2b")
+		(uuid "7ae3e183-734a-418c-b19e-10fc735248ed")
+	)
+	(bus
+		(pts
+			(xy 243.84 102.87) (xy 264.16 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bf89bd2-da58-4a29-9ff4-f0ede871e8b2")
+	)
+	(bus
+		(pts
+			(xy 119.38 96.52) (xy 130.81 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fffc9cc-398b-4e60-a23e-a03ca869624e")
 	)
 	(wire
 		(pts
-			(xy 171.45 134.62) (xy 171.45 99.06)
+			(xy 179.07 102.87) (xy 194.31 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a49f8b43-87c6-46d9-bdce-b6f383f45137")
+		(uuid "80270c0b-5abc-4676-921b-f648d23f7a28")
+	)
+	(bus
+		(pts
+			(xy 234.95 124.46) (xy 243.84 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8513d607-f783-49f3-bd63-7b01220ae350")
+	)
+	(bus
+		(pts
+			(xy 234.95 107.95) (xy 255.27 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a4d8e97-54bb-49fc-829d-68d1914aec0a")
+	)
+	(bus
+		(pts
+			(xy 234.95 127) (xy 246.38 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "957f4039-7861-4365-b4f6-97f02ca1dd43")
+	)
+	(wire
+		(pts
+			(xy 171.45 102.87) (xy 179.07 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98188836-ceea-4e34-b00e-e9def6ca72af")
+	)
+	(bus
+		(pts
+			(xy 246.38 105.41) (xy 264.16 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e390872-f46a-42fe-b537-57cd2032942f")
+	)
+	(wire
+		(pts
+			(xy 184.15 106.68) (xy 194.31 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6be472f-a0e4-419d-9329-9aefe4999503")
+	)
+	(bus
+		(pts
+			(xy 234.95 105.41) (xy 246.38 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adbc7ade-0369-4593-8cb4-b804ae8fe78e")
 	)
 	(bus
 		(pts
@@ -138,15 +358,55 @@
 		)
 		(uuid "b0632d7f-69f5-45d3-8e95-1b8bae35b730")
 	)
-	(bus
+	(wire
 		(pts
-			(xy 180.34 80.01) (xy 180.34 128.27)
+			(xy 171.45 106.68) (xy 184.15 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bac34c46-ee1a-4c12-81f3-dc861cf00081")
+		(uuid "b11f07c6-666c-4cf7-b648-700b21927afe")
+	)
+	(bus
+		(pts
+			(xy 304.8 129.54) (xy 325.12 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b44188f6-a244-422b-a3cc-3c429c9eb913")
+	)
+	(bus
+		(pts
+			(xy 234.95 132.08) (xy 252.73 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bafc5e77-e9f1-4f7b-90c6-e8ad23715c4c")
+	)
+	(bus
+		(pts
+			(xy 234.95 102.87) (xy 243.84 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c06ad779-8627-4e61-8c0c-d41c2e2b0594")
+	)
+	(bus
+		(pts
+			(xy 255.27 107.95) (xy 255.27 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8e71685-9681-4d6c-8181-7bb2848867a9")
 	)
 	(bus
 		(pts
@@ -156,17 +416,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "c7a5b8da-1015-421f-b71d-5ddfcd0b3ad1")
-	)
-	(wire
-		(pts
-			(xy 119.38 99.06) (xy 171.45 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8b166fa-13ee-48cb-ae59-fb097d259b1a")
+		(uuid "dee0997a-e3b3-425e-90f9-0d9d5cd3a4b8")
 	)
 	(bus
 		(pts
@@ -178,8 +428,18 @@
 		)
 		(uuid "e1009839-3f9d-4e0d-ba2c-e70350dbac73")
 	)
+	(bus
+		(pts
+			(xy 304.8 102.87) (xy 325.12 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2c202c4-3111-43ab-a4f9-f02ed2e685ad")
+	)
 	(sheet
-		(at 194.31 125.73)
+		(at 194.31 120.65)
 		(size 40.64 39.37)
 		(fields_autoplaced yes)
 		(stroke
@@ -191,7 +451,7 @@
 		)
 		(uuid "06971436-f55c-4c9a-b2a5-5e1b832e9517")
 		(property "Sheetname" "uC RP2040"
-			(at 194.31 125.0184 0)
+			(at 194.31 119.9384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -200,7 +460,7 @@
 			)
 		)
 		(property "Sheetfile" "uc_rp2040.kicad_sch"
-			(at 194.31 165.6846 0)
+			(at 194.31 160.6046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -209,7 +469,7 @@
 			)
 		)
 		(pin "USB{USB}" bidirectional
-			(at 194.31 128.27 180)
+			(at 194.31 130.81 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -229,14 +489,64 @@
 			(uuid "7752f3e4-a551-4846-8bf9-8827f3353f03")
 		)
 		(pin "~{FPGA_EN}{slash}RPi_EN" input
-			(at 194.31 134.62 180)
+			(at 194.31 123.19 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "6c5781ce-6163-4163-b849-51dea2d4ba69")
+			(uuid "942f8a40-5b5b-4957-afdf-801cf113914c")
+		)
+		(pin "12MHz" input
+			(at 194.31 127 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a5a7d497-6ec6-4b55-86c2-df89912ccb6f")
+		)
+		(pin "RowCtrl[1..7]" output
+			(at 234.95 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "745e0a2b-1cd5-45f6-ae5a-16e03e33ad92")
+		)
+		(pin "RowCtrl[8..14]" output
+			(at 234.95 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d27a2369-0503-4d6c-9ef5-b99c8d85560e")
+		)
+		(pin "ColumnCtrl[6..10]" output
+			(at 234.95 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "33f769a4-82ba-4788-bf2e-470e4c0bdee4")
+		)
+		(pin "ColumnCtrl[1..5]" output
+			(at 234.95 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "28dc953d-4a76-483b-b71e-629fdd4596d3")
 		)
 		(instances
 			(project "led-panel"
@@ -324,35 +634,15 @@
 				(justify left top)
 			)
 		)
-		(pin "USB_FPGA{USB}" bidirectional
-			(at 119.38 76.2 0)
+		(pin "USB{USB}" bidirectional
+			(at 119.38 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "d239d791-bc94-44c6-bb3d-302ac43e0df4")
-		)
-		(pin "USB_RPi{USB}" bidirectional
-			(at 119.38 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "36ae4340-eafb-48d0-a959-a4c2dbe0b982")
-		)
-		(pin "~{FPGA_EN}{slash}RPi_EN" output
-			(at 119.38 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "e599db76-3446-4648-9f52-473e81d59af6")
+			(uuid "b146fc72-f8b6-469c-9d0d-b281ef8a0212")
 		)
 		(instances
 			(project "led-panel"
@@ -363,7 +653,7 @@
 		)
 	)
 	(sheet
-		(at 270.51 96.52)
+		(at 325.12 97.79)
 		(size 40.64 39.37)
 		(fields_autoplaced yes)
 		(stroke
@@ -375,7 +665,7 @@
 		)
 		(uuid "4a8c8e0e-1171-44e1-a868-b4d68419a221")
 		(property "Sheetname" "Matrix Drive"
-			(at 270.51 95.8084 0)
+			(at 325.12 97.0784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -384,13 +674,53 @@
 			)
 		)
 		(property "Sheetfile" "matrix_drive.kicad_sch"
-			(at 270.51 136.4746 0)
+			(at 325.12 137.7446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "ColumnDrive[6..10]" input
+			(at 325.12 132.08 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "37056e99-b41b-49b4-8fce-d0888fd1e822")
+		)
+		(pin "ColumnDrive[1..5]" input
+			(at 325.12 129.54 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "760dfd9c-81a0-4cf7-9bcd-d2b282cc115e")
+		)
+		(pin "RowDrive[8..14]" input
+			(at 325.12 105.41 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "706064c9-0ae4-418f-9532-bb8e5f5c423d")
+		)
+		(pin "RowDrive[1..7]" input
+			(at 325.12 102.87 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a8c4b84f-322d-438b-94db-0dc255de0350")
 		)
 		(instances
 			(project "led-panel"
@@ -449,7 +779,7 @@
 		)
 	)
 	(sheet
-		(at 130.81 17.78)
+		(at 130.81 24.13)
 		(size 40.64 39.37)
 		(fields_autoplaced yes)
 		(stroke
@@ -461,7 +791,7 @@
 		)
 		(uuid "558630aa-e7f2-4066-9d03-1c648a6adc39")
 		(property "Sheetname" "Supply"
-			(at 130.81 17.0684 0)
+			(at 130.81 23.4184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -470,7 +800,7 @@
 			)
 		)
 		(property "Sheetfile" "supply.kicad_sch"
-			(at 130.81 57.7346 0)
+			(at 130.81 64.0846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -482,6 +812,250 @@
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 264.16 120.65)
+		(size 40.64 39.37)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "aa6b3a11-a1b3-4546-9781-66519c501a07")
+		(property "Sheetname" "Matrix Low Side Drive"
+			(at 264.16 119.9384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "matrix_low_side_drive.kicad_sch"
+			(at 264.16 160.6046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ColumnDrive[1..5]" output
+			(at 304.8 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d3744c74-3621-48f1-9ed7-05ffc2307a0a")
+		)
+		(pin "ColumnCtrl[1..5]" input
+			(at 264.16 129.54 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "619e372f-0612-47d9-ac86-ae039b7061f7")
+		)
+		(pin "ColumnCtrl[6..10]" input
+			(at 264.16 132.08 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d6a00c39-053e-4b12-85ea-6c46ceec6a64")
+		)
+		(pin "ColumnDrive[6..10]" output
+			(at 304.8 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e17c48f9-f0d9-42fb-a9ec-132d0b9585e9")
+		)
+		(instances
+			(project "led-panel"
+				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 264.16 73.66)
+		(size 40.64 39.37)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bbc9871a-bf9f-42db-bddb-8b6a7b166560")
+		(property "Sheetname" "Matrix High Side Drive"
+			(at 264.16 72.9484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "matrix_high_side_drive.kicad_sch"
+			(at 264.16 113.6146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RowDrive[8..14]" output
+			(at 304.8 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a0f65730-3ec2-4fe5-b3c8-267e5e9e2a14")
+		)
+		(pin "RowDrive[1..7]" output
+			(at 304.8 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "72d00544-6510-4bdb-b2e6-3c715627b059")
+		)
+		(pin "RowCtrl[8..14]" input
+			(at 264.16 105.41 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9176206c-374f-4188-84b6-644bb86b9d87")
+		)
+		(pin "RowCtrl[1..7]" input
+			(at 264.16 102.87 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "127a2f1c-a242-4254-b903-a135fcc54fd2")
+		)
+		(instances
+			(project "led-panel"
+				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 130.81 93.98)
+		(size 40.64 39.37)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "db63d7f0-b7b2-40ed-85ed-c3224adc3539")
+		(property "Sheetname" "Control"
+			(at 130.81 93.2684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "control.kicad_sch"
+			(at 130.81 133.9346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USB{USB}" bidirectional
+			(at 130.81 96.52 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "24df38f3-f0ad-47af-ad16-63b4005b3a17")
+		)
+		(pin "USB_FPGA{USB}" bidirectional
+			(at 171.45 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2e6df3cd-0924-4368-b47f-1a6cf2d63b45")
+		)
+		(pin "USB_RPi{USB}" bidirectional
+			(at 171.45 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4528a38f-6177-4cb8-997c-1cbc6ac953ae")
+		)
+		(pin "~{FPGA_EN}{slash}RPi_EN" output
+			(at 171.45 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0b629238-955e-4f68-a59d-62dcc661199f")
+		)
+		(pin "12MHz" output
+			(at 171.45 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b9f0ee43-6217-4203-8c62-a3ffd51fa8ff")
+		)
+		(instances
+			(project "led-panel"
+				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450"
+					(page "9")
 				)
 			)
 		)
@@ -527,7 +1101,7 @@
 			(uuid "1cb948cf-12de-46a9-bc11-6624d4b266f8")
 		)
 		(pin "USB{USB}" bidirectional
-			(at 194.31 76.2 180)
+			(at 194.31 99.06 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -537,14 +1111,64 @@
 			(uuid "76d64768-c538-49a0-9e22-d4666d92e5ac")
 		)
 		(pin "~{FPGA_EN}{slash}RPi_EN" input
-			(at 194.31 99.06 180)
+			(at 194.31 106.68 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "2d0f8425-fef5-45fa-8957-2a3fcb61b4a3")
+			(uuid "0621082d-18e2-45a4-8f1e-09dd3cf96830")
+		)
+		(pin "12MHz" input
+			(at 194.31 102.87 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3e288b1a-5169-4812-875e-e5a5d5f5ef5f")
+		)
+		(pin "RowCtrl[1..7]" output
+			(at 234.95 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fa4938a3-0771-45b8-8495-39e335f33e8d")
+		)
+		(pin "RowCtrl[8..14]" output
+			(at 234.95 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a3dccdba-4919-4d04-86b3-32b730adf4cd")
+		)
+		(pin "ColumnCtrl[1..5]" output
+			(at 234.95 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e8b67593-bd33-4135-a412-6252e0d2d86d")
+		)
+		(pin "ColumnCtrl[6..10]" output
+			(at 234.95 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "65856398-be65-475e-ac31-91ddd17c7b28")
 		)
 		(instances
 			(project "led-panel"
