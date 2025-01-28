@@ -4,6 +4,11 @@
 	(generator_version "8.0")
 	(uuid "530377f2-79ac-4ba2-8db0-433b0a1c007d")
 	(paper "A4")
+	(title_block
+		(title "LED Panel Board")
+		(date "28.01.2025")
+		(rev "1.0.0")
+	)
 	(lib_symbols
 		(symbol "antmicroCapacitors0402:C_100n_0402"
 			(pin_numbers hide)
