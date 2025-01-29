@@ -35,7 +35,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "antmicro-footprints:LED_Matrix_KWM_50571AGB"
 				(at 43.18 -10.16 0)
 				(effects
 					(font
@@ -123,18 +123,6 @@
 			(symbol "LED_Matrix_KWM-50571AGB_1_1"
 				(polyline
 					(pts
-						(xy 5.08 0) (xy 20.32 0)
-					)
-					(stroke
-						(width 0.127)
-						(type dot)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
 						(xy 5.715 -15.24) (xy 20.32 -15.24)
 					)
 					(stroke
@@ -207,7 +195,19 @@
 				)
 				(polyline
 					(pts
-						(xy 7.62 -15.24) (xy 7.62 1.778)
+						(xy 5.715 0) (xy 20.32 0)
+					)
+					(stroke
+						(width 0.127)
+						(type dot)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -15.24) (xy 7.62 1.27)
 					)
 					(stroke
 						(width 0.127)
@@ -303,7 +303,7 @@
 				)
 				(polyline
 					(pts
-						(xy 10.922 -15.494) (xy 10.922 1.016)
+						(xy 10.795 -15.24) (xy 10.795 1.27)
 					)
 					(stroke
 						(width 0.127)
@@ -327,7 +327,7 @@
 				)
 				(polyline
 					(pts
-						(xy 17.272 -15.24) (xy 17.272 1.27)
+						(xy 17.145 -15.24) (xy 17.145 1.27)
 					)
 					(stroke
 						(width 0.127)
@@ -3140,7 +3140,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "antmicro-footprints:LED_Matrix_KWM_50571AGB"
 			(at 217.17 111.76 0)
 			(effects
 				(font
@@ -3296,7 +3296,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "antmicro-footprints:LED_Matrix_KWM_50571AGB"
 			(at 217.17 68.58 0)
 			(effects
 				(font
@@ -3452,7 +3452,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "antmicro-footprints:LED_Matrix_KWM_50571AGB"
 			(at 138.43 68.58 0)
 			(effects
 				(font
@@ -3608,7 +3608,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "antmicro-footprints:LED_Matrix_KWM_50571AGB"
 			(at 138.43 111.76 0)
 			(effects
 				(font
