@@ -4042,7 +4042,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "06fba591-202c-4689-aea1-220a30e4e49d")
-		(property "Reference" "#PWR0164"
+		(property "Reference" "#PWR0169"
 			(at 146.05 82.55 0)
 			(effects
 				(font
@@ -4121,7 +4121,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/bbc9871a-bf9f-42db-bddb-8b6a7b166560"
-					(reference "#PWR0164")
+					(reference "#PWR0169")
 					(unit 1)
 				)
 			)
@@ -4136,7 +4136,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0bb72788-c059-44a7-8572-912833cfa3f9")
-		(property "Reference" "#PWR0131"
+		(property "Reference" "#PWR0160"
 			(at 135.89 101.6 0)
 			(effects
 				(font
@@ -4215,7 +4215,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/bbc9871a-bf9f-42db-bddb-8b6a7b166560"
-					(reference "#PWR0131")
+					(reference "#PWR0160")
 					(unit 1)
 				)
 			)
@@ -4230,7 +4230,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0ca0b4e3-a9f1-4873-9674-297011533154")
-		(property "Reference" "R?"
+		(property "Reference" "R39"
 			(at 57.404 108.966 0)
 			(effects
 				(font
@@ -4353,7 +4353,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/bbc9871a-bf9f-42db-bddb-8b6a7b166560"
-					(reference "R?")
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -4368,7 +4368,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0d7c4dcf-66c7-4da9-91c9-9c7a72b86872")
-		(property "Reference" "#PWR0190"
+		(property "Reference" "#PWR0165"
 			(at 127 163.83 0)
 			(effects
 				(font
@@ -4418,7 +4418,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/bbc9871a-bf9f-42db-bddb-8b6a7b166560"
-					(reference "#PWR0190")
+					(reference "#PWR0165")
 					(unit 1)
 				)
 			)
@@ -4433,7 +4433,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0ea2c591-371c-4676-9bd8-0b37e9f6d171")
-		(property "Reference" "#PWR0191"
+		(property "Reference" "#PWR0166"
 			(at 135.89 170.18 0)
 			(effects
 				(font
@@ -4512,7 +4512,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/bbc9871a-bf9f-42db-bddb-8b6a7b166560"
-					(reference "#PWR0191")
+					(reference "#PWR0166")
 					(unit 1)
 				)
 			)
@@ -4527,7 +4527,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0ebafe1f-5faf-4412-94af-e706e289ec3d")
-		(property "Reference" "R?"
+		(property "Reference" "R47"
 			(at 141.224 131.826 0)
 			(effects
 				(font
@@ -4650,7 +4650,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/bbc9871a-bf9f-42db-bddb-8b6a7b166560"
-					(reference "R?")
+					(reference "R47")
 					(unit 1)
 				)
 			)
@@ -4665,7 +4665,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "102d003e-8c67-4d96-b36d-c80a615f37a0")
-		(property "Reference" "#PWR0187"
+		(property "Reference" "#PWR0164"
 			(at 135.89 146.05 0)
 			(effects
 				(font
@@ -4744,7 +4744,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/bbc9871a-bf9f-42db-bddb-8b6a7b166560"
-					(reference "#PWR0187")
+					(reference "#PWR0164")
 					(unit 1)
 				)
 			)
@@ -4760,7 +4760,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "113681f6-d7e2-4deb-aeb5-57caa9b9f980")
-		(property "Reference" "Q?"
+		(property "Reference" "Q13"
 			(at 66.04 163.83 90)
 			(effects
 				(font
@@ -4876,7 +4876,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/bbc9871a-bf9f-42db-bddb-8b6a7b166560"
-					(reference "Q?")
+					(reference "Q13")
 					(unit 1)
 				)
 			)
@@ -4891,7 +4891,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "13afbf33-e6bf-4f8c-a176-8ad74e256617")
-		(property "Reference" "#PWR0119"
+		(property "Reference" "#PWR0154"
 			(at 135.89 27.94 0)
 			(effects
 				(font
@@ -4970,7 +4970,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/bbc9871a-bf9f-42db-bddb-8b6a7b166560"
-					(reference "#PWR0119")
+					(reference "#PWR0154")
 					(unit 1)
 				)
 			)
@@ -4985,7 +4985,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "16cbc78d-7164-4ba6-9b48-00b8b424e4e0")
-		(property "Reference" "#PWR0137"
+		(property "Reference" "#PWR0142"
 			(at 62.23 105.41 0)
 			(effects
 				(font
@@ -5064,7 +5064,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/bbc9871a-bf9f-42db-bddb-8b6a7b166560"
-					(reference "#PWR0137")
+					(reference "#PWR0142")
 					(unit 1)
 				)
 			)
@@ -5080,7 +5080,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2482bb6c-77fd-4320-bc9c-c9cfd38da3b9")
-		(property "Reference" "Q?"
+		(property "Reference" "Q17"
 			(at 149.86 93.98 90)
 			(effects
 				(font
@@ -5196,7 +5196,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/bbc9871a-bf9f-42db-bddb-8b6a7b166560"
-					(reference "Q?")
+					(reference "Q17")
 					(unit 1)
 				)
 			)
@@ -5212,7 +5212,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e6c51b0-40cb-4b46-8a67-2f2fa7ef5c83")
-		(property "Reference" "Q?"
+		(property "Reference" "Q11"
 			(at 66.04 116.84 90)
 			(effects
 				(font
@@ -5328,7 +5328,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/bbc9871a-bf9f-42db-bddb-8b6a7b166560"
-					(reference "Q?")
+					(reference "Q11")
 					(unit 1)
 				)
 			)
@@ -5343,7 +5343,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2f1a8cc7-b399-4ab1-b652-cd74db7c6716")
-		(property "Reference" "#PWR0138"
+		(property "Reference" "#PWR0149"
 			(at 67.31 91.44 0)
 			(effects
 				(font
@@ -5393,7 +5393,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/bbc9871a-bf9f-42db-bddb-8b6a7b166560"
-					(reference "#PWR0138")
+					(reference "#PWR0149")
 					(unit 1)
 				)
 			)
@@ -5408,7 +5408,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "368f5f87-a3d2-4861-893f-b2e1444022ab")
-		(property "Reference" "#PWR0174"
+		(property "Reference" "#PWR0179"
 			(at 151.13 137.16 0)
 			(effects
 				(font
@@ -5458,7 +5458,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/bbc9871a-bf9f-42db-bddb-8b6a7b166560"
-					(reference "#PWR0174")
+					(reference "#PWR0179")
 					(unit 1)
 				)
 			)
@@ -5473,7 +5473,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "396d3b9f-a8ba-41b1-b727-99c3920d93ea")
-		(property "Reference" "C?"
+		(property "Reference" "C51"
 			(at 36.83 20.32 90)
 			(effects
 				(font
@@ -5608,7 +5608,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/bbc9871a-bf9f-42db-bddb-8b6a7b166560"
-					(reference "C?")
+					(reference "C51")
 					(unit 1)
 				)
 			)
@@ -5623,7 +5623,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3c4b8778-1b79-4793-8361-b915c9a2aa08")
-		(property "Reference" "#PWR0134"
+		(property "Reference" "#PWR0147"
 			(at 67.31 45.72 0)
 			(effects
 				(font
@@ -5673,7 +5673,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/bbc9871a-bf9f-42db-bddb-8b6a7b166560"
-					(reference "#PWR0134")
+					(reference "#PWR0147")
 					(unit 1)
 				)
 			)
@@ -5688,7 +5688,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3e4266f5-98e4-4b6c-86e0-92c308d37575")
-		(property "Reference" "R?"
+		(property "Reference" "R37"
 			(at 57.404 63.246 0)
 			(effects
 				(font
@@ -5811,7 +5811,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/bbc9871a-bf9f-42db-bddb-8b6a7b166560"
-					(reference "R?")
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -5826,7 +5826,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4062b3c6-05d5-4e24-96bf-4e5ab9f40560")
-		(property "Reference" "C?"
+		(property "Reference" "C53"
 			(at 36.83 69.85 90)
 			(effects
 				(font
@@ -5961,7 +5961,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/bbc9871a-bf9f-42db-bddb-8b6a7b166560"
-					(reference "C?")
+					(reference "C53")
 					(unit 1)
 				)
 			)
@@ -5976,7 +5976,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "431b2fc1-20e0-42ef-a689-1a53c7c66e25")
-		(property "Reference" "R?"
+		(property "Reference" "R42"
 			(at 141.224 17.526 0)
 			(effects
 				(font
@@ -6099,7 +6099,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/bbc9871a-bf9f-42db-bddb-8b6a7b166560"
-					(reference "R?")
+					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -6115,7 +6115,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4387ffa7-8778-4460-a4b3-6a38827bc27e")
-		(property "Reference" "Q?"
+		(property "Reference" "Q20"
 			(at 149.86 163.83 90)
 			(effects
 				(font
@@ -6231,7 +6231,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/bbc9871a-bf9f-42db-bddb-8b6a7b166560"
-					(reference "Q?")
+					(reference "Q20")
 					(unit 1)
 				)
 			)
@@ -6246,7 +6246,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "48e9693b-b48e-456c-b1b9-f93d88a9ace2")
-		(property "Reference" "R?"
+		(property "Reference" "R35"
 			(at 57.404 17.526 0)
 			(effects
 				(font
@@ -6369,7 +6369,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/bbc9871a-bf9f-42db-bddb-8b6a7b166560"
-					(reference "R?")
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -6384,7 +6384,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4a8da434-731a-4a34-a55a-95f541bd6cc4")
-		(property "Reference" "#PWR0122"
+		(property "Reference" "#PWR0155"
 			(at 127 48.26 0)
 			(effects
 				(font
@@ -6434,7 +6434,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/bbc9871a-bf9f-42db-bddb-8b6a7b166560"
-					(reference "#PWR0122")
+					(reference "#PWR0155")
 					(unit 1)
 				)
 			)
@@ -6449,7 +6449,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4b392863-857c-42aa-8d1c-fdb71220be88")
-		(property "Reference" "R?"
+		(property "Reference" "R46"
 			(at 141.224 108.966 0)
 			(effects
 				(font
@@ -6572,7 +6572,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/bbc9871a-bf9f-42db-bddb-8b6a7b166560"
-					(reference "R?")
+					(reference "R46")
 					(unit 1)
 				)
 			)
@@ -6587,7 +6587,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4be3e961-b589-4315-a15d-e2285ee79a94")
-		(property "Reference" "#PWR0185"
+		(property "Reference" "#PWR0136"
 			(at 50.8 146.05 0)
 			(effects
 				(font
@@ -6666,7 +6666,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/bbc9871a-bf9f-42db-bddb-8b6a7b166560"
-					(reference "#PWR0185")
+					(reference "#PWR0136")
 					(unit 1)
 				)
 			)
@@ -6681,7 +6681,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4d20cbff-4b7c-49ea-9fc5-6bfdb012cd1f")
-		(property "Reference" "#PWR0132"
+		(property "Reference" "#PWR0139"
 			(at 62.23 36.83 0)
 			(effects
 				(font
@@ -6760,7 +6760,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/bbc9871a-bf9f-42db-bddb-8b6a7b166560"
-					(reference "#PWR0132")
+					(reference "#PWR0139")
 					(unit 1)
 				)
 			)
@@ -6775,7 +6775,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4d597306-abb4-4367-9912-325b8159b9c0")
-		(property "Reference" "R?"
+		(property "Reference" "R45"
 			(at 141.224 86.106 0)
 			(effects
 				(font
@@ -6898,7 +6898,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/bbc9871a-bf9f-42db-bddb-8b6a7b166560"
-					(reference "R?")
+					(reference "R45")
 					(unit 1)
 				)
 			)
@@ -6913,7 +6913,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4dcf413b-c626-4b77-b9f7-3429f841fdb2")
-		(property "Reference" "R?"
+		(property "Reference" "R38"
 			(at 57.404 86.106 0)
 			(effects
 				(font
@@ -7036,7 +7036,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/bbc9871a-bf9f-42db-bddb-8b6a7b166560"
-					(reference "R?")
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -7051,7 +7051,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "54ac5d5a-ebcd-42d6-8473-1183393e47ab")
-		(property "Reference" "C?"
+		(property "Reference" "C63"
 			(at 121.92 138.43 90)
 			(effects
 				(font
@@ -7186,7 +7186,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/bbc9871a-bf9f-42db-bddb-8b6a7b166560"
-					(reference "C?")
+					(reference "C63")
 					(unit 1)
 				)
 			)
@@ -7201,7 +7201,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "55d9f916-a7a6-4083-9680-75029cd9db91")
-		(property "Reference" "C?"
+		(property "Reference" "C58"
 			(at 121.92 20.32 90)
 			(effects
 				(font
@@ -7336,7 +7336,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/bbc9871a-bf9f-42db-bddb-8b6a7b166560"
-					(reference "C?")
+					(reference "C58")
 					(unit 1)
 				)
 			)
@@ -7351,7 +7351,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5c511c3b-29f2-4ac2-8aaf-73b69545e3c4")
-		(property "Reference" "R?"
+		(property "Reference" "R36"
 			(at 57.404 40.386 0)
 			(effects
 				(font
@@ -7474,7 +7474,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/bbc9871a-bf9f-42db-bddb-8b6a7b166560"
-					(reference "R?")
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -7489,7 +7489,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5c699c7d-09ae-44a0-ab3a-b7b579accf70")
-		(property "Reference" "#PWR0124"
+		(property "Reference" "#PWR0129"
 			(at 41.91 71.12 0)
 			(effects
 				(font
@@ -7539,7 +7539,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/bbc9871a-bf9f-42db-bddb-8b6a7b166560"
-					(reference "#PWR0124")
+					(reference "#PWR0129")
 					(unit 1)
 				)
 			)
@@ -7554,7 +7554,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5d5a41bb-8a65-43e3-a818-13d49ee99551")
-		(property "Reference" "C?"
+		(property "Reference" "C59"
 			(at 121.92 46.99 90)
 			(effects
 				(font
@@ -7689,7 +7689,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/bbc9871a-bf9f-42db-bddb-8b6a7b166560"
-					(reference "C?")
+					(reference "C59")
 					(unit 1)
 				)
 			)
@@ -7704,7 +7704,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5e7e0c6c-3f3b-40d8-8d7a-fe6a540855b5")
-		(property "Reference" "#PWR0183"
+		(property "Reference" "#PWR0162"
 			(at 135.89 124.46 0)
 			(effects
 				(font
@@ -7783,7 +7783,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/bbc9871a-bf9f-42db-bddb-8b6a7b166560"
-					(reference "#PWR0183")
+					(reference "#PWR0162")
 					(unit 1)
 				)
 			)
@@ -7798,7 +7798,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5e81ba4a-0c0f-4901-9086-4c7e6e53d515")
-		(property "Reference" "C?"
+		(property "Reference" "C52"
 			(at 36.83 46.99 90)
 			(effects
 				(font
@@ -7933,7 +7933,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/bbc9871a-bf9f-42db-bddb-8b6a7b166560"
-					(reference "C?")
+					(reference "C52")
 					(unit 1)
 				)
 			)
@@ -7948,7 +7948,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5ea10263-9083-4ef3-a3b0-606afc0ecfe0")
-		(property "Reference" "#PWR0188"
+		(property "Reference" "#PWR0137"
 			(at 41.91 163.83 0)
 			(effects
 				(font
@@ -7998,7 +7998,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/bbc9871a-bf9f-42db-bddb-8b6a7b166560"
-					(reference "#PWR0188")
+					(reference "#PWR0137")
 					(unit 1)
 				)
 			)
@@ -8014,7 +8014,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "67d625dc-e42a-4c8c-ab99-6b9b188c4c21")
-		(property "Reference" "Q?"
+		(property "Reference" "Q16"
 			(at 149.86 71.12 90)
 			(effects
 				(font
@@ -8130,7 +8130,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/bbc9871a-bf9f-42db-bddb-8b6a7b166560"
-					(reference "Q?")
+					(reference "Q16")
 					(unit 1)
 				)
 			)
@@ -8145,7 +8145,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "67e7d531-9169-4ee6-bdad-bee80217d4d0")
-		(property "Reference" "#PWR0136"
+		(property "Reference" "#PWR0148"
 			(at 67.31 68.58 0)
 			(effects
 				(font
@@ -8195,7 +8195,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/bbc9871a-bf9f-42db-bddb-8b6a7b166560"
-					(reference "#PWR0136")
+					(reference "#PWR0148")
 					(unit 1)
 				)
 			)
@@ -8210,7 +8210,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6a7c6aec-eb77-4851-8e44-5a0fe134122e")
-		(property "Reference" "#PWR0171"
+		(property "Reference" "#PWR0176"
 			(at 151.13 68.58 0)
 			(effects
 				(font
@@ -8260,7 +8260,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/bbc9871a-bf9f-42db-bddb-8b6a7b166560"
-					(reference "#PWR0171")
+					(reference "#PWR0176")
 					(unit 1)
 				)
 			)
@@ -8275,7 +8275,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6b81a7fa-930d-4dbc-800c-69426881a506")
-		(property "Reference" "#PWR0144"
+		(property "Reference" "#PWR0145"
 			(at 62.23 175.26 0)
 			(effects
 				(font
@@ -8354,7 +8354,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/bbc9871a-bf9f-42db-bddb-8b6a7b166560"
-					(reference "#PWR0144")
+					(reference "#PWR0145")
 					(unit 1)
 				)
 			)
@@ -8369,7 +8369,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6ba0f1c1-9e8f-4a43-bd17-6b7e47f2fa72")
-		(property "Reference" "#PWR0133"
+		(property "Reference" "#PWR0140"
 			(at 62.23 59.69 0)
 			(effects
 				(font
@@ -8448,7 +8448,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/bbc9871a-bf9f-42db-bddb-8b6a7b166560"
-					(reference "#PWR0133")
+					(reference "#PWR0140")
 					(unit 1)
 				)
 			)
@@ -8463,7 +8463,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "72386150-c0d4-49b2-af31-da265d108deb")
-		(property "Reference" "#PWR0146"
+		(property "Reference" "#PWR0167"
 			(at 146.05 36.83 0)
 			(effects
 				(font
@@ -8542,7 +8542,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/bbc9871a-bf9f-42db-bddb-8b6a7b166560"
-					(reference "#PWR0146")
+					(reference "#PWR0167")
 					(unit 1)
 				)
 			)
@@ -8557,7 +8557,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "73cd1245-92db-4b6e-b951-650ec0a3a1b0")
-		(property "Reference" "#PWR0172"
+		(property "Reference" "#PWR0177"
 			(at 151.13 91.44 0)
 			(effects
 				(font
@@ -8607,7 +8607,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/bbc9871a-bf9f-42db-bddb-8b6a7b166560"
-					(reference "#PWR0172")
+					(reference "#PWR0177")
 					(unit 1)
 				)
 			)
@@ -8623,7 +8623,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a924f28-ccc8-43bd-b30c-3684b01effbe")
-		(property "Reference" "Q?"
+		(property "Reference" "Q19"
 			(at 149.86 139.7 90)
 			(effects
 				(font
@@ -8739,7 +8739,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/bbc9871a-bf9f-42db-bddb-8b6a7b166560"
-					(reference "Q?")
+					(reference "Q19")
 					(unit 1)
 				)
 			)
@@ -8755,7 +8755,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c050659-b0fd-4771-97e2-b131e60e279b")
-		(property "Reference" "Q?"
+		(property "Reference" "Q9"
 			(at 66.04 71.12 90)
 			(effects
 				(font
@@ -8871,7 +8871,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/bbc9871a-bf9f-42db-bddb-8b6a7b166560"
-					(reference "Q?")
+					(reference "Q9")
 					(unit 1)
 				)
 			)
@@ -8886,7 +8886,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "80435ab5-3af0-4e26-abd1-68de120eec0f")
-		(property "Reference" "R?"
+		(property "Reference" "R43"
 			(at 141.224 40.386 0)
 			(effects
 				(font
@@ -9009,7 +9009,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/bbc9871a-bf9f-42db-bddb-8b6a7b166560"
-					(reference "R?")
+					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -9024,7 +9024,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "808e8e0b-f15a-4dff-b49f-eb87be85e5b0")
-		(property "Reference" "#PWR0120"
+		(property "Reference" "#PWR0127"
 			(at 41.91 48.26 0)
 			(effects
 				(font
@@ -9074,7 +9074,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/bbc9871a-bf9f-42db-bddb-8b6a7b166560"
-					(reference "#PWR0120")
+					(reference "#PWR0127")
 					(unit 1)
 				)
 			)
@@ -9089,7 +9089,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "815bd22f-14a4-431e-b625-e85800bb0a9d")
-		(property "Reference" "#PWR0141"
+		(property "Reference" "#PWR0150"
 			(at 67.31 114.3 0)
 			(effects
 				(font
@@ -9139,7 +9139,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/bbc9871a-bf9f-42db-bddb-8b6a7b166560"
-					(reference "#PWR0141")
+					(reference "#PWR0150")
 					(unit 1)
 				)
 			)
@@ -9154,7 +9154,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8431cbe9-e345-4746-943d-b19a755f5cb6")
-		(property "Reference" "#PWR0186"
+		(property "Reference" "#PWR0163"
 			(at 127 139.7 0)
 			(effects
 				(font
@@ -9204,7 +9204,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/bbc9871a-bf9f-42db-bddb-8b6a7b166560"
-					(reference "#PWR0186")
+					(reference "#PWR0163")
 					(unit 1)
 				)
 			)
@@ -9220,7 +9220,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f756718-4d4e-49ea-a1ff-4ba875d09fb1")
-		(property "Reference" "Q?"
+		(property "Reference" "Q10"
 			(at 66.04 93.98 90)
 			(effects
 				(font
@@ -9336,7 +9336,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/bbc9871a-bf9f-42db-bddb-8b6a7b166560"
-					(reference "Q?")
+					(reference "Q10")
 					(unit 1)
 				)
 			)
@@ -9351,7 +9351,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "907c7a29-57d1-482c-b804-50aaf2fab8eb")
-		(property "Reference" "#PWR0170"
+		(property "Reference" "#PWR0175"
 			(at 151.13 45.72 0)
 			(effects
 				(font
@@ -9401,7 +9401,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/bbc9871a-bf9f-42db-bddb-8b6a7b166560"
-					(reference "#PWR0170")
+					(reference "#PWR0175")
 					(unit 1)
 				)
 			)
@@ -9416,7 +9416,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "925a57ee-b4b8-477e-8796-d4680d37e7ac")
-		(property "Reference" "#PWR0140"
+		(property "Reference" "#PWR0143"
 			(at 62.23 128.27 0)
 			(effects
 				(font
@@ -9495,7 +9495,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/bbc9871a-bf9f-42db-bddb-8b6a7b166560"
-					(reference "#PWR0140")
+					(reference "#PWR0143")
 					(unit 1)
 				)
 			)
@@ -9510,7 +9510,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "926a1cf0-2240-420f-8c69-4b2863967101")
-		(property "Reference" "#PWR0169"
+		(property "Reference" "#PWR0174"
 			(at 151.13 22.86 0)
 			(effects
 				(font
@@ -9560,7 +9560,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/bbc9871a-bf9f-42db-bddb-8b6a7b166560"
-					(reference "#PWR0169")
+					(reference "#PWR0174")
 					(unit 1)
 				)
 			)
@@ -9575,7 +9575,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "933c5d8e-c7fe-4054-bf75-9e62a2566c29")
-		(property "Reference" "#PWR0126"
+		(property "Reference" "#PWR0157"
 			(at 127 71.12 0)
 			(effects
 				(font
@@ -9625,7 +9625,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/bbc9871a-bf9f-42db-bddb-8b6a7b166560"
-					(reference "#PWR0126")
+					(reference "#PWR0157")
 					(unit 1)
 				)
 			)
@@ -9640,7 +9640,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "96c0264d-b21e-4f77-bb7e-cf9839a7892a")
-		(property "Reference" "#PWR0184"
+		(property "Reference" "#PWR0135"
 			(at 41.91 139.7 0)
 			(effects
 				(font
@@ -9690,7 +9690,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/bbc9871a-bf9f-42db-bddb-8b6a7b166560"
-					(reference "#PWR0184")
+					(reference "#PWR0135")
 					(unit 1)
 				)
 			)
@@ -9705,7 +9705,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "994a6a47-e996-459c-be6f-dea51e9363fb")
-		(property "Reference" "#PWR0167"
+		(property "Reference" "#PWR0172"
 			(at 146.05 151.13 0)
 			(effects
 				(font
@@ -9784,7 +9784,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/bbc9871a-bf9f-42db-bddb-8b6a7b166560"
-					(reference "#PWR0167")
+					(reference "#PWR0172")
 					(unit 1)
 				)
 			)
@@ -9799,7 +9799,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9997bb05-e817-4c13-b02d-9e9763746ddd")
-		(property "Reference" "#PWR0128"
+		(property "Reference" "#PWR0131"
 			(at 41.91 95.25 0)
 			(effects
 				(font
@@ -9849,7 +9849,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/bbc9871a-bf9f-42db-bddb-8b6a7b166560"
-					(reference "#PWR0128")
+					(reference "#PWR0131")
 					(unit 1)
 				)
 			)
@@ -9864,7 +9864,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9c9d9c7f-30b6-4fec-ba27-3395da2c0d51")
-		(property "Reference" "R?"
+		(property "Reference" "R41"
 			(at 57.404 155.956 0)
 			(effects
 				(font
@@ -9987,7 +9987,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/bbc9871a-bf9f-42db-bddb-8b6a7b166560"
-					(reference "R?")
+					(reference "R41")
 					(unit 1)
 				)
 			)
@@ -10002,7 +10002,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9dbd73ae-a511-4ce7-bbd9-516d6eae79e7")
-		(property "Reference" "#PWR0139"
+		(property "Reference" "#PWR0146"
 			(at 67.31 22.86 0)
 			(effects
 				(font
@@ -10052,7 +10052,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/bbc9871a-bf9f-42db-bddb-8b6a7b166560"
-					(reference "#PWR0139")
+					(reference "#PWR0146")
 					(unit 1)
 				)
 			)
@@ -10067,7 +10067,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9e089b8f-1321-4db0-9577-c92174f36357")
-		(property "Reference" "#PWR0127"
+		(property "Reference" "#PWR0158"
 			(at 135.89 77.47 0)
 			(effects
 				(font
@@ -10146,7 +10146,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/bbc9871a-bf9f-42db-bddb-8b6a7b166560"
-					(reference "#PWR0127")
+					(reference "#PWR0158")
 					(unit 1)
 				)
 			)
@@ -10161,7 +10161,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9eba675b-055f-411c-be90-c768d597239d")
-		(property "Reference" "#PWR0173"
+		(property "Reference" "#PWR0178"
 			(at 151.13 114.3 0)
 			(effects
 				(font
@@ -10211,7 +10211,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/bbc9871a-bf9f-42db-bddb-8b6a7b166560"
-					(reference "#PWR0173")
+					(reference "#PWR0178")
 					(unit 1)
 				)
 			)
@@ -10226,7 +10226,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9ed871b6-edb1-4a79-921e-542c47edfcb9")
-		(property "Reference" "C?"
+		(property "Reference" "C64"
 			(at 121.92 162.56 90)
 			(effects
 				(font
@@ -10361,7 +10361,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/bbc9871a-bf9f-42db-bddb-8b6a7b166560"
-					(reference "C?")
+					(reference "C64")
 					(unit 1)
 				)
 			)
@@ -10376,7 +10376,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9fd5de1e-e802-476a-bcde-69d2b20ccc95")
-		(property "Reference" "C?"
+		(property "Reference" "C56"
 			(at 36.83 138.43 90)
 			(effects
 				(font
@@ -10511,7 +10511,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/bbc9871a-bf9f-42db-bddb-8b6a7b166560"
-					(reference "C?")
+					(reference "C56")
 					(unit 1)
 				)
 			)
@@ -10526,7 +10526,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a0282ab7-9719-4c0e-9100-2cdbef5746ff")
-		(property "Reference" "#PWR0189"
+		(property "Reference" "#PWR0138"
 			(at 50.8 170.18 0)
 			(effects
 				(font
@@ -10605,7 +10605,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/bbc9871a-bf9f-42db-bddb-8b6a7b166560"
-					(reference "#PWR0189")
+					(reference "#PWR0138")
 					(unit 1)
 				)
 			)
@@ -10620,7 +10620,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a0c9db21-b36b-4171-8851-24051bd8c613")
-		(property "Reference" "C?"
+		(property "Reference" "C55"
 			(at 36.83 116.84 90)
 			(effects
 				(font
@@ -10755,7 +10755,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/bbc9871a-bf9f-42db-bddb-8b6a7b166560"
-					(reference "C?")
+					(reference "C55")
 					(unit 1)
 				)
 			)
@@ -10770,7 +10770,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a53cb3cc-6ae7-46e5-8dfe-0e669c320efd")
-		(property "Reference" "R?"
+		(property "Reference" "R44"
 			(at 141.224 63.246 0)
 			(effects
 				(font
@@ -10893,7 +10893,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/bbc9871a-bf9f-42db-bddb-8b6a7b166560"
-					(reference "R?")
+					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -10908,7 +10908,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a9433ce9-b7bd-427c-9403-c7c6a560f40b")
-		(property "Reference" "#PWR0147"
+		(property "Reference" "#PWR0168"
 			(at 146.05 59.69 0)
 			(effects
 				(font
@@ -10987,7 +10987,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/bbc9871a-bf9f-42db-bddb-8b6a7b166560"
-					(reference "#PWR0147")
+					(reference "#PWR0168")
 					(unit 1)
 				)
 			)
@@ -11002,7 +11002,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "abcb2fb8-8a85-4870-ae6d-41255db6fa5e")
-		(property "Reference" "C?"
+		(property "Reference" "C60"
 			(at 121.92 69.85 90)
 			(effects
 				(font
@@ -11137,7 +11137,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/bbc9871a-bf9f-42db-bddb-8b6a7b166560"
-					(reference "C?")
+					(reference "C60")
 					(unit 1)
 				)
 			)
@@ -11152,7 +11152,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ad0a8688-0159-4b77-89be-dac6d9161574")
-		(property "Reference" "#PWR0181"
+		(property "Reference" "#PWR0134"
 			(at 50.8 124.46 0)
 			(effects
 				(font
@@ -11231,7 +11231,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/bbc9871a-bf9f-42db-bddb-8b6a7b166560"
-					(reference "#PWR0181")
+					(reference "#PWR0134")
 					(unit 1)
 				)
 			)
@@ -11246,7 +11246,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ad1c4ff3-730b-4262-b312-f5c251c7e6b2")
-		(property "Reference" "#PWR0129"
+		(property "Reference" "#PWR0132"
 			(at 50.8 101.6 0)
 			(effects
 				(font
@@ -11325,7 +11325,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/bbc9871a-bf9f-42db-bddb-8b6a7b166560"
-					(reference "#PWR0129")
+					(reference "#PWR0132")
 					(unit 1)
 				)
 			)
@@ -11341,7 +11341,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bbb919ef-63a7-448e-8832-4139507e3b5e")
-		(property "Reference" "Q?"
+		(property "Reference" "Q12"
 			(at 66.04 139.7 90)
 			(effects
 				(font
@@ -11457,7 +11457,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/bbc9871a-bf9f-42db-bddb-8b6a7b166560"
-					(reference "Q?")
+					(reference "Q12")
 					(unit 1)
 				)
 			)
@@ -11472,7 +11472,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bc69d1dd-98cd-48e0-9812-77434d20a874")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR0126"
 			(at 50.8 27.94 0)
 			(effects
 				(font
@@ -11551,7 +11551,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/bbc9871a-bf9f-42db-bddb-8b6a7b166560"
-					(reference "#PWR059")
+					(reference "#PWR0126")
 					(unit 1)
 				)
 			)
@@ -11566,7 +11566,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c0ec7c95-5568-4459-987d-c876365c7761")
-		(property "Reference" "#PWR0130"
+		(property "Reference" "#PWR0159"
 			(at 127 95.25 0)
 			(effects
 				(font
@@ -11616,7 +11616,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/bbc9871a-bf9f-42db-bddb-8b6a7b166560"
-					(reference "#PWR0130")
+					(reference "#PWR0159")
 					(unit 1)
 				)
 			)
@@ -11631,7 +11631,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c1e8e67e-391d-4c8d-a6f8-60aa8ac9eeba")
-		(property "Reference" "#PWR0143"
+		(property "Reference" "#PWR0151"
 			(at 67.31 137.16 0)
 			(effects
 				(font
@@ -11681,7 +11681,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/bbc9871a-bf9f-42db-bddb-8b6a7b166560"
-					(reference "#PWR0143")
+					(reference "#PWR0151")
 					(unit 1)
 				)
 			)
@@ -11696,7 +11696,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c58a079f-2859-47a8-b65b-c94f76c9cc99")
-		(property "Reference" "#PWR0175"
+		(property "Reference" "#PWR0180"
 			(at 151.13 161.29 0)
 			(effects
 				(font
@@ -11746,7 +11746,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/bbc9871a-bf9f-42db-bddb-8b6a7b166560"
-					(reference "#PWR0175")
+					(reference "#PWR0180")
 					(unit 1)
 				)
 			)
@@ -11761,7 +11761,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ce81b17b-cf49-47c6-8b5b-8086782f2e7f")
-		(property "Reference" "#PWR0182"
+		(property "Reference" "#PWR0161"
 			(at 127 118.11 0)
 			(effects
 				(font
@@ -11811,7 +11811,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/bbc9871a-bf9f-42db-bddb-8b6a7b166560"
-					(reference "#PWR0182")
+					(reference "#PWR0161")
 					(unit 1)
 				)
 			)
@@ -11827,7 +11827,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d4b63cf9-7b88-44c1-80c9-7255ac8f4525")
-		(property "Reference" "Q?"
+		(property "Reference" "Q18"
 			(at 149.86 116.84 90)
 			(effects
 				(font
@@ -11943,7 +11943,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/bbc9871a-bf9f-42db-bddb-8b6a7b166560"
-					(reference "Q?")
+					(reference "Q18")
 					(unit 1)
 				)
 			)
@@ -11958,7 +11958,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d8b221d5-38a6-4cc2-bce3-012f78c900b5")
-		(property "Reference" "#PWR0142"
+		(property "Reference" "#PWR0144"
 			(at 62.23 151.13 0)
 			(effects
 				(font
@@ -12037,7 +12037,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/bbc9871a-bf9f-42db-bddb-8b6a7b166560"
-					(reference "#PWR0142")
+					(reference "#PWR0144")
 					(unit 1)
 				)
 			)
@@ -12053,7 +12053,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8e44790-08fd-46a6-8674-966c0be5058d")
-		(property "Reference" "Q?"
+		(property "Reference" "Q14"
 			(at 149.86 25.4 90)
 			(effects
 				(font
@@ -12169,7 +12169,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/bbc9871a-bf9f-42db-bddb-8b6a7b166560"
-					(reference "Q?")
+					(reference "Q14")
 					(unit 1)
 				)
 			)
@@ -12185,7 +12185,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc8a6a2f-22b7-483e-bc6f-8ed102e98dd0")
-		(property "Reference" "Q?"
+		(property "Reference" "Q15"
 			(at 149.86 48.26 90)
 			(effects
 				(font
@@ -12301,7 +12301,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/bbc9871a-bf9f-42db-bddb-8b6a7b166560"
-					(reference "Q?")
+					(reference "Q15")
 					(unit 1)
 				)
 			)
@@ -12316,7 +12316,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e2df6fc8-8281-4405-88ee-d1d2bee5cd52")
-		(property "Reference" "#PWR0180"
+		(property "Reference" "#PWR0133"
 			(at 41.91 118.11 0)
 			(effects
 				(font
@@ -12366,7 +12366,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/bbc9871a-bf9f-42db-bddb-8b6a7b166560"
-					(reference "#PWR0180")
+					(reference "#PWR0133")
 					(unit 1)
 				)
 			)
@@ -12381,7 +12381,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e381083d-8edb-46c0-b541-baed0a58078c")
-		(property "Reference" "#PWR0166"
+		(property "Reference" "#PWR0171"
 			(at 146.05 128.27 0)
 			(effects
 				(font
@@ -12460,7 +12460,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/bbc9871a-bf9f-42db-bddb-8b6a7b166560"
-					(reference "#PWR0166")
+					(reference "#PWR0171")
 					(unit 1)
 				)
 			)
@@ -12475,7 +12475,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e3be9b6f-0bf9-4f16-b484-84ee97f52926")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR0125"
 			(at 41.91 21.59 0)
 			(effects
 				(font
@@ -12525,7 +12525,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/bbc9871a-bf9f-42db-bddb-8b6a7b166560"
-					(reference "#PWR064")
+					(reference "#PWR0125")
 					(unit 1)
 				)
 			)
@@ -12540,7 +12540,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e4642952-cc36-4d84-b396-4e0f7db81877")
-		(property "Reference" "#PWR0165"
+		(property "Reference" "#PWR0170"
 			(at 146.05 105.41 0)
 			(effects
 				(font
@@ -12619,7 +12619,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/bbc9871a-bf9f-42db-bddb-8b6a7b166560"
-					(reference "#PWR0165")
+					(reference "#PWR0170")
 					(unit 1)
 				)
 			)
@@ -12634,7 +12634,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e75cf3c2-8d16-4326-bcf2-896bdeea49f6")
-		(property "Reference" "#PWR0145"
+		(property "Reference" "#PWR0152"
 			(at 67.31 161.29 0)
 			(effects
 				(font
@@ -12684,7 +12684,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/bbc9871a-bf9f-42db-bddb-8b6a7b166560"
-					(reference "#PWR0145")
+					(reference "#PWR0152")
 					(unit 1)
 				)
 			)
@@ -12699,7 +12699,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e91fbbf2-5182-4cdf-bddf-784e56bccb35")
-		(property "Reference" "#PWR0121"
+		(property "Reference" "#PWR0128"
 			(at 50.8 54.61 0)
 			(effects
 				(font
@@ -12778,7 +12778,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/bbc9871a-bf9f-42db-bddb-8b6a7b166560"
-					(reference "#PWR0121")
+					(reference "#PWR0128")
 					(unit 1)
 				)
 			)
@@ -12793,7 +12793,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ea0c76fc-af84-4055-b7f1-68fd3064d951")
-		(property "Reference" "#PWR0168"
+		(property "Reference" "#PWR0173"
 			(at 146.05 175.26 0)
 			(effects
 				(font
@@ -12872,7 +12872,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/bbc9871a-bf9f-42db-bddb-8b6a7b166560"
-					(reference "#PWR0168")
+					(reference "#PWR0173")
 					(unit 1)
 				)
 			)
@@ -12888,7 +12888,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eac6aae0-acbc-4ba3-9033-d30b1f50c5b6")
-		(property "Reference" "Q?"
+		(property "Reference" "Q8"
 			(at 66.04 48.26 90)
 			(effects
 				(font
@@ -13004,7 +13004,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/bbc9871a-bf9f-42db-bddb-8b6a7b166560"
-					(reference "Q?")
+					(reference "Q8")
 					(unit 1)
 				)
 			)
@@ -13019,7 +13019,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eb13668b-2be4-4420-b0ac-4f1a303b9ba0")
-		(property "Reference" "C?"
+		(property "Reference" "C62"
 			(at 121.92 116.84 90)
 			(effects
 				(font
@@ -13154,7 +13154,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/bbc9871a-bf9f-42db-bddb-8b6a7b166560"
-					(reference "C?")
+					(reference "C62")
 					(unit 1)
 				)
 			)
@@ -13169,7 +13169,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eec77597-8250-4e0c-99af-44684866a316")
-		(property "Reference" "#PWR0123"
+		(property "Reference" "#PWR0156"
 			(at 135.89 54.61 0)
 			(effects
 				(font
@@ -13248,7 +13248,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/bbc9871a-bf9f-42db-bddb-8b6a7b166560"
-					(reference "#PWR0123")
+					(reference "#PWR0156")
 					(unit 1)
 				)
 			)
@@ -13263,7 +13263,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ef35c610-1062-4d94-8fed-3130228f6f18")
-		(property "Reference" "#PWR0135"
+		(property "Reference" "#PWR0141"
 			(at 62.23 82.55 0)
 			(effects
 				(font
@@ -13342,7 +13342,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/bbc9871a-bf9f-42db-bddb-8b6a7b166560"
-					(reference "#PWR0135")
+					(reference "#PWR0141")
 					(unit 1)
 				)
 			)
@@ -13358,7 +13358,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef805e13-1550-4bcc-b0b8-3df6179d21a8")
-		(property "Reference" "Q?"
+		(property "Reference" "Q7"
 			(at 66.04 25.4 90)
 			(effects
 				(font
@@ -13474,7 +13474,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/bbc9871a-bf9f-42db-bddb-8b6a7b166560"
-					(reference "Q?")
+					(reference "Q7")
 					(unit 1)
 				)
 			)
@@ -13489,7 +13489,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f268d973-00a3-470f-afb7-c6cc45ffe9cc")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR0153"
 			(at 127 21.59 0)
 			(effects
 				(font
@@ -13539,7 +13539,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/bbc9871a-bf9f-42db-bddb-8b6a7b166560"
-					(reference "#PWR067")
+					(reference "#PWR0153")
 					(unit 1)
 				)
 			)
@@ -13554,7 +13554,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f334677a-452c-4b02-a4d2-ea5ce21f434f")
-		(property "Reference" "C?"
+		(property "Reference" "C61"
 			(at 121.92 93.98 90)
 			(effects
 				(font
@@ -13689,7 +13689,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/bbc9871a-bf9f-42db-bddb-8b6a7b166560"
-					(reference "C?")
+					(reference "C61")
 					(unit 1)
 				)
 			)
@@ -13704,7 +13704,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f35446bd-1269-496f-9cc7-39be1efe12ce")
-		(property "Reference" "R?"
+		(property "Reference" "R48"
 			(at 141.224 155.956 0)
 			(effects
 				(font
@@ -13827,7 +13827,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/bbc9871a-bf9f-42db-bddb-8b6a7b166560"
-					(reference "R?")
+					(reference "R48")
 					(unit 1)
 				)
 			)
@@ -13842,7 +13842,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f41b8053-70b3-4d8e-a0de-a5573a729f66")
-		(property "Reference" "#PWR0125"
+		(property "Reference" "#PWR0130"
 			(at 50.8 77.47 0)
 			(effects
 				(font
@@ -13921,7 +13921,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/bbc9871a-bf9f-42db-bddb-8b6a7b166560"
-					(reference "#PWR0125")
+					(reference "#PWR0130")
 					(unit 1)
 				)
 			)
@@ -13936,7 +13936,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fcfad6e1-815b-4b7f-b563-1c1b2b7ecbfc")
-		(property "Reference" "R?"
+		(property "Reference" "R40"
 			(at 57.404 131.826 0)
 			(effects
 				(font
@@ -14059,7 +14059,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/bbc9871a-bf9f-42db-bddb-8b6a7b166560"
-					(reference "R?")
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -14074,7 +14074,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fdfe23e3-d4eb-4609-bbfb-67246c50cbc0")
-		(property "Reference" "C?"
+		(property "Reference" "C54"
 			(at 36.83 93.98 90)
 			(effects
 				(font
@@ -14209,7 +14209,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/bbc9871a-bf9f-42db-bddb-8b6a7b166560"
-					(reference "C?")
+					(reference "C54")
 					(unit 1)
 				)
 			)
@@ -14224,7 +14224,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fe9b7881-8a3d-4f22-b5e7-9169ae0da344")
-		(property "Reference" "C?"
+		(property "Reference" "C57"
 			(at 36.83 162.56 90)
 			(effects
 				(font
@@ -14359,7 +14359,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/bbc9871a-bf9f-42db-bddb-8b6a7b166560"
-					(reference "C?")
+					(reference "C57")
 					(unit 1)
 				)
 			)

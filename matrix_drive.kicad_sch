@@ -3120,7 +3120,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d1ef306-3c61-42b4-8ad1-26bd181d1b85")
-		(property "Reference" "U?"
+		(property "Reference" "U15"
 			(at 188.595 92.71 0)
 			(effects
 				(font
@@ -3260,7 +3260,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/4a8c8e0e-1171-44e1-a868-b4d68419a221"
-					(reference "U?")
+					(reference "U15")
 					(unit 1)
 				)
 			)
@@ -3276,7 +3276,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "200d122e-f636-464c-96c8-df59b2182c6a")
-		(property "Reference" "U?"
+		(property "Reference" "U14"
 			(at 188.595 49.53 0)
 			(effects
 				(font
@@ -3416,7 +3416,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/4a8c8e0e-1171-44e1-a868-b4d68419a221"
-					(reference "U?")
+					(reference "U14")
 					(unit 1)
 				)
 			)
@@ -3432,7 +3432,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d4b3c9ea-2ae9-45f0-9265-063b0e821d25")
-		(property "Reference" "U?"
+		(property "Reference" "U12"
 			(at 109.855 49.53 0)
 			(effects
 				(font
@@ -3572,7 +3572,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/4a8c8e0e-1171-44e1-a868-b4d68419a221"
-					(reference "U?")
+					(reference "U12")
 					(unit 1)
 				)
 			)
@@ -3588,7 +3588,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ee2097e0-4259-4a02-b8b8-43d3ff02ea39")
-		(property "Reference" "U?"
+		(property "Reference" "U13"
 			(at 109.855 92.71 0)
 			(effects
 				(font
@@ -3728,7 +3728,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/4a8c8e0e-1171-44e1-a868-b4d68419a221"
-					(reference "U?")
+					(reference "U13")
 					(unit 1)
 				)
 			)
