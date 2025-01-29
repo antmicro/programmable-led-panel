@@ -3569,6 +3569,14 @@
 		(pin "10"
 			(uuid "55c0f1c7-ae5d-49e0-a219-0bb389f9fe99")
 		)
+		(instances
+			(project "led-panel"
+				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/4a8c8e0e-1171-44e1-a868-b4d68419a221"
+					(reference "U?")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "antmicroModules:LED_Matrix_KWM-50571AGB")

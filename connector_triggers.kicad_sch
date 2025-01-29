@@ -2590,7 +2590,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "309f1a57-db4e-43e0-9742-2af4da9fdf23")
-		(property "Reference" "#PWR0101"
+		(property "Reference" "#PWR0102"
 			(at 140.97 133.35 0)
 			(effects
 				(font
@@ -3581,7 +3581,11 @@
 			(uuid "a10ab7de-30e8-461d-8275-f02778b4be7c")
 		)
 		(instances
-			(project ""
+			(project "led-panel"
+				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/0f1bd089-cb15-4e08-bb57-9fcbc9174dd1"
+					(reference "R?")
+					(unit 1)
+				)
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/50c5f44e-0866-4019-828a-f0d4c007daad"
 					(reference "R?")
 					(unit 1)
