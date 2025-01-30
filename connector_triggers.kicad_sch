@@ -1427,12 +1427,12 @@
 				)
 			)
 		)
-		(symbol "antmicroWire2BoardConnectors:JST_SH_1x6_SM06B-SRSS-TB-LF-SN"
+		(symbol "antmicroWire2BoardConnectors:JST_SH_1x6_BM06B-SRSS-TB-LF-SN"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 26.67 -2.54 0)
+				(at 20.32 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1441,19 +1441,8 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "JST_SH_1x6_SM06B-SRSS-TB-LF-SN"
-				(at 26.67 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "antmicro-footprints:Conn_JST_SH_1x6_SM06B-SRSS-TB-LF-SN"
-				(at 26.67 -10.16 0)
+			(property "Value" "JST_SH_1x6_BM06B-SRSS-TB-LF-SN"
+				(at 20.32 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1463,8 +1452,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
-				(at 26.67 -12.7 0)
+			(property "Footprint" "antmicro-footprints:Conn_JST_SH_1x6_BM06B-SRSS-TB-LF-SN"
+				(at 20.32 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1474,7 +1463,18 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Pin Header, Right Angle, Wire-to-Board, 1 mm, 1 Rows, 6 Contacts, Surface Mount Right Angle, SR"
+			(property "Datasheet" "https://www.farnell.com/datasheets/2082363.pdf"
+				(at 20.32 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "Pin Header, Vertical, Wire-to-Board, 1 mm, 1 Rows, 6 Contacts, Surface Mount Straight, SH"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1483,8 +1483,8 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "SM06B-SRSS-TB(LF)(SN)"
-				(at 26.67 -5.08 0)
+			(property "MPN" "BM06B-SRSS-TB(LF)(SN)"
+				(at 20.32 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1494,7 +1494,7 @@
 				)
 			)
 			(property "Manufacturer" "JST Automotive Connectors"
-				(at 26.67 -15.24 0)
+				(at 20.32 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1505,7 +1505,7 @@
 				)
 			)
 			(property "Author" "Antmicro"
-				(at 26.67 -17.78 0)
+				(at 20.32 -17.78 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1516,7 +1516,7 @@
 				)
 			)
 			(property "License" "Apache-2.0"
-				(at 26.67 -20.32 0)
+				(at 20.32 -20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1526,7 +1526,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "HORIZONTAL, SMT, WIRE-BOARD, CONNECTOR, MALE, HEADER"
+			(property "ki_keywords" "CONNECTOR, MALE, HEADER, SMT"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1535,7 +1535,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "JST_SH_1x6_SM06B-SRSS-TB-LF-SN_1_1"
+			(symbol "JST_SH_1x6_BM06B-SRSS-TB-LF-SN_1_1"
 				(rectangle
 					(start 2.54 -15.113)
 					(end 3.81 -15.367)
@@ -2680,7 +2680,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroWire2BoardConnectors:JST_SH_1x6_SM06B-SRSS-TB-LF-SN")
+		(lib_id "antmicroWire2BoardConnectors:JST_SH_1x6_BM06B-SRSS-TB-LF-SN")
 		(at 160.02 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2699,7 +2699,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "JST_SH_1x6_SM06B-SRSS-TB-LF-SN"
+		(property "Value" "JST_SH_1x6_BM06B-SRSS-TB-LF-SN"
 			(at 180.34 95.25 0)
 			(effects
 				(font
@@ -2710,7 +2710,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:Conn_JST_SH_1x6_SM06B-SRSS-TB-LF-SN"
+		(property "Footprint" "antmicro-footprints:Conn_JST_SH_1x6_BM06B-SRSS-TB-LF-SN"
 			(at 180.34 97.79 0)
 			(effects
 				(font
@@ -2721,7 +2721,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
+		(property "Datasheet" "https://www.farnell.com/datasheets/2082363.pdf"
 			(at 180.34 100.33 0)
 			(effects
 				(font
@@ -2732,7 +2732,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Pin Header, Right Angle, Wire-to-Board, 1 mm, 1 Rows, 6 Contacts, Surface Mount Right Angle, SR"
+		(property "Description" "Pin Header, Vertical, Wire-to-Board, 1 mm, 1 Rows, 6 Contacts, Surface Mount Straight, SH"
 			(at 160.02 87.63 0)
 			(effects
 				(font
@@ -2741,7 +2741,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "SM06B-SRSS-TB(LF)(SN)"
+		(property "MPN" "BM06B-SRSS-TB(LF)(SN)"
 			(at 166.37 96.52 0)
 			(effects
 				(font

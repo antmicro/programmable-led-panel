@@ -1313,12 +1313,12 @@
 				)
 			)
 		)
-		(symbol "antmicroUSBConnectors:USB-C_GCT_USB4105-GF-A"
+		(symbol "antmicroUSBConnectors:USB-C_GCT_USB4145-03-0070-C"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 38.1 -2.54 0)
+				(at 21.59 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1327,18 +1327,8 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "USB-C_GCT_USB4105-GF-A"
-				(at 38.1 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "antmicro-footprints:USB-C_Receptacle_GCT_USB4105-GF-A"
-				(at 38.1 -7.62 0)
+			(property "Value" "USB-C_GCT_USB4145-03-0070-C"
+				(at 21.59 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1348,8 +1338,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://gct.co/files/drawings/usb4105.pdf"
-				(at 38.1 -10.16 0)
+			(property "Footprint" "antmicro-footprints:USB-C_Receptacle_GCT_USB4145-03-0070-C"
+				(at 21.59 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1359,7 +1349,18 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "USB-C (USB TYPE-C) USB 2.0 Receptacle Connector 24 (16+8 Dummy) Position Surface Mount, Right Angle"
+			(property "Datasheet" "https://gct.co/files/drawings/usb4145.pdf"
+				(at 21.59 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "USB-C (USB TYPE-C) USB 2.0 Receptacle Connector 24 (16+8 Dummy) Postion  Surface Mount, Vertical"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1368,30 +1369,18 @@
 					(hide yes)
 				)
 			)
+			(property "MPN" "USB4145-03-0070-C"
+				(at 21.59 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
 			(property "Manufacturer" "GCT"
-				(at 38.1 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "MPN" "USB4105-GF-A"
-				(at 38.1 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Author" "Antmicro"
-				(at 38.1 -17.78 0)
+				(at 21.59 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1402,7 +1391,7 @@
 				)
 			)
 			(property "License" "Apache-2.0"
-				(at 38.1 -20.32 0)
+				(at 21.59 -17.78 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1412,7 +1401,18 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "USB, CONNECTOR, SMT, HORIZONTAL"
+			(property "Author" "Antmicro"
+				(at 21.59 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "USB, CONNECTOR, SMT, VERTICAL"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1421,7 +1421,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "USB-C_GCT_USB4105-GF-A_1_1"
+			(symbol "USB-C_GCT_USB4145-03-0070-C_1_1"
 				(rectangle
 					(start -22.86 2.54)
 					(end -3.81 -38.1)
@@ -2130,129 +2130,12 @@
 				)
 			)
 		)
-		(symbol "antmicropower:VBUS"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "VBUS"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VBUS_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VBUS_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0) hide
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 	)
 	(junction
 		(at 151.13 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2f0aabf3-1aec-4d28-8847-5a099203269f")
-	)
-	(junction
-		(at 177.8 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "61771d82-fa57-49a2-85ed-44d035385adc")
 	)
 	(junction
 		(at 152.4 95.25)
@@ -2267,6 +2150,12 @@
 		(uuid "a3cf0e80-d3e5-4985-9158-c50cbaa1d615")
 	)
 	(junction
+		(at 168.91 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a68f9397-e9d8-4c12-96de-c358f58a1df0")
+	)
+	(junction
 		(at 151.13 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2279,10 +2168,10 @@
 		(uuid "bcdcf6d8-a4c1-43b3-9150-7e6e9a214e7e")
 	)
 	(junction
-		(at 168.91 74.93)
+		(at 179.07 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ea102879-a39f-4726-9fa4-0655658ba791")
+		(uuid "f20c62f4-a181-4ba8-86a4-5842d28c8778")
 	)
 	(no_connect
 		(at 149.86 102.87)
@@ -2398,27 +2287,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "575d1497-4ca3-4fd5-80e6-004d90ef99ce")
-	)
-	(wire
-		(pts
-			(xy 177.8 73.66) (xy 177.8 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "585073c1-c00f-4dc5-a99c-ea5ab5fd00b5")
-	)
-	(wire
-		(pts
-			(xy 168.91 74.93) (xy 177.8 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69dfdce0-dda3-47f9-9363-73cecafdbeaf")
+		(uuid "584fbc34-d794-4849-9c4f-f71f3e2e0241")
 	)
 	(wire
 		(pts
@@ -2522,7 +2391,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 74.93) (xy 179.07 74.93)
+			(xy 168.91 74.93) (xy 179.07 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2612,6 +2481,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 74.93) (xy 179.07 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "caa90d00-a8e5-4fe3-a23a-571b385bafdc")
+	)
+	(wire
+		(pts
 			(xy 152.4 90.17) (xy 152.4 95.25)
 		)
 		(stroke
@@ -2662,6 +2541,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 74.93) (xy 180.34 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9ec94b7-88b0-4739-aede-bdbcd572b661")
+	)
+	(wire
+		(pts
 			(xy 149.86 110.49) (xy 151.13 110.49)
 		)
 		(stroke
@@ -2669,16 +2558,6 @@
 			(type default)
 		)
 		(uuid "edae244b-9a11-402d-a77b-3ac6f3b0d6ad")
-	)
-	(wire
-		(pts
-			(xy 151.13 110.49) (xy 156.21 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4acac1d-b01e-4bb7-a311-351db9460ffd")
 	)
 	(wire
 		(pts
@@ -2745,17 +2624,6 @@
 		)
 		(uuid "983e40f5-9a87-49f7-9773-d90280b35d9e")
 	)
-	(label "VBUS"
-		(at 132.08 123.19 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9fc04d06-62de-4b5a-b6e2-5a546c66a298")
-	)
 	(label "USB.D+"
 		(at 161.29 92.71 180)
 		(fields_autoplaced yes)
@@ -2779,9 +2647,45 @@
 		)
 		(uuid "56ca0bca-6167-48ac-a1eb-03b129d15145")
 	)
+	(hierarchical_label "VBUS"
+		(shape output)
+		(at 204.47 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "85cb1277-68af-4878-a3c3-8f54870ebe99")
+	)
+	(hierarchical_label "VBUS"
+		(shape output)
+		(at 132.08 123.19 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a33f3c77-79c2-4a9e-bb69-15cd0a2beb13")
+	)
+	(hierarchical_label "VBUS"
+		(shape output)
+		(at 180.34 74.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b605539a-773d-4c16-a7f1-f1b58667e6d2")
+	)
 	(symbol
 		(lib_id "antmicroTestPoints:TP_0.75mm_SMD")
-		(at 179.07 74.93 0)
+		(at 179.07 73.66 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -2790,17 +2694,17 @@
 		(fields_autoplaced yes)
 		(uuid "0d5e7cff-1db1-4249-953f-0d292d8d29c0")
 		(property "Reference" "TP10"
-			(at 184.15 74.93 0)
+			(at 181.61 70.485 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "TP_0.75mm_SMD"
-			(at 189.23 78.74 0)
+			(at 182.88 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2811,7 +2715,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:TP_SMD_0.75mm"
-			(at 189.23 81.28 0)
+			(at 185.42 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2822,7 +2726,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 196.85 87.63 0)
+			(at 191.77 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2833,7 +2737,7 @@
 			)
 		)
 		(property "Description" "SMT test point"
-			(at 179.07 74.93 0)
+			(at 179.07 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2842,7 +2746,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 189.865 86.36 0)
+			(at 190.5 62.865 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2853,7 +2757,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 189.865 81.28 0)
+			(at 185.42 62.865 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2864,7 +2768,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 189.23 83.82 0)
+			(at 187.96 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2875,7 +2779,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 189.23 86.36 0)
+			(at 190.5 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2886,12 +2790,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "3bd10512-56fc-469d-82d0-00cf4b5a1058")
+			(uuid "0922707f-0b0e-4547-bc63-139c71d4295c")
 		)
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/4155e8b1-3e20-438f-8975-680719ad641f"
 					(reference "TP10")
+					(unit 1)
+				)
+				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/e0aa715e-b1b5-485b-b3d2-61697a2766a6"
+					(reference "TP13")
 					(unit 1)
 				)
 			)
@@ -2906,7 +2814,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2eaa094f-d793-4c11-a9ea-b746ba3a8e20")
-		(property "Reference" "#FLG02"
+		(property "Reference" "#FLG0101"
 			(at 168.91 71.755 0)
 			(effects
 				(font
@@ -2951,12 +2859,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "a78074ab-655d-4652-af92-5d0bb63c2738")
+			(uuid "cc57f2c8-4325-490c-8be4-e08208268db5")
 		)
 		(instances
 			(project ""
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/4155e8b1-3e20-438f-8975-680719ad641f"
-					(reference "#FLG02")
+					(reference "#FLG01")
+					(unit 1)
+				)
+				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/e0aa715e-b1b5-485b-b3d2-61697a2766a6"
+					(reference "#FLG0101")
 					(unit 1)
 				)
 			)
@@ -3089,15 +3001,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "acc6a983-e3ad-4dfe-aa28-653cb4d14ffb")
+			(uuid "fcb991f9-aafb-48fe-b47d-82f74e4df306")
 		)
 		(pin "2"
-			(uuid "b81b2ca4-2cb8-43da-bbe1-43ed8db1943f")
+			(uuid "d76453ab-3e28-4c8c-ae4d-c91b710ae4a7")
 		)
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/4155e8b1-3e20-438f-8975-680719ad641f"
 					(reference "R32")
+					(unit 1)
+				)
+				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/e0aa715e-b1b5-485b-b3d2-61697a2766a6"
+					(reference "R87")
 					(unit 1)
 				)
 			)
@@ -3186,12 +3102,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "053de8a5-a498-463f-b3cc-1513ec3e8f71")
+			(uuid "72e5d0ed-0b56-4cb8-97f2-00b5c6e6ddf1")
 		)
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/4155e8b1-3e20-438f-8975-680719ad641f"
 					(reference "#PWR0108")
+					(unit 1)
+				)
+				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/e0aa715e-b1b5-485b-b3d2-61697a2766a6"
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -3280,12 +3200,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "4fea2748-91fd-4ac7-a321-5d98df7cdcc6")
+			(uuid "7060202c-ba99-4469-88bd-cf676abbf29f")
 		)
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/4155e8b1-3e20-438f-8975-680719ad641f"
 					(reference "#PWR0113")
+					(unit 1)
+				)
+				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/e0aa715e-b1b5-485b-b3d2-61697a2766a6"
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -3374,12 +3298,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "e3b40b4a-1f3f-42fb-a46a-4a5de1a7f4c0")
+			(uuid "e219119c-534b-4665-b757-f17a3236e2dd")
 		)
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/4155e8b1-3e20-438f-8975-680719ad641f"
 					(reference "#PWR0107")
+					(unit 1)
+				)
+				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/e0aa715e-b1b5-485b-b3d2-61697a2766a6"
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -3468,12 +3396,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "1ed45a72-19c5-456d-bc22-67c8b6e673d8")
+			(uuid "53101eca-4451-4549-a236-143d830179f9")
 		)
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/4155e8b1-3e20-438f-8975-680719ad641f"
 					(reference "#PWR0109")
+					(unit 1)
+				)
+				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/e0aa715e-b1b5-485b-b3d2-61697a2766a6"
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -3603,10 +3535,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "9d8200ec-a419-4d77-9428-dac7f52ca69c")
+			(uuid "70f68378-1397-48f1-b189-5b7be048eeb6")
 		)
 		(pin "1"
-			(uuid "b0c3fcf6-809e-47f4-b43a-ca4488dc4513")
+			(uuid "f64ded00-270c-4ff3-bc1b-5f0dbb78379f")
 		)
 		(instances
 			(project "led-panel"
@@ -3614,70 +3546,8 @@
 					(reference "R30")
 					(unit 1)
 				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicropower:VBUS")
-		(at 177.8 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7399b9bc-5fa9-43ce-9fe8-6d96795ce74a")
-		(property "Reference" "#PWR0110"
-			(at 177.8 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 177.8 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 177.8 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 177.8 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 177.8 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7a0a1fc1-a55c-4e65-a40f-fe8dd4ce4be6")
-		)
-		(instances
-			(project ""
-				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/4155e8b1-3e20-438f-8975-680719ad641f"
-					(reference "#PWR0110")
+				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/e0aa715e-b1b5-485b-b3d2-61697a2766a6"
+					(reference "R85")
 					(unit 1)
 				)
 			)
@@ -3807,15 +3677,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "2f80f6df-17b7-4ae9-bc57-feffa1c06fc8")
+			(uuid "80babbaf-df6d-4887-a256-f0787240f3f8")
 		)
 		(pin "1"
-			(uuid "f7ea5813-276c-4ac9-b1d6-5bd05ca82f5f")
+			(uuid "2f1e0e20-3158-4403-bd0e-6ce550d6f9e1")
 		)
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/4155e8b1-3e20-438f-8975-680719ad641f"
 					(reference "R31")
+					(unit 1)
+				)
+				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/e0aa715e-b1b5-485b-b3d2-61697a2766a6"
+					(reference "R86")
 					(unit 1)
 				)
 			)
@@ -3937,10 +3811,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "1633d1b9-5cb6-4501-8841-9c7505f7b1eb")
+			(uuid "34161aef-4372-4341-a976-35f40efc3932")
 		)
 		(pin "1"
-			(uuid "11123d8f-7191-45e5-b20b-cd8171073a40")
+			(uuid "0d2012dc-de5b-458b-92e2-5d1f9016e60c")
 		)
 		(instances
 			(project "led-panel"
@@ -3948,11 +3822,15 @@
 					(reference "D8")
 					(unit 1)
 				)
+				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/e0aa715e-b1b5-485b-b3d2-61697a2766a6"
+					(reference "D10")
+					(unit 1)
+				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "antmicroUSBConnectors:USB-C_GCT_USB4105-GF-A")
+		(lib_id "antmicroUSBConnectors:USB-C_GCT_USB4145-03-0070-C")
 		(at 149.86 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3970,7 +3848,7 @@
 				)
 			)
 		)
-		(property "Value" "USB-C_GCT_USB4105-GF-A"
+		(property "Value" "USB-C_GCT_USB4145-03-0070-C"
 			(at 136.525 69.85 0)
 			(effects
 				(font
@@ -3980,7 +3858,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:USB-C_Receptacle_GCT_USB4105-GF-A"
+		(property "Footprint" "antmicro-footprints:USB-C_Receptacle_GCT_USB4145-03-0070-C"
 			(at 171.45 85.09 0)
 			(effects
 				(font
@@ -3991,7 +3869,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://gct.co/files/drawings/usb4105.pdf"
+		(property "Datasheet" "https://gct.co/files/drawings/usb4145.pdf"
 			(at 171.45 87.63 0)
 			(effects
 				(font
@@ -4002,7 +3880,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "USB-C (USB TYPE-C) USB 2.0 Receptacle Connector 24 (16+8 Dummy) Position Surface Mount, Right Angle"
+		(property "Description" "USB-C (USB TYPE-C) USB 2.0 Receptacle Connector 24 (16+8 Dummy) Postion  Surface Mount, Vertical"
 			(at 149.86 74.93 0)
 			(effects
 				(font
@@ -4011,7 +3889,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "USB4105-GF-A"
+		(property "MPN" "USB4145-03-0070-C"
 			(at 136.525 69.85 0)
 			(effects
 				(font
@@ -4054,55 +3932,55 @@
 			)
 		)
 		(pin "B9"
-			(uuid "cfedbf25-4f14-4d22-9b3d-c0d53c5d42c8")
+			(uuid "6726d915-0a13-45f4-9e1e-e3c0b18b106c")
 		)
 		(pin "A5"
-			(uuid "4846204b-a323-494f-885a-27b862faef3b")
+			(uuid "fe96fa7d-b076-4e29-8a7f-70cfd079998c")
 		)
 		(pin "B6"
-			(uuid "f5059ef1-6be6-4c71-b347-c962f8465bbd")
+			(uuid "a0a4e063-71c8-4283-a939-2ae279ce9697")
 		)
 		(pin "A6"
-			(uuid "df47521b-ce3f-47ae-83f3-92e54b725fab")
+			(uuid "a5d8e24b-2fab-4d79-bfa6-ce06c3e54a22")
 		)
 		(pin "A4"
-			(uuid "5ec9659a-dcba-4880-80f7-6ff6d8f212b7")
+			(uuid "46c781db-6e8b-439a-855c-33b124607d09")
 		)
 		(pin "A1"
-			(uuid "340aa115-fc76-45dc-a620-ebaaaf90a5ef")
+			(uuid "785361aa-8ca5-4915-bfb4-83f149d43545")
 		)
 		(pin "SH"
-			(uuid "447e862c-4291-4099-8677-66acc6eab5c8")
+			(uuid "e2a4a91c-b95f-41fc-8285-1d75dad07f7e")
 		)
 		(pin "B4"
-			(uuid "d85ccb98-9810-4dde-86c8-d1b95fd077f9")
+			(uuid "e5027a0e-77bf-4493-984c-46ebc8423249")
 		)
 		(pin "B5"
-			(uuid "0e293fa4-009b-45e4-8983-fe8606304091")
+			(uuid "24375895-69e2-431d-8680-45709465621d")
 		)
 		(pin "B8"
-			(uuid "4b4ca839-da72-4c53-9227-edf219cb6b58")
+			(uuid "4f852759-8638-469d-b493-09a3c45352d6")
 		)
 		(pin "B7"
-			(uuid "aaea1926-6b5a-48e5-ad3d-18b6bae0aab3")
+			(uuid "634775f1-e186-4194-b3a9-bb052c7edb31")
 		)
 		(pin "B1"
-			(uuid "7c6f559e-4e14-4675-8514-b9000ad822dc")
+			(uuid "640d8def-35b5-41fc-88fb-0a761d9a255f")
 		)
 		(pin "A7"
-			(uuid "5e8ff5b7-7152-4f28-abff-f92cc1e72bd9")
+			(uuid "88ec9741-77cb-4697-8c9a-bf30acb2a78e")
 		)
 		(pin "A9"
-			(uuid "9c4f76cc-fe56-4828-97ac-bafa533576ec")
+			(uuid "54621dbe-8d50-49ab-a297-dcc33ba43676")
 		)
 		(pin "A12"
-			(uuid "82be031b-4a17-459f-a2a2-b6b15c5717cd")
+			(uuid "a939fea7-97af-449a-850d-f1fa923ea4f0")
 		)
 		(pin "A8"
-			(uuid "df69de19-53b0-4856-8ce6-9fcfd8783806")
+			(uuid "f40aadea-f15a-4418-8bdf-2af2ef0f39aa")
 		)
 		(pin "B12"
-			(uuid "d7260b94-b866-470a-a9fc-34323e2cdb23")
+			(uuid "52fa22c2-6a2f-4799-9227-0fdb78ec96cd")
 		)
 		(instances
 			(project "led-panel"
@@ -4110,136 +3988,8 @@
 					(reference "J3")
 					(unit 1)
 				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicropower:VBUS")
-		(at 204.47 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bf59a5b9-2675-4c0d-bf9a-925cf4abba3a")
-		(property "Reference" "#PWR0112"
-			(at 204.47 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 204.47 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 204.47 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 204.47 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 204.47 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6579b752-4ea2-4c31-a9d7-c26cfbfeff23")
-		)
-		(instances
-			(project "led-panel"
-				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/4155e8b1-3e20-438f-8975-680719ad641f"
-					(reference "#PWR0112")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicropower:PWR_FLAG")
-		(at 156.21 110.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d0cf52d2-89f6-4977-8654-bbb26031b890")
-		(property "Reference" "#FLG01"
-			(at 156.21 108.585 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 156.21 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 156.21 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 156.21 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 156.21 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f415ec2d-eb6e-4651-b255-386c9af53019")
-		)
-		(instances
-			(project "led-panel"
-				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/4155e8b1-3e20-438f-8975-680719ad641f"
-					(reference "#FLG01")
+				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/e0aa715e-b1b5-485b-b3d2-61697a2766a6"
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -4328,12 +4078,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "9e1c9233-f646-44a6-901f-f40ea362c7b9")
+			(uuid "90a94c49-31c9-474c-8b6d-282fa8a58df1")
 		)
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/4155e8b1-3e20-438f-8975-680719ad641f"
 					(reference "#PWR0111")
+					(unit 1)
+				)
+				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/e0aa715e-b1b5-485b-b3d2-61697a2766a6"
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -4446,12 +4200,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "8b1fae95-ae02-4db4-aeb5-8a69664e5324")
+			(uuid "e4466d07-6c38-49bd-9b64-53268c1138e7")
 		)
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/4155e8b1-3e20-438f-8975-680719ad641f"
 					(reference "TP11")
+					(unit 1)
+				)
+				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/e0aa715e-b1b5-485b-b3d2-61697a2766a6"
+					(reference "TP15")
 					(unit 1)
 				)
 			)
@@ -4563,39 +4321,43 @@
 			)
 		)
 		(pin "7"
-			(uuid "e6c2027f-2aa7-409e-a72a-285bf6478b58")
+			(uuid "00bb365c-b415-4868-970a-8f333641ef30")
 		)
 		(pin "8"
-			(uuid "a66c176a-9b84-4933-a416-456460adc2bf")
+			(uuid "34766f00-4e1b-461a-86c2-2946f4f2d4e9")
 		)
 		(pin "6"
-			(uuid "f2e4c27e-7368-4c41-99cf-e6cf0d9cac90")
+			(uuid "326ba3d8-f00a-47c5-b988-14ae076eb4e5")
 		)
 		(pin "5"
-			(uuid "d7dad999-2bd3-4db6-bd1e-eb07b2775d2b")
+			(uuid "660fd831-95f3-4a37-9810-c9c6eda8c461")
 		)
 		(pin "1"
-			(uuid "e27e9828-c5a9-4f48-a1d7-fd3d9e8d25d6")
+			(uuid "1f4d492e-1a36-427d-96c8-75036fe92b15")
 		)
 		(pin "4"
-			(uuid "1ef4a034-a7a3-4e2b-899f-46f8452ccd73")
+			(uuid "3a0bee67-a87d-45e5-a663-3686304367a5")
 		)
 		(pin "9"
-			(uuid "064aaf40-bcbf-4e4d-8ce8-a1bc786059f4")
+			(uuid "0db5a12b-d146-47c8-a347-547686ae5be5")
 		)
 		(pin "3"
-			(uuid "b4d56b32-1468-4761-a6cf-01aa933ef350")
+			(uuid "458ea91b-7040-4993-a46f-1ed7c6268b02")
 		)
 		(pin "2"
-			(uuid "9a890bba-d2e7-42d6-af92-ae64fe10cc7a")
+			(uuid "bd9dd470-af3d-49bd-94ab-348c3220866e")
 		)
 		(pin "10"
-			(uuid "b079255f-b4f0-4e07-933c-aac9437ec761")
+			(uuid "16203dc0-4883-47f3-bb0d-e98686ead423")
 		)
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/4155e8b1-3e20-438f-8975-680719ad641f"
 					(reference "U11")
+					(unit 1)
+				)
+				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/e0aa715e-b1b5-485b-b3d2-61697a2766a6"
+					(reference "U16")
 					(unit 1)
 				)
 			)
