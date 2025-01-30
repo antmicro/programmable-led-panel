@@ -1937,93 +1937,6 @@
 				)
 			)
 		)
-		(symbol "antmicropower:PWR_FLAG"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#FLG"
-				(at 0 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "PWR_FLAG"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "PWR_FLAG_0_0"
-				(pin power_out line
-					(at 0 0 90)
-					(length 0)
-					(name "pwr"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-		)
 	)
 	(bus_alias "IMU"
 		(members "SCL" "SDA" "FSYNC" "INT")
@@ -2081,12 +1994,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8c1a8167-c500-428d-a085-07f3ea73a8b8")
-	)
-	(junction
-		(at 209.55 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8d06f3e5-38ef-46c5-8d4b-54ec56ef2f3c")
 	)
 	(junction
 		(at 224.79 92.71)
@@ -2432,7 +2339,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 92.71) (xy 224.79 92.71)
+			(xy 201.93 92.71) (xy 224.79 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2669,16 +2576,6 @@
 			(type default)
 		)
 		(uuid "9daffc32-b71c-45a6-a483-9074f334d0a6")
-	)
-	(wire
-		(pts
-			(xy 201.93 92.71) (xy 209.55 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a302277a-7822-45e1-87fb-98d9735015e2")
 	)
 	(wire
 		(pts
@@ -3068,6 +2965,7 @@
 	)
 	(label "IMU.SDA"
 		(at 86.36 102.87 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3089,6 +2987,7 @@
 	)
 	(label "IMU.FSYNC"
 		(at 86.36 124.46 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3143,6 +3042,7 @@
 	)
 	(label "IMU.SCL"
 		(at 86.36 105.41 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3175,6 +3075,7 @@
 	)
 	(label "IMU.INT"
 		(at 86.36 127 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5522,72 +5423,6 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicropower:PWR_FLAG")
-		(at 209.55 92.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8e414c9d-5b8e-4f8d-b3e0-168df6343a56")
-		(property "Reference" "#FLG03"
-			(at 209.55 90.805 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 209.55 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 209.55 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 209.55 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 209.55 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2e59cab2-66d6-46cf-9c3f-1f780bf128c6")
-		)
-		(instances
-			(project "led-panel"
-				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/7d74e2d4-6915-4751-a0d0-a23155c065e5"
-					(reference "#FLG03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "antmicroLogicTranslatorsLevelShifters:NTS0102_XSON")
 		(at 147.32 100.33 0)
 		(mirror y)
@@ -5733,7 +5568,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "99ed4f23-a8d9-4a66-af91-b375300c72dc")
-		(property "Reference" "R?"
+		(property "Reference" "R75"
 			(at 153.416 96.52 90)
 			(effects
 				(font
@@ -5858,7 +5693,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/7d74e2d4-6915-4751-a0d0-a23155c065e5"
-					(reference "R?")
+					(reference "R75")
 					(unit 1)
 				)
 			)
@@ -5873,7 +5708,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "a5564336-35d0-4462-ac1f-b42de107e83d")
-		(property "Reference" "R?"
+		(property "Reference" "R76"
 			(at 159.004 96.52 90)
 			(effects
 				(font
@@ -5998,7 +5833,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/7d74e2d4-6915-4751-a0d0-a23155c065e5"
-					(reference "R?")
+					(reference "R76")
 					(unit 1)
 				)
 			)
@@ -6013,7 +5848,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "aa58e953-4ddf-41c8-95e0-1f4aefca4c75")
-		(property "Reference" "R?"
+		(property "Reference" "R74"
 			(at 120.904 96.52 90)
 			(effects
 				(font
@@ -6138,7 +5973,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/7d74e2d4-6915-4751-a0d0-a23155c065e5"
-					(reference "R?")
+					(reference "R74")
 					(unit 1)
 				)
 			)
@@ -6968,7 +6803,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "d59e7a7a-668e-4823-a7df-f7e2dec06e5f")
-		(property "Reference" "R?"
+		(property "Reference" "R73"
 			(at 115.316 96.52 90)
 			(effects
 				(font
@@ -7093,7 +6928,7 @@
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/7d74e2d4-6915-4751-a0d0-a23155c065e5"
-					(reference "R?")
+					(reference "R73")
 					(unit 1)
 				)
 			)
