@@ -5488,6 +5488,12 @@
 		(uuid "2f6396e3-4655-4a91-9516-6c563b506b02")
 	)
 	(junction
+		(at 154.94 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3255f0f7-013c-42bc-862b-9ed03d97dd71")
+	)
+	(junction
 		(at 187.96 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5686,10 +5692,6 @@
 		(uuid "44a883eb-4332-45a5-99af-52441bf69d90")
 	)
 	(no_connect
-		(at 149.86 73.66)
-		(uuid "45c5e552-9f9a-4354-92c2-dcf9d75dd79e")
-	)
-	(no_connect
 		(at 256.54 130.81)
 		(uuid "50169f31-9a61-41d5-b1b3-8eb5008386ea")
 	)
@@ -5738,10 +5740,6 @@
 		(uuid "b2fc90f4-6d08-49ba-a30a-6c682e6f3da5")
 	)
 	(no_connect
-		(at 149.86 60.96)
-		(uuid "b54b4794-cc49-4709-b93d-284dbcbc7008")
-	)
-	(no_connect
 		(at 256.54 125.73)
 		(uuid "b9453621-200d-48b8-bdb1-cd469f53e349")
 	)
@@ -5756,14 +5754,6 @@
 	(no_connect
 		(at 256.54 133.35)
 		(uuid "cd42a7a9-f887-4dd4-b928-81bf30acd431")
-	)
-	(no_connect
-		(at 149.86 68.58)
-		(uuid "da2647ab-4c49-4c19-ad00-99e4a74f9b6d")
-	)
-	(no_connect
-		(at 149.86 66.04)
-		(uuid "dd69d96e-776b-4d98-8841-d704e27c9f99")
 	)
 	(bus_entry
 		(at 163.83 78.74)
@@ -5820,6 +5810,15 @@
 		(uuid "1a770fc2-2422-4895-b39c-2aa2dd98028d")
 	)
 	(bus_entry
+		(at 168.91 58.42)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "285344bb-c575-4e5c-ba05-15313670522b")
+	)
+	(bus_entry
 		(at 162.56 17.78)
 		(size -2.54 2.54)
 		(stroke
@@ -5827,6 +5826,15 @@
 			(type default)
 		)
 		(uuid "287bc8c7-c72a-4cee-9ec3-cf06e09997bd")
+	)
+	(bus_entry
+		(at 168.91 66.04)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ae1ab9b-d9f5-4cef-865c-aa47b72a1d35")
 	)
 	(bus_entry
 		(at 83.82 33.02)
@@ -5973,6 +5981,15 @@
 		(uuid "d8594cc5-6287-43ad-a4f5-bf648140bf3e")
 	)
 	(bus_entry
+		(at 168.91 63.5)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d99bb8da-08a9-4f51-a0b4-02cba5703890")
+	)
+	(bus_entry
 		(at 163.83 86.36)
 		(size -2.54 -2.54)
 		(stroke
@@ -6025,6 +6042,15 @@
 			(type default)
 		)
 		(uuid "f0939bac-3895-4cbe-81b9-7efb81215dc7")
+	)
+	(bus_entry
+		(at 168.91 71.12)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f764c5e7-abd0-4bb7-a552-227276f74674")
 	)
 	(bus_entry
 		(at 162.56 20.32)
@@ -6146,6 +6172,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 73.66) (xy 166.37 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d46636c-ffbf-42e9-9154-75e5b1a59be1")
+	)
+	(wire
+		(pts
 			(xy 49.53 154.94) (xy 49.53 156.21)
 		)
 		(stroke
@@ -6183,6 +6219,26 @@
 			(type default)
 		)
 		(uuid "0fa6a30a-41ff-4269-af33-a15fd0d6e607")
+	)
+	(wire
+		(pts
+			(xy 161.29 57.15) (xy 154.94 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10c530ae-bf2e-4706-9c41-09b2360a7d7c")
+	)
+	(bus
+		(pts
+			(xy 170.18 58.42) (xy 168.91 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12171165-d531-4cee-80fc-b527219140cc")
 	)
 	(wire
 		(pts
@@ -6233,6 +6289,16 @@
 			(type default)
 		)
 		(uuid "14170001-b6dd-45ff-bd0a-91f20e8e8c61")
+	)
+	(bus
+		(pts
+			(xy 168.91 58.42) (xy 168.91 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14af15d1-679a-4b75-a0c0-ed34b90a421d")
 	)
 	(wire
 		(pts
@@ -6356,6 +6422,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 66.04) (xy 166.37 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25dda1fe-904f-4421-a778-42f70467c503")
+	)
+	(wire
+		(pts
 			(xy 160.02 30.48) (xy 149.86 30.48)
 		)
 		(stroke
@@ -6413,6 +6489,16 @@
 			(type default)
 		)
 		(uuid "2e601971-7e15-4bf4-849a-ee1b859773a6")
+	)
+	(wire
+		(pts
+			(xy 149.86 68.58) (xy 166.37 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e6db2e4-2d4f-4a34-8d3e-f278bc0a4f66")
 	)
 	(wire
 		(pts
@@ -6513,6 +6599,16 @@
 			(type default)
 		)
 		(uuid "37394f3e-dd72-4cb7-b244-09ababf4503d")
+	)
+	(wire
+		(pts
+			(xy 154.94 57.15) (xy 154.94 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37fb594c-661a-4254-aa94-547b5bd2a9b6")
 	)
 	(wire
 		(pts
@@ -6886,7 +6982,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 71.12) (xy 149.86 71.12)
+			(xy 151.13 71.12) (xy 149.86 71.12)
 		)
 		(stroke
 			(width 0)
@@ -7133,6 +7229,16 @@
 			(type default)
 		)
 		(uuid "76a4d250-256f-45aa-aa69-d32c41534684")
+	)
+	(bus
+		(pts
+			(xy 168.91 66.04) (xy 168.91 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79638459-4aef-407a-b97d-fcb6ff41fef9")
 	)
 	(wire
 		(pts
@@ -7403,6 +7509,16 @@
 			(type default)
 		)
 		(uuid "9462a18b-77af-43e0-8d49-8ceade16f789")
+	)
+	(wire
+		(pts
+			(xy 154.94 60.96) (xy 166.37 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94e85ee1-d23f-4364-808e-0fd4c93868f1")
 	)
 	(wire
 		(pts
@@ -7846,6 +7962,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 60.96) (xy 154.94 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0af6bd4-f8b4-4e61-b94e-9e1d8a1eb6cd")
+	)
+	(wire
+		(pts
 			(xy 34.29 120.65) (xy 34.29 121.92)
 		)
 		(stroke
@@ -8086,6 +8212,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 57.15) (xy 167.64 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d65c7f2f-6a52-4fb1-8aa8-8b6904849dfa")
+	)
+	(wire
+		(pts
 			(xy 91.44 154.94) (xy 91.44 187.96)
 		)
 		(stroke
@@ -8286,6 +8422,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 54.61) (xy 167.64 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea982a82-f9e6-49c4-96f4-6d062397e4e4")
+	)
+	(wire
+		(pts
 			(xy 116.84 154.94) (xy 125.73 154.94)
 		)
 		(stroke
@@ -8393,6 +8539,16 @@
 			(type default)
 		)
 		(uuid "f3108583-afb9-46e0-8efb-068cd34b9cd2")
+	)
+	(bus
+		(pts
+			(xy 168.91 63.5) (xy 168.91 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f34a6196-d1c0-49ed-bb68-03bdaea5ea25")
 	)
 	(wire
 		(pts
@@ -8888,6 +9044,17 @@
 		)
 		(uuid "892eb907-5e06-49d9-9aa6-a583eaea265e")
 	)
+	(label "IMU.FSYNC"
+		(at 166.37 60.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8e9786af-536e-4d40-a070-9b03381de1ce")
+	)
 	(label "ColumnCtrl4"
 		(at 86.36 35.56 0)
 		(fields_autoplaced yes)
@@ -9031,6 +9198,17 @@
 		)
 		(uuid "c48b8144-8696-4404-b7c1-43d43092575f")
 	)
+	(label "IMU.SCL"
+		(at 166.37 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c7b79dc8-8853-4cde-a5af-357e61a1fb17")
+	)
 	(label "~{FT_RST}"
 		(at 223.52 123.19 0)
 		(fields_autoplaced yes)
@@ -9097,6 +9275,17 @@
 		)
 		(uuid "dbb8e63d-c5bb-4ed1-8e73-55958d5d67fe")
 	)
+	(label "IMU.INT"
+		(at 166.37 73.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dd7f213c-c7f1-4ad8-99da-4df390ddb2b8")
+	)
 	(label "VCCIO_0"
 		(at 80.01 76.2 0)
 		(fields_autoplaced yes)
@@ -9151,6 +9340,17 @@
 			(justify left bottom)
 		)
 		(uuid "f0032e64-e11f-4158-9f5d-a75e7abd07cc")
+	)
+	(label "IMU.SDA"
+		(at 166.37 66.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f1ae87ec-318b-4cef-9f69-94c96a83e672")
 	)
 	(label "ColumnCtrl5"
 		(at 86.36 38.1 0)
@@ -9244,6 +9444,18 @@
 		)
 		(uuid "40bf2871-1c10-4670-9aec-aaed6eece69d")
 	)
+	(hierarchical_label "IMU{IMU}"
+		(shape bidirectional)
+		(at 170.18 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "71299947-c665-435d-8288-753a39342858")
+	)
 	(hierarchical_label "~{FPGA_EN}{slash}RPi_EN"
 		(shape input)
 		(at 88.9 154.94 180)
@@ -9270,7 +9482,7 @@
 	)
 	(hierarchical_label "12MHz"
 		(shape input)
-		(at 165.1 71.12 0)
+		(at 151.13 71.12 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13519,6 +13731,100 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicropower:+3V3")
+		(at 167.64 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4c9d6444-dfbe-411c-840c-9ae1c2959435")
+		(property "Reference" "#PWR0218"
+			(at 182.88 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 167.64 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 182.88 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 182.88 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "05cfbb42-99df-4922-88b8-14f697db72fa")
+		)
+		(instances
+			(project "led-panel"
+				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/e726b9bd-c9dd-498e-8f0b-14c371b4e345"
+					(reference "#PWR0218")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicropower:GND")
 		(at 46.99 77.47 0)
 		(unit 1)
@@ -17699,6 +18005,144 @@
 			(project ""
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/e726b9bd-c9dd-498e-8f0b-14c371b4e345"
 					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroResistors0402:R_10k_0402")
+		(at 161.29 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a0de18bb-734f-4546-a156-a879a441c56b")
+		(property "Reference" "R59"
+			(at 163.83 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "R_10k_0402"
+			(at 181.61 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+			(at 181.61 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
+			(at 181.61 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Chip Resistor, 10 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+			(at 161.29 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CR0402-FX-1002GLF"
+			(at 181.61 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Bourns"
+			(at 181.61 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 181.61 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 181.61 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "10k"
+			(at 163.83 55.118 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 181.61 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "476007d3-89e9-48f6-941e-78165d3461e2")
+		)
+		(pin "1"
+			(uuid "ffb608f3-f99e-4d85-abf1-80846cd28ea0")
+		)
+		(instances
+			(project "led-panel"
+				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/e726b9bd-c9dd-498e-8f0b-14c371b4e345"
+					(reference "R59")
 					(unit 1)
 				)
 			)

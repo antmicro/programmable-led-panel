@@ -313,6 +313,12 @@
 		(uuid "8586e5c2-7c8d-4201-9c8b-d8a1fb5774e7")
 	)
 	(junction
+		(at 165.1 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "967543f5-2adc-46fb-af14-dc946ec0a2a6")
+	)
+	(junction
 		(at 149.86 186.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -464,6 +470,16 @@
 	)
 	(bus
 		(pts
+			(xy 165.1 57.15) (xy 165.1 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49ae46e9-c725-43a4-ac9e-d24fa29f6c04")
+	)
+	(bus
+		(pts
 			(xy 97.79 77.47) (xy 120.65 77.47)
 		)
 		(stroke
@@ -471,6 +487,16 @@
 			(type default)
 		)
 		(uuid "4bef1bc3-35ed-4942-b7b6-a8013f433d69")
+	)
+	(bus
+		(pts
+			(xy 161.29 57.15) (xy 165.1 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c1f20a0-ce71-4a3e-9440-c134bf0266dc")
 	)
 	(wire
 		(pts
@@ -541,6 +567,16 @@
 			(type default)
 		)
 		(uuid "76d69247-123a-4b2f-b112-aca976253529")
+	)
+	(bus
+		(pts
+			(xy 165.1 68.58) (xy 165.1 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78df6c47-fe03-40ee-a1e2-bbfcb8669b98")
 	)
 	(bus
 		(pts
@@ -784,6 +820,16 @@
 	)
 	(bus
 		(pts
+			(xy 165.1 100.33) (xy 161.29 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e048925c-283c-499d-84a8-3ed9b61ca9cf")
+	)
+	(bus
+		(pts
 			(xy 53.34 119.38) (xy 58.42 119.38)
 		)
 		(stroke
@@ -801,6 +847,16 @@
 			(type default)
 		)
 		(uuid "e2c202c4-3111-43ab-a4f9-f02ed2e685ad")
+	)
+	(bus
+		(pts
+			(xy 161.29 68.58) (xy 165.1 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea82589d-fd00-477a-a200-15eab0d8620d")
 	)
 	(symbol
 		(lib_id "antmicroMechanicalParts:Spacer_Drill5.4mm_H10mm_9774100482R")
@@ -1475,6 +1531,16 @@
 			)
 			(uuid "28dc953d-4a76-483b-b71e-629fdd4596d3")
 		)
+		(pin "IMU{IMU}" bidirectional
+			(at 161.29 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2f1d3011-fc85-4069-a5f5-0ad1d0c043ae")
+		)
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450"
@@ -1739,6 +1805,54 @@
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 120.65 36.83)
+		(size 40.64 22.86)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7d74e2d4-6915-4751-a0d0-a23155c065e5")
+		(property "Sheetname" "IMU"
+			(at 120.65 36.1184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "IMU.kicad_sch"
+			(at 120.65 60.2746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "IMU{IMU}" bidirectional
+			(at 161.29 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "514b1c6b-1442-4b32-a209-02f9524b53cc")
+		)
+		(instances
+			(project "led-panel"
+				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450"
+					(page "12")
 				)
 			)
 		)
@@ -2096,6 +2210,16 @@
 				(justify right)
 			)
 			(uuid "65856398-be65-475e-ac31-91ddd17c7b28")
+		)
+		(pin "IMU{IMU}" bidirectional
+			(at 161.29 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "73c52be4-ce7c-4788-9971-a2d3ae114bd1")
 		)
 		(instances
 			(project "led-panel"

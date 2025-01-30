@@ -2691,7 +2691,7 @@
 		(uuid "f59ad1bd-2e37-4880-ab81-fc3d6aa15239")
 	)
 	(label "USB.D+"
-		(at 132.08 128.27 0)
+		(at 132.08 130.81 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2702,7 +2702,7 @@
 		(uuid "191481be-b1e7-4019-af72-1f2ffad204a7")
 	)
 	(label "USB.D-"
-		(at 132.08 130.81 0)
+		(at 132.08 128.27 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
