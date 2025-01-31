@@ -3760,7 +3760,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "USB.kicad_sch"
+		(property "Sheetfile" "USB-debug.kicad_sch"
 			(at 38.1 88.2146 0)
 			(effects
 				(font
