@@ -3030,16 +3030,6 @@
 			)
 			(uuid "2f1d3011-fc85-4069-a5f5-0ad1d0c043ae")
 		)
-		(pin "FPGA_RST" output
-			(at 91.44 101.6 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "be875989-68ce-4775-a998-96a51632aee1")
-		)
 		(pin "FPGA_SPI{SPI}" bidirectional
 			(at 91.44 104.14 180)
 			(effects
@@ -3059,6 +3049,16 @@
 				(justify left)
 			)
 			(uuid "b2001a05-41b1-473b-a10a-505004eeb7ec")
+		)
+		(pin "~{FPGA_RESET}" output
+			(at 91.44 101.6 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "58dd9b1c-4ad0-4969-85ad-9274269aab8c")
 		)
 		(instances
 			(project "led-panel"
@@ -3582,16 +3582,6 @@
 			)
 			(uuid "1f59b619-0692-407d-b160-140c9fa68463")
 		)
-		(pin "FPGA_RST" output
-			(at 69.85 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "fd3af001-0ec6-4333-9a5e-b3c9284bb155")
-		)
 		(pin "MCU_RST" output
 			(at 69.85 80.01 0)
 			(effects
@@ -3602,7 +3592,7 @@
 			)
 			(uuid "87b816a1-4402-4be8-bb73-cdffcb90bbea")
 		)
-		(pin "CDONE" input
+		(pin "FPGA_CDONE" input
 			(at 69.85 76.2 0)
 			(effects
 				(font
@@ -3610,7 +3600,17 @@
 				)
 				(justify right)
 			)
-			(uuid "f26f9829-2ad9-4eff-beed-608df0468d30")
+			(uuid "cfa22094-a327-4372-9e7c-f6e3ba7268e0")
+		)
+		(pin "~{FPGA_RESET}" output
+			(at 69.85 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1202fe49-545f-4f4c-9be3-719a299fa16c")
 		)
 		(instances
 			(project "led-panel"
@@ -3720,16 +3720,6 @@
 			)
 			(uuid "73c52be4-ce7c-4788-9971-a2d3ae114bd1")
 		)
-		(pin "FPGA_RST" input
-			(at 91.44 85.09 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "8c064e75-f5e4-4406-8a98-6da01841a180")
-		)
 		(pin "FPGA_SPI{SPI}" bidirectional
 			(at 91.44 82.55 180)
 			(effects
@@ -3740,7 +3730,7 @@
 			)
 			(uuid "5c1c0a79-9a11-4a9f-9be2-7fa63366bb40")
 		)
-		(pin "CDONE" output
+		(pin "FPGA_CDONE" output
 			(at 91.44 76.2 180)
 			(effects
 				(font
@@ -3748,7 +3738,17 @@
 				)
 				(justify left)
 			)
-			(uuid "4e3d158e-2011-4230-897e-26d34923b071")
+			(uuid "725e94b0-f3f2-444a-866f-0d37d79c4140")
+		)
+		(pin "~{FPGA_RESET}" input
+			(at 91.44 85.09 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c930b253-1d34-4b7e-bfdd-cd15417f974c")
 		)
 		(instances
 			(project "led-panel"

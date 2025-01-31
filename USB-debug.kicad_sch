@@ -1097,7 +1097,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT4232H.pdf"
+			(property "Datasheet" "https://ftdichip.com/wp-content/uploads/2024/09/DS_FT4232H.pdf"
 				(at 55.88 -10.16 0)
 				(effects
 					(font
@@ -8412,7 +8412,7 @@
 		)
 		(uuid "5f94fbf7-0b16-4e4f-8bb3-57da4a954fe5")
 	)
-	(hierarchical_label "CDONE"
+	(hierarchical_label "FPGA_CDONE"
 		(shape input)
 		(at 255.27 63.5 0)
 		(fields_autoplaced yes)
@@ -8424,7 +8424,7 @@
 		)
 		(uuid "d344a0f2-4054-4efb-9115-f714a36fb372")
 	)
-	(hierarchical_label "FPGA_RST"
+	(hierarchical_label "~{FPGA_RESET}"
 		(shape output)
 		(at 255.27 36.83 0)
 		(fields_autoplaced yes)
@@ -16297,7 +16297,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT4232H.pdf"
+		(property "Datasheet" "https://ftdichip.com/wp-content/uploads/2024/09/DS_FT4232H.pdf"
 			(at 219.71 68.58 0)
 			(effects
 				(font
@@ -16308,7 +16308,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Interface Bridges, USB to UART, MPSSE, 1.62 V, 1.98 V, VQFN, 56 Pins, -40 °C"
 			(at 163.83 58.42 0)
 			(effects
 				(font

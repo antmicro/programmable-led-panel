@@ -7600,7 +7600,7 @@
 		)
 		(uuid "91032141-a388-4254-a767-03097222ae0f")
 	)
-	(hierarchical_label "FPGA_RST"
+	(hierarchical_label "~{FPGA_RESET}"
 		(shape output)
 		(at 240.03 125.73 0)
 		(fields_autoplaced yes)
