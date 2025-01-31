@@ -2338,6 +2338,18 @@
 		)
 		(uuid "fd4902db-5e1b-4ca0-a3e7-396c6893a842")
 	)
+	(text "Trigger Connector"
+		(exclude_from_sim no)
+		(at 141.732 47.498 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "79693597-386e-4fc0-9f17-9386e76b4b14")
+	)
 	(label "CAM_TRIG"
 		(at 147.32 92.71 0)
 		(fields_autoplaced yes)
