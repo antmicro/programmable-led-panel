@@ -184,7 +184,8 @@
         0.25,
         0.3,
         0.35,
-        0.4
+        0.4,
+        0.6
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -486,16 +487,33 @@
       {
         "bus_width": 12,
         "clearance": 0.15,
+        "diff_pair_gap": 0.152,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.152,
+        "line_style": 0,
+        "microvia_diameter": 0.6,
+        "microvia_drill": 0.3,
+        "name": "50Ohm-se_SPI",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.3,
+        "via_diameter": 0.45,
+        "via_drill": 0.1,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.15,
         "diff_pair_gap": 0.2,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.3,
         "line_style": 0,
         "microvia_diameter": 0.6,
         "microvia_drill": 0.3,
-        "name": "Zdiff90",
+        "name": "90Ohm-diff_USB",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.15,
+        "track_width": 0.3,
         "via_diameter": 0.45,
         "via_drill": 0.1,
         "wire_width": 6
@@ -508,8 +526,12 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "Zdiff90",
+        "netclass": "90Ohm-diff_USB",
         "pattern": "*.D?"
+      },
+      {
+        "netclass": "50Ohm-se_SPI",
+        "pattern": "*SPI*"
       }
     ]
   },
