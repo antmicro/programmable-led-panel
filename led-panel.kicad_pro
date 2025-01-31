@@ -690,16 +690,20 @@
       "Matrix Drive"
     ],
     [
-      "db63d7f0-b7b2-40ed-85ed-c3224adc3539",
-      "Control"
-    ],
-    [
       "bbc9871a-bf9f-42db-bddb-8b6a7b166560",
       "Matrix High Side Drive"
     ],
     [
       "aa6b3a11-a1b3-4546-9781-66519c501a07",
       "Matrix Low Side Drive"
+    ],
+    [
+      "7d74e2d4-6915-4751-a0d0-a23155c065e5",
+      "IMU"
+    ],
+    [
+      "e0aa715e-b1b5-485b-b3d2-61697a2766a6",
+      "USB_FTDI"
     ]
   ],
   "text_variables": {}
