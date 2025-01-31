@@ -5006,7 +5006,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 134.62) (xy 185.42 102.87)
+			(xy 184.15 134.62) (xy 184.15 102.87)
 		)
 		(stroke
 			(width 0)
@@ -5126,7 +5126,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 134.62) (xy 185.42 134.62)
+			(xy 180.34 134.62) (xy 184.15 134.62)
 		)
 		(stroke
 			(width 0)
@@ -5866,7 +5866,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 102.87) (xy 193.04 102.87)
+			(xy 184.15 102.87) (xy 193.04 102.87)
 		)
 		(stroke
 			(width 0)
@@ -6075,7 +6075,7 @@
 		(uuid "64e99c3f-4279-4053-83d2-e57376300fba")
 	)
 	(label "3V3_EN"
-		(at 185.42 102.87 0)
+		(at 184.15 102.87 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6741,7 +6741,7 @@
 		(dnp no)
 		(uuid "1c1a8c02-fb00-4ed4-aea2-bdfd27b63dd0")
 		(property "Reference" "Q23"
-			(at 175.006 131.318 0)
+			(at 184.404 125.222 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6793,7 +6793,7 @@
 			)
 		)
 		(property "MPN" "BSS84AKW,115"
-			(at 183.388 118.872 90)
+			(at 184.404 127.508 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10207,7 +10207,7 @@
 			)
 		)
 		(property "MPN" "BC817-25W,115"
-			(at 172.72 143.002 90)
+			(at 153.162 140.716 0)
 			(effects
 				(font
 					(size 1.27 1.27)

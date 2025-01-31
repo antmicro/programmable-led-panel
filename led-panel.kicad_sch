@@ -545,6 +545,18 @@
 		(uuid "25dc2fd8-d2ed-4a98-9746-e489b28751a0")
 	)
 	(junction
+		(at 85.09 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b1ae3c4-3432-427a-9d88-7b6380301a1f")
+	)
+	(junction
+		(at 87.63 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "63a33f02-e7f8-49da-9ba8-6a9c1820deea")
+	)
+	(junction
 		(at 152.4 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -579,6 +591,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c1f2c1a7-af2b-4d22-91de-4f8037b640d4")
+	)
+	(junction
+		(at 135.89 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce80775b-e05e-420f-9925-e24a3833a8d1")
 	)
 	(junction
 		(at 125.73 185.42)
@@ -625,6 +643,16 @@
 			(type default)
 		)
 		(uuid "00aa6152-9ab4-45ae-9dad-78149f454025")
+	)
+	(bus
+		(pts
+			(xy 69.85 68.58) (xy 81.28 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0625cbe0-4494-4478-b4e5-308299286282")
 	)
 	(wire
 		(pts
@@ -718,16 +746,6 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 67.31) (xy 91.44 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e1bfb32-a713-4980-b9ab-1099e76dd492")
-	)
-	(wire
-		(pts
 			(xy 125.73 179.07) (xy 127 179.07)
 		)
 		(stroke
@@ -806,6 +824,16 @@
 		)
 		(uuid "5a4b5667-6a90-4b6c-bd87-1fdb456d3ef9")
 	)
+	(wire
+		(pts
+			(xy 69.85 76.2) (xy 91.44 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5af804e5-9e7f-4a59-9f7a-82495a8eff9e")
+	)
 	(bus
 		(pts
 			(xy 152.4 106.68) (xy 161.29 106.68)
@@ -848,7 +876,7 @@
 	)
 	(bus
 		(pts
-			(xy 91.44 104.14) (xy 86.36 104.14)
+			(xy 91.44 104.14) (xy 85.09 104.14)
 		)
 		(stroke
 			(width 0)
@@ -885,6 +913,16 @@
 			(type default)
 		)
 		(uuid "6c819ead-37dc-44d3-a51e-df124adfd434")
+	)
+	(bus
+		(pts
+			(xy 81.28 52.07) (xy 135.89 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e034ab3-8686-4994-a35e-21c8d01a86b2")
 	)
 	(bus
 		(pts
@@ -968,6 +1006,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 85.09) (xy 87.63 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80680c4c-3004-4cee-8b99-2efb996c92fe")
+	)
+	(wire
+		(pts
 			(xy 151.13 185.42) (xy 151.13 189.23)
 		)
 		(stroke
@@ -988,7 +1036,7 @@
 	)
 	(bus
 		(pts
-			(xy 86.36 82.55) (xy 91.44 82.55)
+			(xy 85.09 82.55) (xy 91.44 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1025,6 +1073,26 @@
 			(type default)
 		)
 		(uuid "8c290f6f-58f7-40ee-8f88-a34329611a15")
+	)
+	(wire
+		(pts
+			(xy 69.85 80.01) (xy 77.47 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ea27767-d6c8-46f2-a1c2-f45b93c39443")
+	)
+	(wire
+		(pts
+			(xy 77.47 111.76) (xy 91.44 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f328b2b-9a93-4b50-a946-97c3a8f928e4")
 	)
 	(wire
 		(pts
@@ -1216,6 +1284,16 @@
 		)
 		(uuid "ceeee1b7-8bfb-4a7e-940f-c05588c9e1e6")
 	)
+	(bus
+		(pts
+			(xy 69.85 82.55) (xy 85.09 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d32a2b20-af78-4580-9327-59ed9c4910d1")
+	)
 	(wire
 		(pts
 			(xy 151.13 172.72) (xy 152.4 172.72)
@@ -1278,16 +1356,6 @@
 	)
 	(bus
 		(pts
-			(xy 69.85 69.85) (xy 91.44 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7789015-fe82-4bc2-b791-08c93ba83df3")
-	)
-	(bus
-		(pts
 			(xy 132.08 67.31) (xy 135.89 67.31)
 		)
 		(stroke
@@ -1298,13 +1366,33 @@
 	)
 	(bus
 		(pts
-			(xy 86.36 104.14) (xy 86.36 82.55)
+			(xy 85.09 104.14) (xy 85.09 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "eefc39f0-bf1a-4ac3-9e4c-068b5a99d64f")
+	)
+	(wire
+		(pts
+			(xy 77.47 80.01) (xy 77.47 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2d1eb0c-23df-4e0f-be2b-d86c9c3d87eb")
+	)
+	(bus
+		(pts
+			(xy 81.28 68.58) (xy 81.28 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4ad0655-7c5f-4d42-8b03-49813fe48087")
 	)
 	(wire
 		(pts
@@ -3041,7 +3129,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "06971436-f55c-4c9a-b2a5-5e1b832e9517")
-		(property "Sheetname" "uC RP2040"
+		(property "Sheetname" "MCU"
 			(at 91.44 97.0784 0)
 			(effects
 				(font
@@ -3159,6 +3247,16 @@
 			)
 			(uuid "21329c25-176d-4ada-bce6-34904ddb5b7c")
 		)
+		(pin "MCU_RST" input
+			(at 91.44 111.76 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b2001a05-41b1-473b-a10a-505004eeb7ec")
+		)
 		(instances
 			(project "led-panel"
 				(path "/a86e1cab-ea0a-45e6-9194-d44b0d5c9450"
@@ -3179,7 +3277,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "0f1bd089-cb15-4e08-bb57-9fcbc9174dd1")
-		(property "Sheetname" "Trigger connector 2"
+		(property "Sheetname" "Trigger Connector 2"
 			(at 38.1 163.1184 0)
 			(effects
 				(font
@@ -3285,7 +3383,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "4a8c8e0e-1171-44e1-a868-b4d68419a221")
-		(property "Sheetname" "Matrix Drive"
+		(property "Sheetname" "LED Matrix"
 			(at 213.36 74.2184 0)
 			(effects
 				(font
@@ -3363,7 +3461,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "50c5f44e-0866-4019-828a-f0d4c007daad")
-		(property "Sheetname" "Trigger connector 1"
+		(property "Sheetname" "Trigger Connector 1"
 			(at 38.1 133.9084 0)
 			(effects
 				(font
@@ -3497,7 +3595,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "aa6b3a11-a1b3-4546-9781-66519c501a07")
-		(property "Sheetname" "Matrix Low Side Drive"
+		(property "Sheetname" "Matrix Low Side Driver"
 			(at 161.29 97.0784 0)
 			(effects
 				(font
@@ -3575,7 +3673,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "bbc9871a-bf9f-42db-bddb-8b6a7b166560")
-		(property "Sheetname" "Matrix High Side Drive"
+		(property "Sheetname" "Matrix High Side Driver"
 			(at 161.29 69.1384 0)
 			(effects
 				(font
@@ -3671,25 +3769,55 @@
 				(justify left top)
 			)
 		)
-		(pin "USB{USB}" bidirectional
-			(at 69.85 69.85 0)
+		(pin "FPGA_SPI{SPI}" bidirectional
+			(at 69.85 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "ff3ab3f9-7d43-4a3f-9356-2c14ba97ad86")
+			(uuid "be73f057-378d-4d5b-9c12-2d8a340b05fb")
 		)
-		(pin "VBUS" output
-			(at 69.85 67.31 0)
+		(pin "IMU{IMU}" bidirectional
+			(at 69.85 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "9903918a-9f06-4a73-81b7-8464b87e7a97")
+			(uuid "1f59b619-0692-407d-b160-140c9fa68463")
+		)
+		(pin "FPGA_RST" output
+			(at 69.85 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fd3af001-0ec6-4333-9a5e-b3c9284bb155")
+		)
+		(pin "MCU_RST" output
+			(at 69.85 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "87b816a1-4402-4be8-bb73-cdffcb90bbea")
+		)
+		(pin "CDONE" input
+			(at 69.85 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f26f9829-2ad9-4eff-beed-608df0468d30")
 		)
 		(instances
 			(project "led-panel"
@@ -3738,16 +3866,6 @@
 				(justify left)
 			)
 			(uuid "1cb948cf-12de-46a9-bc11-6624d4b266f8")
-		)
-		(pin "USB{USB}" bidirectional
-			(at 91.44 69.85 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "76d64768-c538-49a0-9e22-d4666d92e5ac")
 		)
 		(pin "12MHz" input
 			(at 91.44 87.63 180)
@@ -3809,16 +3927,6 @@
 			)
 			(uuid "73c52be4-ce7c-4788-9971-a2d3ae114bd1")
 		)
-		(pin "VBUS" input
-			(at 91.44 67.31 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "cd33d6ed-2fa2-4b76-b81f-dc8a814edfb3")
-		)
 		(pin "FPGA_RST" input
 			(at 91.44 85.09 180)
 			(effects
@@ -3838,6 +3946,16 @@
 				(justify left)
 			)
 			(uuid "5c1c0a79-9a11-4a9f-9be2-7fa63366bb40")
+		)
+		(pin "CDONE" output
+			(at 91.44 76.2 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4e3d158e-2011-4230-897e-26d34923b071")
 		)
 		(instances
 			(project "led-panel"
