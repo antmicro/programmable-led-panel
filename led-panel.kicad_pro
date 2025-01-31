@@ -532,6 +532,10 @@
       {
         "netclass": "50Ohm-se_SPI",
         "pattern": "*SPI*"
+      },
+      {
+        "netclass": "90Ohm-diff_USB",
+        "pattern": "*D_?"
       }
     ]
   },
