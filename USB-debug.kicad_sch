@@ -216,215 +216,7 @@
 				)
 			)
 		)
-		(symbol "antmicroCapacitors0402:C_100n_16V_X7R_0402"
-			(pin_numbers hide)
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 15.24 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "C_100n_16V_X7R_0402"
-				(at 15.24 -22.86 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
-				(at 15.24 -25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.kemet.com/en/us/capacitors/product/C0402C104J4RAC7411.html"
-				(at 15.24 -27.94 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Description" "SMD Multilayer Ceramic Capacitor, 100nF, 50V, 0402, ±5%, X7R"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "C0402C104J4RAC7411"
-				(at 15.24 -30.48 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Val" "100n"
-				(at 15.24 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Voltage" "16V"
-				(at 15.24 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Dielectric" "X7R"
-				(at 15.24 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "KEMET"
-				(at 15.24 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "License" "Apache-2.0"
-				(at 15.24 -17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Author" "Antmicro"
-				(at 15.24 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "SMT, CAPACITOR, PASSIVE"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_100n_16V_X7R_0402_0_1"
-				(polyline
-					(pts
-						(xy 2.032 -1.524) (xy 2.032 1.524)
-					)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.048 -1.524) (xy 3.048 1.524)
-					)
-					(stroke
-						(width 0.3302)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_100n_16V_X7R_0402_1_1"
-				(pin passive line
-					(at 0 0 0)
-					(length 2.032)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.032)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "antmicroCapacitors0402:C_4u7_0402"
+		(symbol "antmicroCapacitors0402:C_10u_0402"
 			(pin_numbers hide)
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -440,7 +232,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "C_4u7_0402"
+			(property "Value" "C_10u_0402"
 				(at 20.32 -10.16 0)
 				(effects
 					(font
@@ -462,7 +254,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61A475MEAA%23"
+			(property "Datasheet" "https://www.yageo.com/en/Chart/Download/pdf/CC0402MRX5R5BB106"
 				(at 20.32 -15.24 0)
 				(effects
 					(font
@@ -473,7 +265,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "SMD Multilayer Ceramic Capacitor, 4.7 µF, 10 V, 0402 [1005 Metric], ± 20%, X5R, GRM Series"
+			(property "Description" "SMD Multilayer Ceramic Capacitor, 10 µF, 6.3 V, 0402 [1005 Metric], ± 20%, X5R, CC Series"
 				(at 0 0 0)
 				(effects
 					(font
@@ -482,7 +274,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "GRM155R61A475MEAAD"
+			(property "MPN" "CC0402MRX5R5BB106"
 				(at 20.32 -17.78 0)
 				(effects
 					(font
@@ -493,7 +285,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "Murata"
+			(property "Manufacturer" "YAGEO"
 				(at 20.32 -20.32 0)
 				(effects
 					(font
@@ -526,7 +318,7 @@
 					(hide yes)
 				)
 			)
-			(property "Val" "4u7"
+			(property "Val" "10u"
 				(at 20.32 -7.62 0)
 				(effects
 					(font
@@ -556,7 +348,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "0402, SMT, CAPACITOR, PASSIVE"
+			(property "ki_keywords" "0402, SMT, CAPACITOR, PASSIVE, MLCC, CERAMIC"
 				(at 0 0 0)
 				(effects
 					(font
@@ -565,7 +357,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "C_4u7_0402_0_1"
+			(symbol "C_10u_0402_0_1"
 				(polyline
 					(pts
 						(xy 2.032 -1.524) (xy 2.032 1.524)
@@ -591,7 +383,7 @@
 					)
 				)
 			)
-			(symbol "C_4u7_0402_1_1"
+			(symbol "C_10u_0402_1_1"
 				(pin passive line
 					(at 0 0 0)
 					(length 2.032)
@@ -8796,7 +8588,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroCapacitors0402:C_100n_16V_X7R_0402")
+		(lib_id "antmicroCapacitors0402:C_100n_0402")
 		(at 116.84 50.8 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8813,7 +8605,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_100n_16V_X7R_0402"
+		(property "Value" "C_100n_0402"
 			(at 93.98 66.04 0)
 			(effects
 				(font
@@ -8835,7 +8627,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.kemet.com/en/us/capacitors/product/C0402C104J4RAC7411.html"
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23"
 			(at 88.9 66.04 0)
 			(effects
 				(font
@@ -8846,7 +8638,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
 			(at 116.84 50.8 0)
 			(effects
 				(font
@@ -8855,7 +8647,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "KEMET"
+		(property "Manufacturer" "Murata"
 			(at 101.6 66.04 0)
 			(effects
 				(font
@@ -8866,7 +8658,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C0402C104J4RAC7411"
+		(property "MPN" "GRM155R61H104KE14D"
 			(at 86.36 66.04 0)
 			(effects
 				(font
@@ -8909,7 +8701,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "50V"
 			(at 106.68 66.04 0)
 			(effects
 				(font
@@ -8920,7 +8712,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" "X7R"
+		(property "Dielectric" "X5R"
 			(at 104.14 66.04 0)
 			(effects
 				(font
@@ -9491,7 +9283,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroCapacitors0402:C_100n_16V_X7R_0402")
+		(lib_id "antmicroCapacitors0402:C_100n_0402")
 		(at 125.73 34.29 90)
 		(mirror x)
 		(unit 1)
@@ -9509,7 +9301,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C_100n_16V_X7R_0402"
+		(property "Value" "C_100n_0402"
 			(at 148.59 49.53 0)
 			(effects
 				(font
@@ -9531,7 +9323,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.kemet.com/en/us/capacitors/product/C0402C104J4RAC7411.html"
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23"
 			(at 153.67 49.53 0)
 			(effects
 				(font
@@ -9542,7 +9334,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
 			(at 125.73 34.29 0)
 			(effects
 				(font
@@ -9551,7 +9343,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "KEMET"
+		(property "Manufacturer" "Murata"
 			(at 140.97 49.53 0)
 			(effects
 				(font
@@ -9562,7 +9354,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C0402C104J4RAC7411"
+		(property "MPN" "GRM155R61H104KE14D"
 			(at 156.21 49.53 0)
 			(effects
 				(font
@@ -9605,7 +9397,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "50V"
 			(at 135.89 49.53 0)
 			(effects
 				(font
@@ -9616,7 +9408,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" "X7R"
+		(property "Dielectric" "X5R"
 			(at 138.43 49.53 0)
 			(effects
 				(font
@@ -11061,7 +10853,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroCapacitors0402:C_100n_16V_X7R_0402")
+		(lib_id "antmicroCapacitors0402:C_100n_0402")
 		(at 107.95 34.29 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11078,7 +10870,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_100n_16V_X7R_0402"
+		(property "Value" "C_100n_0402"
 			(at 85.09 49.53 0)
 			(effects
 				(font
@@ -11100,7 +10892,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.kemet.com/en/us/capacitors/product/C0402C104J4RAC7411.html"
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23"
 			(at 80.01 49.53 0)
 			(effects
 				(font
@@ -11111,7 +10903,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
 			(at 107.95 34.29 0)
 			(effects
 				(font
@@ -11120,7 +10912,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "KEMET"
+		(property "Manufacturer" "Murata"
 			(at 92.71 49.53 0)
 			(effects
 				(font
@@ -11131,7 +10923,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C0402C104J4RAC7411"
+		(property "MPN" "GRM155R61H104KE14D"
 			(at 77.47 49.53 0)
 			(effects
 				(font
@@ -11174,7 +10966,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "50V"
 			(at 97.79 49.53 0)
 			(effects
 				(font
@@ -11185,7 +10977,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" "X7R"
+		(property "Dielectric" "X5R"
 			(at 95.25 49.53 0)
 			(effects
 				(font
@@ -11658,7 +11450,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroCapacitors0402:C_4u7_0402")
+		(lib_id "antmicroCapacitors0402:C_10u_0402")
 		(at 116.84 72.39 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11675,7 +11467,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_4u7_0402"
+		(property "Value" "C_10u_0402"
 			(at 106.68 92.71 0)
 			(effects
 				(font
@@ -11697,7 +11489,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61A475MEAA%23"
+		(property "Datasheet" "https://www.yageo.com/en/Chart/Download/pdf/CC0402MRX5R5BB106"
 			(at 101.6 92.71 0)
 			(effects
 				(font
@@ -11708,7 +11500,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 10 µF, 6.3 V, 0402 [1005 Metric], ± 20%, X5R, CC Series"
 			(at 116.84 72.39 0)
 			(effects
 				(font
@@ -11717,7 +11509,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "YAGEO"
 			(at 96.52 92.71 0)
 			(effects
 				(font
@@ -11728,7 +11520,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM155R61A475MEAAD"
+		(property "MPN" "CC0402MRX5R5BB106"
 			(at 99.06 92.71 0)
 			(effects
 				(font
@@ -11739,7 +11531,7 @@
 				(hide yes)
 			)
 		)
-		(property "Val" "4u7"
+		(property "Val" "10u"
 			(at 118.745 76.2 90)
 			(effects
 				(font
@@ -12232,7 +12024,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroCapacitors0402:C_100n_16V_X7R_0402")
+		(lib_id "antmicroCapacitors0402:C_100n_0402")
 		(at 125.73 97.79 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12249,7 +12041,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C_100n_16V_X7R_0402"
+		(property "Value" "C_100n_0402"
 			(at 148.59 82.55 0)
 			(effects
 				(font
@@ -12271,7 +12063,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.kemet.com/en/us/capacitors/product/C0402C104J4RAC7411.html"
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23"
 			(at 153.67 82.55 0)
 			(effects
 				(font
@@ -12282,7 +12074,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
 			(at 125.73 97.79 0)
 			(effects
 				(font
@@ -12291,7 +12083,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "KEMET"
+		(property "Manufacturer" "Murata"
 			(at 140.97 82.55 0)
 			(effects
 				(font
@@ -12302,7 +12094,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C0402C104J4RAC7411"
+		(property "MPN" "GRM155R61H104KE14D"
 			(at 156.21 82.55 0)
 			(effects
 				(font
@@ -12345,7 +12137,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "50V"
 			(at 135.89 82.55 0)
 			(effects
 				(font
@@ -12356,7 +12148,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" "X7R"
+		(property "Dielectric" "X5R"
 			(at 138.43 82.55 0)
 			(effects
 				(font
@@ -13450,7 +13242,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroCapacitors0402:C_100n_16V_X7R_0402")
+		(lib_id "antmicroCapacitors0402:C_100n_0402")
 		(at 125.73 72.39 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13467,7 +13259,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_100n_16V_X7R_0402"
+		(property "Value" "C_100n_0402"
 			(at 102.87 87.63 0)
 			(effects
 				(font
@@ -13489,7 +13281,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.kemet.com/en/us/capacitors/product/C0402C104J4RAC7411.html"
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23"
 			(at 97.79 87.63 0)
 			(effects
 				(font
@@ -13500,7 +13292,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
 			(at 125.73 72.39 0)
 			(effects
 				(font
@@ -13509,7 +13301,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "KEMET"
+		(property "Manufacturer" "Murata"
 			(at 110.49 87.63 0)
 			(effects
 				(font
@@ -13520,7 +13312,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C0402C104J4RAC7411"
+		(property "MPN" "GRM155R61H104KE14D"
 			(at 95.25 87.63 0)
 			(effects
 				(font
@@ -13563,7 +13355,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "50V"
 			(at 115.57 87.63 0)
 			(effects
 				(font
@@ -13574,7 +13366,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" "X7R"
+		(property "Dielectric" "X5R"
 			(at 113.03 87.63 0)
 			(effects
 				(font
@@ -14330,7 +14122,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroCapacitors0402:C_100n_16V_X7R_0402")
+		(lib_id "antmicroCapacitors0402:C_100n_0402")
 		(at 116.84 34.29 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14347,7 +14139,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_100n_16V_X7R_0402"
+		(property "Value" "C_100n_0402"
 			(at 93.98 49.53 0)
 			(effects
 				(font
@@ -14369,7 +14161,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.kemet.com/en/us/capacitors/product/C0402C104J4RAC7411.html"
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23"
 			(at 88.9 49.53 0)
 			(effects
 				(font
@@ -14380,7 +14172,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
 			(at 116.84 34.29 0)
 			(effects
 				(font
@@ -14389,7 +14181,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "KEMET"
+		(property "Manufacturer" "Murata"
 			(at 101.6 49.53 0)
 			(effects
 				(font
@@ -14400,7 +14192,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C0402C104J4RAC7411"
+		(property "MPN" "GRM155R61H104KE14D"
 			(at 86.36 49.53 0)
 			(effects
 				(font
@@ -14443,7 +14235,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "50V"
 			(at 106.68 49.53 0)
 			(effects
 				(font
@@ -14454,7 +14246,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" "X7R"
+		(property "Dielectric" "X5R"
 			(at 104.14 49.53 0)
 			(effects
 				(font
@@ -15259,7 +15051,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroCapacitors0402:C_100n_16V_X7R_0402")
+		(lib_id "antmicroCapacitors0402:C_100n_0402")
 		(at 107.95 50.8 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15276,7 +15068,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_100n_16V_X7R_0402"
+		(property "Value" "C_100n_0402"
 			(at 85.09 66.04 0)
 			(effects
 				(font
@@ -15298,7 +15090,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.kemet.com/en/us/capacitors/product/C0402C104J4RAC7411.html"
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23"
 			(at 80.01 66.04 0)
 			(effects
 				(font
@@ -15309,7 +15101,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
 			(at 107.95 50.8 0)
 			(effects
 				(font
@@ -15318,7 +15110,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "KEMET"
+		(property "Manufacturer" "Murata"
 			(at 92.71 66.04 0)
 			(effects
 				(font
@@ -15329,7 +15121,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C0402C104J4RAC7411"
+		(property "MPN" "GRM155R61H104KE14D"
 			(at 77.47 66.04 0)
 			(effects
 				(font
@@ -15372,7 +15164,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "50V"
 			(at 97.79 66.04 0)
 			(effects
 				(font
@@ -15383,7 +15175,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" "X7R"
+		(property "Dielectric" "X5R"
 			(at 95.25 66.04 0)
 			(effects
 				(font
@@ -15502,7 +15294,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroCapacitors0402:C_100n_16V_X7R_0402")
+		(lib_id "antmicroCapacitors0402:C_100n_0402")
 		(at 99.06 34.29 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15519,7 +15311,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_100n_16V_X7R_0402"
+		(property "Value" "C_100n_0402"
 			(at 76.2 49.53 0)
 			(effects
 				(font
@@ -15541,7 +15333,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.kemet.com/en/us/capacitors/product/C0402C104J4RAC7411.html"
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23"
 			(at 71.12 49.53 0)
 			(effects
 				(font
@@ -15552,7 +15344,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
 			(at 99.06 34.29 0)
 			(effects
 				(font
@@ -15561,7 +15353,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "KEMET"
+		(property "Manufacturer" "Murata"
 			(at 83.82 49.53 0)
 			(effects
 				(font
@@ -15572,7 +15364,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C0402C104J4RAC7411"
+		(property "MPN" "GRM155R61H104KE14D"
 			(at 68.58 49.53 0)
 			(effects
 				(font
@@ -15615,7 +15407,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "50V"
 			(at 88.9 49.53 0)
 			(effects
 				(font
@@ -15626,7 +15418,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" "X7R"
+		(property "Dielectric" "X5R"
 			(at 86.36 49.53 0)
 			(effects
 				(font
@@ -15884,7 +15676,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroCapacitors0402:C_4u7_0402")
+		(lib_id "antmicroCapacitors0402:C_10u_0402")
 		(at 134.62 50.8 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15901,7 +15693,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_4u7_0402"
+		(property "Value" "C_10u_0402"
 			(at 124.46 71.12 0)
 			(effects
 				(font
@@ -15923,7 +15715,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61A475MEAA%23"
+		(property "Datasheet" "https://www.yageo.com/en/Chart/Download/pdf/CC0402MRX5R5BB106"
 			(at 119.38 71.12 0)
 			(effects
 				(font
@@ -15934,7 +15726,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 10 µF, 6.3 V, 0402 [1005 Metric], ± 20%, X5R, CC Series"
 			(at 134.62 50.8 0)
 			(effects
 				(font
@@ -15943,7 +15735,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "YAGEO"
 			(at 114.3 71.12 0)
 			(effects
 				(font
@@ -15954,7 +15746,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM155R61A475MEAAD"
+		(property "MPN" "CC0402MRX5R5BB106"
 			(at 116.84 71.12 0)
 			(effects
 				(font
@@ -15965,7 +15757,7 @@
 				(hide yes)
 			)
 		)
-		(property "Val" "4u7"
+		(property "Val" "10u"
 			(at 128.905 54.61 90)
 			(effects
 				(font
@@ -16043,7 +15835,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroCapacitors0402:C_100n_16V_X7R_0402")
+		(lib_id "antmicroCapacitors0402:C_100n_0402")
 		(at 125.73 50.8 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16060,7 +15852,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_100n_16V_X7R_0402"
+		(property "Value" "C_100n_0402"
 			(at 102.87 66.04 0)
 			(effects
 				(font
@@ -16082,7 +15874,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.kemet.com/en/us/capacitors/product/C0402C104J4RAC7411.html"
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23"
 			(at 97.79 66.04 0)
 			(effects
 				(font
@@ -16093,7 +15885,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
 			(at 125.73 50.8 0)
 			(effects
 				(font
@@ -16102,7 +15894,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "KEMET"
+		(property "Manufacturer" "Murata"
 			(at 110.49 66.04 0)
 			(effects
 				(font
@@ -16113,7 +15905,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C0402C104J4RAC7411"
+		(property "MPN" "GRM155R61H104KE14D"
 			(at 95.25 66.04 0)
 			(effects
 				(font
@@ -16156,7 +15948,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "50V"
 			(at 115.57 66.04 0)
 			(effects
 				(font
@@ -16167,7 +15959,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" "X7R"
+		(property "Dielectric" "X5R"
 			(at 113.03 66.04 0)
 			(effects
 				(font
@@ -17916,7 +17708,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroCapacitors0402:C_4u7_0402")
+		(lib_id "antmicroCapacitors0402:C_10u_0402")
 		(at 116.84 97.79 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17933,7 +17725,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C_4u7_0402"
+		(property "Value" "C_10u_0402"
 			(at 127 77.47 0)
 			(effects
 				(font
@@ -17955,7 +17747,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61A475MEAA%23"
+		(property "Datasheet" "https://www.yageo.com/en/Chart/Download/pdf/CC0402MRX5R5BB106"
 			(at 132.08 77.47 0)
 			(effects
 				(font
@@ -17966,7 +17758,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 10 µF, 6.3 V, 0402 [1005 Metric], ± 20%, X5R, CC Series"
 			(at 116.84 97.79 0)
 			(effects
 				(font
@@ -17975,7 +17767,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "YAGEO"
 			(at 137.16 77.47 0)
 			(effects
 				(font
@@ -17986,7 +17778,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM155R61A475MEAAD"
+		(property "MPN" "CC0402MRX5R5BB106"
 			(at 134.62 77.47 0)
 			(effects
 				(font
@@ -17997,7 +17789,7 @@
 				(hide yes)
 			)
 		)
-		(property "Val" "4u7"
+		(property "Val" "10u"
 			(at 122.555 94.615 90)
 			(effects
 				(font

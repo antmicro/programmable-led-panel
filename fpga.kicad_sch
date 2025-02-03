@@ -216,7 +216,7 @@
 				)
 			)
 		)
-		(symbol "antmicroCapacitors0402:C_10u_10V_0402"
+		(symbol "antmicroCapacitors0402:C_10u_0402"
 			(pin_numbers hide)
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -232,7 +232,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "C_10u_10V_0402"
+			(property "Value" "C_10u_0402"
 				(at 20.32 -10.16 0)
 				(effects
 					(font
@@ -254,7 +254,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61A106ME11%23"
+			(property "Datasheet" "https://www.yageo.com/en/Chart/Download/pdf/CC0402MRX5R5BB106"
 				(at 20.32 -15.24 0)
 				(effects
 					(font
@@ -265,7 +265,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 10 uF 10 VDC 20% 0402 X5R"
+			(property "Description" "SMD Multilayer Ceramic Capacitor, 10 µF, 6.3 V, 0402 [1005 Metric], ± 20%, X5R, CC Series"
 				(at 0 0 0)
 				(effects
 					(font
@@ -274,7 +274,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "GRM155R61A106ME11D"
+			(property "MPN" "CC0402MRX5R5BB106"
 				(at 20.32 -17.78 0)
 				(effects
 					(font
@@ -285,7 +285,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "Murata"
+			(property "Manufacturer" "YAGEO"
 				(at 20.32 -20.32 0)
 				(effects
 					(font
@@ -328,7 +328,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Voltage" "10V"
+			(property "Voltage" ""
 				(at 20.32 -27.94 0)
 				(effects
 					(font
@@ -338,7 +338,7 @@
 					(hide yes)
 				)
 			)
-			(property "Dielectric" "X5R"
+			(property "Dielectric" ""
 				(at 20.32 -30.48 0)
 				(effects
 					(font
@@ -348,7 +348,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "0402, SMT, CAPACITOR, PASSIVE, CERAMIC"
+			(property "ki_keywords" "0402, SMT, CAPACITOR, PASSIVE, MLCC, CERAMIC"
 				(at 0 0 0)
 				(effects
 					(font
@@ -357,7 +357,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "C_10u_10V_0402_0_1"
+			(symbol "C_10u_0402_0_1"
 				(polyline
 					(pts
 						(xy 2.032 -1.524) (xy 2.032 1.524)
@@ -383,7 +383,7 @@
 					)
 				)
 			)
-			(symbol "C_10u_10V_0402_1_1"
+			(symbol "C_10u_0402_1_1"
 				(pin passive line
 					(at 0 0 0)
 					(length 2.032)
@@ -9596,7 +9596,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroCapacitors0402:C_10u_10V_0402")
+		(lib_id "antmicroCapacitors0402:C_10u_0402")
 		(at 43.18 115.57 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9614,7 +9614,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C_10u_10V_0402"
+		(property "Value" "C_10u_0402"
 			(at 53.34 95.25 0)
 			(effects
 				(font
@@ -9636,7 +9636,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61A106ME11%23"
+		(property "Datasheet" "https://www.yageo.com/en/Chart/Download/pdf/CC0402MRX5R5BB106"
 			(at 58.42 95.25 0)
 			(effects
 				(font
@@ -9647,7 +9647,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 10 uF 10 VDC 20% 0402 X5R"
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 10 µF, 6.3 V, 0402 [1005 Metric], ± 20%, X5R, CC Series"
 			(at 43.18 115.57 0)
 			(effects
 				(font
@@ -9656,7 +9656,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM155R61A106ME11D"
+		(property "MPN" "CC0402MRX5R5BB106"
 			(at 60.96 95.25 0)
 			(effects
 				(font
@@ -9667,7 +9667,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "YAGEO"
 			(at 63.5 95.25 0)
 			(effects
 				(font
@@ -10660,7 +10660,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroCapacitors0402:C_10u_10V_0402")
+		(lib_id "antmicroCapacitors0402:C_10u_0402")
 		(at 43.18 166.37 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10678,7 +10678,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C_10u_10V_0402"
+		(property "Value" "C_10u_0402"
 			(at 53.34 146.05 0)
 			(effects
 				(font
@@ -10700,7 +10700,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61A106ME11%23"
+		(property "Datasheet" "https://www.yageo.com/en/Chart/Download/pdf/CC0402MRX5R5BB106"
 			(at 58.42 146.05 0)
 			(effects
 				(font
@@ -10711,7 +10711,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 10 uF 10 VDC 20% 0402 X5R"
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 10 µF, 6.3 V, 0402 [1005 Metric], ± 20%, X5R, CC Series"
 			(at 43.18 166.37 0)
 			(effects
 				(font
@@ -10720,7 +10720,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM155R61A106ME11D"
+		(property "MPN" "CC0402MRX5R5BB106"
 			(at 60.96 146.05 0)
 			(effects
 				(font
@@ -10731,7 +10731,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "YAGEO"
 			(at 63.5 146.05 0)
 			(effects
 				(font
@@ -10951,7 +10951,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroCapacitors0402:C_10u_10V_0402")
+		(lib_id "antmicroCapacitors0402:C_10u_0402")
 		(at 43.18 102.87 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10969,7 +10969,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C_10u_10V_0402"
+		(property "Value" "C_10u_0402"
 			(at 53.34 82.55 0)
 			(effects
 				(font
@@ -10991,7 +10991,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61A106ME11%23"
+		(property "Datasheet" "https://www.yageo.com/en/Chart/Download/pdf/CC0402MRX5R5BB106"
 			(at 58.42 82.55 0)
 			(effects
 				(font
@@ -11002,7 +11002,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 10 uF 10 VDC 20% 0402 X5R"
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 10 µF, 6.3 V, 0402 [1005 Metric], ± 20%, X5R, CC Series"
 			(at 43.18 102.87 0)
 			(effects
 				(font
@@ -11011,7 +11011,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM155R61A106ME11D"
+		(property "MPN" "CC0402MRX5R5BB106"
 			(at 60.96 82.55 0)
 			(effects
 				(font
@@ -11022,7 +11022,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "YAGEO"
 			(at 63.5 82.55 0)
 			(effects
 				(font
@@ -12178,7 +12178,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroCapacitors0402:C_10u_10V_0402")
+		(lib_id "antmicroCapacitors0402:C_10u_0402")
 		(at 43.18 153.67 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12196,7 +12196,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C_10u_10V_0402"
+		(property "Value" "C_10u_0402"
 			(at 53.34 133.35 0)
 			(effects
 				(font
@@ -12218,7 +12218,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61A106ME11%23"
+		(property "Datasheet" "https://www.yageo.com/en/Chart/Download/pdf/CC0402MRX5R5BB106"
 			(at 58.42 133.35 0)
 			(effects
 				(font
@@ -12229,7 +12229,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 10 uF 10 VDC 20% 0402 X5R"
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 10 µF, 6.3 V, 0402 [1005 Metric], ± 20%, X5R, CC Series"
 			(at 43.18 153.67 0)
 			(effects
 				(font
@@ -12238,7 +12238,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM155R61A106ME11D"
+		(property "MPN" "CC0402MRX5R5BB106"
 			(at 60.96 133.35 0)
 			(effects
 				(font
@@ -12249,7 +12249,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "YAGEO"
 			(at 63.5 133.35 0)
 			(effects
 				(font
@@ -12571,7 +12571,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroCapacitors0402:C_10u_10V_0402")
+		(lib_id "antmicroCapacitors0402:C_10u_0402")
 		(at 43.18 128.27 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12589,7 +12589,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C_10u_10V_0402"
+		(property "Value" "C_10u_0402"
 			(at 53.34 107.95 0)
 			(effects
 				(font
@@ -12611,7 +12611,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61A106ME11%23"
+		(property "Datasheet" "https://www.yageo.com/en/Chart/Download/pdf/CC0402MRX5R5BB106"
 			(at 58.42 107.95 0)
 			(effects
 				(font
@@ -12622,7 +12622,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 10 uF 10 VDC 20% 0402 X5R"
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 10 µF, 6.3 V, 0402 [1005 Metric], ± 20%, X5R, CC Series"
 			(at 43.18 128.27 0)
 			(effects
 				(font
@@ -12631,7 +12631,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM155R61A106ME11D"
+		(property "MPN" "CC0402MRX5R5BB106"
 			(at 60.96 107.95 0)
 			(effects
 				(font
@@ -12642,7 +12642,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "YAGEO"
 			(at 63.5 107.95 0)
 			(effects
 				(font
@@ -14264,7 +14264,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroCapacitors0402:C_10u_10V_0402")
+		(lib_id "antmicroCapacitors0402:C_10u_0402")
 		(at 43.18 140.97 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14282,7 +14282,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C_10u_10V_0402"
+		(property "Value" "C_10u_0402"
 			(at 53.34 120.65 0)
 			(effects
 				(font
@@ -14304,7 +14304,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61A106ME11%23"
+		(property "Datasheet" "https://www.yageo.com/en/Chart/Download/pdf/CC0402MRX5R5BB106"
 			(at 58.42 120.65 0)
 			(effects
 				(font
@@ -14315,7 +14315,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 10 uF 10 VDC 20% 0402 X5R"
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 10 µF, 6.3 V, 0402 [1005 Metric], ± 20%, X5R, CC Series"
 			(at 43.18 140.97 0)
 			(effects
 				(font
@@ -14324,7 +14324,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM155R61A106ME11D"
+		(property "MPN" "CC0402MRX5R5BB106"
 			(at 60.96 120.65 0)
 			(effects
 				(font
@@ -14335,7 +14335,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "YAGEO"
 			(at 63.5 120.65 0)
 			(effects
 				(font
