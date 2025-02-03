@@ -5023,12 +5023,12 @@
 				)
 			)
 		)
-		(symbol "antmicroUSBConnectors:USB-C_GCT_USB4145-03-0070-C"
+		(symbol "antmicroUSBConnectors:USB-C_GCT_USB4105-GF-A"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 21.59 -2.54 0)
+				(at 38.1 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5037,30 +5037,18 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "USB-C_GCT_USB4145-03-0070-C"
-				(at 21.59 -7.62 0)
+			(property "Value" "USB-C_GCT_USB4105-GF-A"
+				(at 38.1 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 						(thickness 0.15)
 					)
 					(justify left bottom)
-					(hide yes)
 				)
 			)
-			(property "Footprint" "antmicro-footprints:USB-C_Receptacle_GCT_USB4145-03-0070-C"
-				(at 21.59 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://gct.co/files/drawings/usb4145.pdf"
-				(at 21.59 -12.7 0)
+			(property "Footprint" "antmicro-footprints:USB-C_Receptacle_GCT_USB4105-GF-A"
+				(at 38.1 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5070,7 +5058,18 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "USB-C (USB TYPE-C) USB 2.0 Receptacle Connector 24 (16+8 Dummy) Postion  Surface Mount, Vertical"
+			(property "Datasheet" "https://gct.co/files/drawings/usb4105.pdf"
+				(at 38.1 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "USB-C (USB TYPE-C) USB 2.0 Receptacle Connector 24 (16+8 Dummy) Position Surface Mount, Right Angle"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5079,18 +5078,8 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "USB4145-03-0070-C"
-				(at 21.59 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
 			(property "Manufacturer" "GCT"
-				(at 21.59 -15.24 0)
+				(at 38.1 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5100,8 +5089,8 @@
 					(hide yes)
 				)
 			)
-			(property "License" "Apache-2.0"
-				(at 21.59 -17.78 0)
+			(property "MPN" "USB4105-GF-A"
+				(at 38.1 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5112,7 +5101,7 @@
 				)
 			)
 			(property "Author" "Antmicro"
-				(at 21.59 -20.32 0)
+				(at 38.1 -17.78 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5122,7 +5111,18 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "USB, CONNECTOR, SMT, VERTICAL"
+			(property "License" "Apache-2.0"
+				(at 38.1 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "USB, CONNECTOR, SMT, HORIZONTAL"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5131,7 +5131,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "USB-C_GCT_USB4145-03-0070-C_1_1"
+			(symbol "USB-C_GCT_USB4105-GF-A_1_1"
 				(rectangle
 					(start -22.86 2.54)
 					(end -3.81 -38.1)
@@ -7981,7 +7981,7 @@
 		(uuid "209b1484-2186-4ed0-a49f-f866382f4d23")
 	)
 	(label "FTDI_D_P"
-		(at 21.59 107.95 0)
+		(at 21.59 105.41 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8124,7 +8124,7 @@
 		(uuid "6d453e94-9655-437c-9df9-b0099e2c81a7")
 	)
 	(label "FTDI_D_N"
-		(at 21.59 105.41 0)
+		(at 21.59 107.95 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14410,7 +14410,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroUSBConnectors:USB-C_GCT_USB4145-03-0070-C")
+		(lib_id "antmicroUSBConnectors:USB-C_GCT_USB4105-GF-A")
 		(at 44.45 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14428,7 +14428,7 @@
 				)
 			)
 		)
-		(property "Value" "USB-C_GCT_USB4145-03-0070-C"
+		(property "Value" "USB-C_GCT_USB4105-GF-A"
 			(at 31.115 39.37 0)
 			(effects
 				(font
@@ -14438,7 +14438,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:USB-C_Receptacle_GCT_USB4145-03-0070-C"
+		(property "Footprint" "antmicro-footprints:USB-C_Receptacle_GCT_USB4105-GF-A"
 			(at 66.04 54.61 0)
 			(effects
 				(font
@@ -14449,7 +14449,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://gct.co/files/drawings/usb4145.pdf"
+		(property "Datasheet" "https://gct.co/files/drawings/usb4105.pdf"
 			(at 66.04 57.15 0)
 			(effects
 				(font
@@ -14460,7 +14460,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "USB-C (USB TYPE-C) USB 2.0 Receptacle Connector 24 (16+8 Dummy) Postion  Surface Mount, Vertical"
+		(property "Description" "USB-C (USB TYPE-C) USB 2.0 Receptacle Connector 24 (16+8 Dummy) Position Surface Mount, Right Angle"
 			(at 44.45 44.45 0)
 			(effects
 				(font
@@ -14469,7 +14469,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "USB4145-03-0070-C"
+		(property "MPN" "USB4105-GF-A"
 			(at 31.115 39.37 0)
 			(effects
 				(font
