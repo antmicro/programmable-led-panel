@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "LED Panel Board")
-		(date "2025-02-04")
+		(date "2025-01-31")
 		(rev "1.0.0")
 	)
 	(lib_symbols
@@ -4875,9 +4875,9 @@
 		(at 100.33 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "61b96156-5ec1-4d86-87c3-9b80ddc47bb3")
 		(property "Reference" "R70"
 			(at 99.06 123.19 0)
