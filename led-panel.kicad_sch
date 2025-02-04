@@ -523,16 +523,6 @@
 		(color 0 0 0 0)
 		(uuid "f694b7fd-bfb9-4ecf-8ff2-7e895781bbcc")
 	)
-	(wire
-		(pts
-			(xy 88.9 87.63) (xy 88.9 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00aa6152-9ab4-45ae-9dad-78149f454025")
-	)
 	(bus
 		(pts
 			(xy 69.85 68.58) (xy 81.28 68.58)
@@ -662,16 +652,6 @@
 			(type default)
 		)
 		(uuid "3128bb9b-0dfe-45f5-a860-5e2822dbd8a7")
-	)
-	(wire
-		(pts
-			(xy 88.9 99.06) (xy 91.44 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e47cd15-0948-4125-bdba-9c399a5d673b")
 	)
 	(bus
 		(pts
@@ -872,16 +852,6 @@
 			(type default)
 		)
 		(uuid "7fffc9cc-398b-4e60-a23e-a03ca869624e")
-	)
-	(wire
-		(pts
-			(xy 88.9 87.63) (xy 91.44 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80270c0b-5abc-4676-921b-f648d23f7a28")
 	)
 	(wire
 		(pts
@@ -2970,16 +2940,6 @@
 			)
 			(uuid "7752f3e4-a551-4846-8bf9-8827f3353f03")
 		)
-		(pin "12MHz" output
-			(at 91.44 99.06 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "a5a7d497-6ec6-4b55-86c2-df89912ccb6f")
-		)
 		(pin "RowCtrl[1..7]" output
 			(at 132.08 101.6 0)
 			(effects
@@ -3659,16 +3619,6 @@
 				(justify left)
 			)
 			(uuid "1cb948cf-12de-46a9-bc11-6624d4b266f8")
-		)
-		(pin "12MHz" input
-			(at 91.44 87.63 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "3e288b1a-5169-4812-875e-e5a5d5f5ef5f")
 		)
 		(pin "RowCtrl[1..7]" output
 			(at 132.08 80.01 0)
