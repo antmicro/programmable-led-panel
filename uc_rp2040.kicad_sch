@@ -8024,7 +8024,7 @@
 		)
 		(uuid "108a0992-f968-4692-b6b3-d4c7f4ac6aaa")
 	)
-	(hierarchical_label "RowCtrl[8..12]"
+	(hierarchical_label "RowCtrl[8..14]"
 		(shape output)
 		(at 181.61 106.68 0)
 		(fields_autoplaced yes)
@@ -8120,7 +8120,7 @@
 		)
 		(uuid "d8826140-3889-4d1d-8719-fec0391c0e3f")
 	)
-	(hierarchical_label "RowCtrl[3..7]"
+	(hierarchical_label "RowCtrl[1..7]"
 		(shape output)
 		(at 181.61 104.14 0)
 		(fields_autoplaced yes)
