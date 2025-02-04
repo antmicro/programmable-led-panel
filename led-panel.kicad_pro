@@ -179,6 +179,7 @@
       ],
       "track_widths": [
         0.0,
+        0.125,
         0.15,
         0.2,
         0.25,
@@ -240,11 +241,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      "pin_to_pin|1562100|736600|cc57f2c8-4325-490c-8be4-e08208268db5|351bf5dc-70ef-4f6f-a03e-e68725611618|/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/4155e8b1-3e20-438f-8975-680719ad641f|/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/4155e8b1-3e20-438f-8975-680719ad641f|/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/558630aa-e7f2-4066-9d03-1c648a6adc39",
-      "power_pin_not_driven|2311400|1079500|8c30f76d-eed6-495d-87b9-b05819b21052|00000000-0000-0000-0000-000000000000|/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/e726b9bd-c9dd-498e-8f0b-14c371b4e345|/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/e726b9bd-c9dd-498e-8f0b-14c371b4e345|",
-      "power_pin_not_driven|2311400|1104900|6ddec996-3fbb-4890-8e5a-c0c6b5808d02|00000000-0000-0000-0000-000000000000|/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/e726b9bd-c9dd-498e-8f0b-14c371b4e345|/a86e1cab-ea0a-45e6-9194-d44b0d5c9450/e726b9bd-c9dd-498e-8f0b-14c371b4e345|"
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -466,7 +463,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.15,
+        "clearance": 0.125,
         "diff_pair_gap": 0.152,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.152,
@@ -483,7 +480,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.15,
+        "clearance": 0.125,
         "diff_pair_gap": 0.152,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.152,
@@ -493,17 +490,17 @@
         "name": "50Ohm-se_SPI",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.3,
+        "track_width": 0.35,
         "via_diameter": 0.45,
         "via_drill": 0.1,
         "wire_width": 6
       },
       {
         "bus_width": 12,
-        "clearance": 0.15,
-        "diff_pair_gap": 0.2,
+        "clearance": 0.125,
+        "diff_pair_gap": 0.155,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.3,
+        "diff_pair_width": 0.4,
         "line_style": 0,
         "microvia_diameter": 0.6,
         "microvia_drill": 0.3,
@@ -691,6 +688,12 @@
           "group_by": false,
           "label": "ISat",
           "name": "ISat",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Public",
+          "name": "Public",
           "show": false
         }
       ],
