@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "LED Panel Board")
-		(date "2025-01-31")
+		(date "2025-02-04")
 		(rev "1.0.0")
 	)
 	(lib_symbols
@@ -242,7 +242,7 @@
 				)
 			)
 		)
-		(symbol "antmicroResistors0402:R_120R_0402"
+		(symbol "antmicroResistors0603:R_120R_0603"
 			(pin_numbers hide)
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -258,7 +258,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "R_120R_0402"
+			(property "Value" "R_120R_0603"
 				(at 20.32 -12.7 0)
 				(effects
 					(font
@@ -269,7 +269,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+			(property "Footprint" "antmicro-footprints:R_0603_1608Metric"
 				(at 20.32 -15.24 0)
 				(effects
 					(font
@@ -291,7 +291,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "SMD Chip Resistor, 120 ohm, ± 1%, 63 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+			(property "Description" "SMD Chip Resistor, 120 ohm, ± 1%, 100 mW, 0603 [1608 Metric], Thick Film, General Purpose"
 				(at 0 0 0)
 				(effects
 					(font
@@ -300,7 +300,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "CR0402-FX-1200GLF"
+			(property "MPN" "CR0603-FX-1200ELF"
 				(at 20.32 -20.32 0)
 				(effects
 					(font
@@ -364,7 +364,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "0402, SMT, RESISTOR, PASSIVE"
+			(property "ki_keywords" "0603, SMT, RESISTOR, PASSIVE"
 				(at 0 0 0)
 				(effects
 					(font
@@ -373,7 +373,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "R_120R_0402_0_1"
+			(symbol "R_120R_0603_0_1"
 				(rectangle
 					(start 0.635 0.889)
 					(end 4.445 -0.889)
@@ -386,7 +386,7 @@
 					)
 				)
 			)
-			(symbol "R_120R_0402_1_1"
+			(symbol "R_120R_0603_1_1"
 				(pin passive line
 					(at 0 0 0)
 					(length 0.635)
@@ -2463,7 +2463,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroResistors0402:R_120R_0402")
+		(lib_id "antmicroResistors0603:R_120R_0603")
 		(at 218.44 111.76 270)
 		(mirror x)
 		(unit 1)
@@ -2483,7 +2483,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_120R_0402"
+		(property "Value" "R_120R_0603"
 			(at 205.74 91.44 0)
 			(effects
 				(font
@@ -2494,7 +2494,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+		(property "Footprint" "antmicro-footprints:R_0603_1608Metric"
 			(at 203.2 91.44 0)
 			(effects
 				(font
@@ -2516,7 +2516,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Chip Resistor, 120 ohm, ± 1%, 63 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+		(property "Description" "SMD Chip Resistor, 120 ohm, ± 1%, 100 mW, 0603 [1608 Metric], Thick Film, General Purpose"
 			(at 218.44 111.76 0)
 			(effects
 				(font
@@ -2525,7 +2525,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CR0402-FX-1200GLF"
+		(property "MPN" "CR0603-FX-1200ELF"
 			(at 198.12 91.44 0)
 			(effects
 				(font
@@ -2797,7 +2797,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroResistors0402:R_120R_0402")
+		(lib_id "antmicroResistors0603:R_120R_0603")
 		(at 104.14 66.04 270)
 		(mirror x)
 		(unit 1)
@@ -2817,7 +2817,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_120R_0402"
+		(property "Value" "R_120R_0603"
 			(at 91.44 45.72 0)
 			(effects
 				(font
@@ -2828,7 +2828,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+		(property "Footprint" "antmicro-footprints:R_0603_1608Metric"
 			(at 88.9 45.72 0)
 			(effects
 				(font
@@ -2850,7 +2850,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Chip Resistor, 120 ohm, ± 1%, 63 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+		(property "Description" "SMD Chip Resistor, 120 ohm, ± 1%, 100 mW, 0603 [1608 Metric], Thick Film, General Purpose"
 			(at 104.14 66.04 0)
 			(effects
 				(font
@@ -2859,7 +2859,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CR0402-FX-1200GLF"
+		(property "MPN" "CR0603-FX-1200ELF"
 			(at 83.82 45.72 0)
 			(effects
 				(font
@@ -3035,7 +3035,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroResistors0402:R_120R_0402")
+		(lib_id "antmicroResistors0603:R_120R_0603")
 		(at 218.44 66.04 270)
 		(mirror x)
 		(unit 1)
@@ -3055,7 +3055,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_120R_0402"
+		(property "Value" "R_120R_0603"
 			(at 205.74 45.72 0)
 			(effects
 				(font
@@ -3066,7 +3066,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+		(property "Footprint" "antmicro-footprints:R_0603_1608Metric"
 			(at 203.2 45.72 0)
 			(effects
 				(font
@@ -3088,7 +3088,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Chip Resistor, 120 ohm, ± 1%, 63 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+		(property "Description" "SMD Chip Resistor, 120 ohm, ± 1%, 100 mW, 0603 [1608 Metric], Thick Film, General Purpose"
 			(at 218.44 66.04 0)
 			(effects
 				(font
@@ -3097,7 +3097,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CR0402-FX-1200GLF"
+		(property "MPN" "CR0603-FX-1200ELF"
 			(at 198.12 45.72 0)
 			(effects
 				(font
@@ -3657,7 +3657,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroResistors0402:R_120R_0402")
+		(lib_id "antmicroResistors0603:R_120R_0603")
 		(at 104.14 157.48 270)
 		(mirror x)
 		(unit 1)
@@ -3677,7 +3677,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_120R_0402"
+		(property "Value" "R_120R_0603"
 			(at 91.44 137.16 0)
 			(effects
 				(font
@@ -3688,7 +3688,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+		(property "Footprint" "antmicro-footprints:R_0603_1608Metric"
 			(at 88.9 137.16 0)
 			(effects
 				(font
@@ -3710,7 +3710,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Chip Resistor, 120 ohm, ± 1%, 63 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+		(property "Description" "SMD Chip Resistor, 120 ohm, ± 1%, 100 mW, 0603 [1608 Metric], Thick Film, General Purpose"
 			(at 104.14 157.48 0)
 			(effects
 				(font
@@ -3719,7 +3719,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CR0402-FX-1200GLF"
+		(property "MPN" "CR0603-FX-1200ELF"
 			(at 83.82 137.16 0)
 			(effects
 				(font
@@ -4387,7 +4387,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroResistors0402:R_120R_0402")
+		(lib_id "antmicroResistors0603:R_120R_0603")
 		(at 218.44 88.9 270)
 		(mirror x)
 		(unit 1)
@@ -4407,7 +4407,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_120R_0402"
+		(property "Value" "R_120R_0603"
 			(at 205.74 68.58 0)
 			(effects
 				(font
@@ -4418,7 +4418,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+		(property "Footprint" "antmicro-footprints:R_0603_1608Metric"
 			(at 203.2 68.58 0)
 			(effects
 				(font
@@ -4440,7 +4440,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Chip Resistor, 120 ohm, ± 1%, 63 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+		(property "Description" "SMD Chip Resistor, 120 ohm, ± 1%, 100 mW, 0603 [1608 Metric], Thick Film, General Purpose"
 			(at 218.44 88.9 0)
 			(effects
 				(font
@@ -4449,7 +4449,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CR0402-FX-1200GLF"
+		(property "MPN" "CR0603-FX-1200ELF"
 			(at 198.12 68.58 0)
 			(effects
 				(font
@@ -4529,7 +4529,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroResistors0402:R_120R_0402")
+		(lib_id "antmicroResistors0603:R_120R_0603")
 		(at 218.44 134.62 270)
 		(mirror x)
 		(unit 1)
@@ -4549,7 +4549,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_120R_0402"
+		(property "Value" "R_120R_0603"
 			(at 205.74 114.3 0)
 			(effects
 				(font
@@ -4560,7 +4560,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+		(property "Footprint" "antmicro-footprints:R_0603_1608Metric"
 			(at 203.2 114.3 0)
 			(effects
 				(font
@@ -4582,7 +4582,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Chip Resistor, 120 ohm, ± 1%, 63 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+		(property "Description" "SMD Chip Resistor, 120 ohm, ± 1%, 100 mW, 0603 [1608 Metric], Thick Film, General Purpose"
 			(at 218.44 134.62 0)
 			(effects
 				(font
@@ -4591,7 +4591,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CR0402-FX-1200GLF"
+		(property "MPN" "CR0603-FX-1200ELF"
 			(at 198.12 114.3 0)
 			(effects
 				(font
@@ -5319,7 +5319,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroResistors0402:R_120R_0402")
+		(lib_id "antmicroResistors0603:R_120R_0603")
 		(at 218.44 157.48 270)
 		(mirror x)
 		(unit 1)
@@ -5339,7 +5339,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_120R_0402"
+		(property "Value" "R_120R_0603"
 			(at 205.74 137.16 0)
 			(effects
 				(font
@@ -5350,7 +5350,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+		(property "Footprint" "antmicro-footprints:R_0603_1608Metric"
 			(at 203.2 137.16 0)
 			(effects
 				(font
@@ -5372,7 +5372,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Chip Resistor, 120 ohm, ± 1%, 63 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+		(property "Description" "SMD Chip Resistor, 120 ohm, ± 1%, 100 mW, 0603 [1608 Metric], Thick Film, General Purpose"
 			(at 218.44 157.48 0)
 			(effects
 				(font
@@ -5381,7 +5381,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CR0402-FX-1200GLF"
+		(property "MPN" "CR0603-FX-1200ELF"
 			(at 198.12 137.16 0)
 			(effects
 				(font
@@ -5593,7 +5593,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroResistors0402:R_120R_0402")
+		(lib_id "antmicroResistors0603:R_120R_0603")
 		(at 104.14 111.76 270)
 		(mirror x)
 		(unit 1)
@@ -5613,7 +5613,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_120R_0402"
+		(property "Value" "R_120R_0603"
 			(at 91.44 91.44 0)
 			(effects
 				(font
@@ -5624,7 +5624,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+		(property "Footprint" "antmicro-footprints:R_0603_1608Metric"
 			(at 88.9 91.44 0)
 			(effects
 				(font
@@ -5646,7 +5646,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Chip Resistor, 120 ohm, ± 1%, 63 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+		(property "Description" "SMD Chip Resistor, 120 ohm, ± 1%, 100 mW, 0603 [1608 Metric], Thick Film, General Purpose"
 			(at 104.14 111.76 0)
 			(effects
 				(font
@@ -5655,7 +5655,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CR0402-FX-1200GLF"
+		(property "MPN" "CR0603-FX-1200ELF"
 			(at 83.82 91.44 0)
 			(effects
 				(font
@@ -5831,7 +5831,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroResistors0402:R_120R_0402")
+		(lib_id "antmicroResistors0603:R_120R_0603")
 		(at 104.14 134.62 270)
 		(mirror x)
 		(unit 1)
@@ -5851,7 +5851,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_120R_0402"
+		(property "Value" "R_120R_0603"
 			(at 91.44 114.3 0)
 			(effects
 				(font
@@ -5862,7 +5862,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+		(property "Footprint" "antmicro-footprints:R_0603_1608Metric"
 			(at 88.9 114.3 0)
 			(effects
 				(font
@@ -5884,7 +5884,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Chip Resistor, 120 ohm, ± 1%, 63 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+		(property "Description" "SMD Chip Resistor, 120 ohm, ± 1%, 100 mW, 0603 [1608 Metric], Thick Film, General Purpose"
 			(at 104.14 134.62 0)
 			(effects
 				(font
@@ -5893,7 +5893,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CR0402-FX-1200GLF"
+		(property "MPN" "CR0603-FX-1200ELF"
 			(at 83.82 114.3 0)
 			(effects
 				(font
@@ -6069,7 +6069,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroResistors0402:R_120R_0402")
+		(lib_id "antmicroResistors0603:R_120R_0603")
 		(at 104.14 88.9 270)
 		(mirror x)
 		(unit 1)
@@ -6089,7 +6089,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_120R_0402"
+		(property "Value" "R_120R_0603"
 			(at 91.44 68.58 0)
 			(effects
 				(font
@@ -6100,7 +6100,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+		(property "Footprint" "antmicro-footprints:R_0603_1608Metric"
 			(at 88.9 68.58 0)
 			(effects
 				(font
@@ -6122,7 +6122,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Chip Resistor, 120 ohm, ± 1%, 63 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+		(property "Description" "SMD Chip Resistor, 120 ohm, ± 1%, 100 mW, 0603 [1608 Metric], Thick Film, General Purpose"
 			(at 104.14 88.9 0)
 			(effects
 				(font
@@ -6131,7 +6131,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CR0402-FX-1200GLF"
+		(property "MPN" "CR0603-FX-1200ELF"
 			(at 83.82 68.58 0)
 			(effects
 				(font

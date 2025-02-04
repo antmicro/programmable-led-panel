@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "LED Panel Board")
-		(date "2025-01-31")
+		(date "2025-02-04")
 		(rev "1.0.0")
 	)
 	(lib_symbols
@@ -2940,7 +2940,7 @@
 			)
 			(uuid "7752f3e4-a551-4846-8bf9-8827f3353f03")
 		)
-		(pin "RowCtrl[1..7]" output
+		(pin "RowCtrl[3..7]" output
 			(at 132.08 101.6 0)
 			(effects
 				(font
@@ -2950,7 +2950,7 @@
 			)
 			(uuid "745e0a2b-1cd5-45f6-ae5a-16e03e33ad92")
 		)
-		(pin "RowCtrl[8..10]" output
+		(pin "RowCtrl[8..12]" output
 			(at 132.08 104.14 0)
 			(effects
 				(font
