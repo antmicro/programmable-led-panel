@@ -1,20 +1,18 @@
 {
     "id": "led-panel",
     "componentIds": [
-        "murata-grm155r61a106me11d",
-        "murata-grm155r61h104ke14d",
-        "kemet-c0402c104j4rac7411",
-        "kemet-c0402c105m4pactu",
         "yageo-cc0402mrx5r5bb106",
+        "murata-grm155r61h104ke14d",
+        "samsung-electro-mechanics-cl05c180jb51pnc",
+        "kemet-c0402c105m4pactu",
         "yageo-cc0402krx5r6bb224",
         "murata-grm158r60j226me01d",
-        "murata-grm155r61a475meaad",
         "kingbright-kp-1608cgck",
         "on-semiconductor-rb521s30t1g",
         "murata-blm15ag601sn1d",
         "wurth-elektronik-9774100482r",
-        "jst-automotive-connectors-bm06b-srss-tb-lf-sn",
-        "gct-usb4145-03-0070-c",
+        "jst-automotive-connectors-sm06b-srss-tb-lf-sn",
+        "gct-usb4105-gf-a",
         "bourns-srp3212-3r3m",
         "nexperia-bss138pw",
         "nexperia-bc817-25w-115",
@@ -26,12 +24,14 @@
         "bourns-cr0402-fx-3300glf",
         "bourns-cr0402-fx-27r0glf",
         "bourns-cr0402-fx-1001glf",
-        "bourns-cr0402-fx-1200glf",
+        "bourns-cr0603-fx-1200elf",
         "panasonic-exb-28v101jx",
         "bourns-cr0402-fx-5101glf",
         "bourns-cr0402-fx-3162glf",
         "bourns-cr0402-fx-4701glf",
         "bourns-cr0402-fx-1202glf",
+        "bourns-cr0402-fx-1004glf",
+        "bourns-cr0402-fx-1003glf",
         "omron-b3u-1000p",
         "lattice-semiconductor-ice40up5k-sg48itr50",
         "winbond-w25q32jwssiq",
@@ -49,7 +49,8 @@
         "tdk-icm-20948",
         "diodes-incorporated-ap62301wu-7",
         "ftdi-chip-ft4232h-56q-reel",
-        "ecs-inc-international-ecs-2520mvlc-120-bn-tr"
+        "ecs-inc-international-ecs-2520mvlc-120-bn-tr",
+        "abracon-abm8g-12-000mhz-18-d2y-t"
     ],
     "stackup": {
         "layers": [
@@ -67,6 +68,12 @@
             },
             {
                 "fileName": "layer4.webp"
+            },
+            {
+                "fileName": "layer5.webp"
+            },
+            {
+                "fileName": "layer6.webp"
             }
         ]
     },
