@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "ab049604-5b0a-4137-b577-fd5a115096ed")
 	(paper "A4")
 	(title_block
@@ -121,13 +121,12 @@
 				)
 			)
 			(symbol "LED_Matrix_KWM-50571AGB_1_1"
-				(polyline
-					(pts
-						(xy 5.715 -15.24) (xy 20.32 -15.24)
-					)
+				(rectangle
+					(start 2.54 3.81)
+					(end 26.67 -17.78)
 					(stroke
-						(width 0.127)
-						(type dot)
+						(width 0.254)
+						(type default)
 					)
 					(fill
 						(type background)
@@ -135,43 +134,7 @@
 				)
 				(polyline
 					(pts
-						(xy 5.715 -12.7) (xy 20.32 -12.7)
-					)
-					(stroke
-						(width 0.127)
-						(type dot)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.715 -10.16) (xy 20.32 -10.16)
-					)
-					(stroke
-						(width 0.127)
-						(type dot)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.715 -7.62) (xy 20.32 -7.62)
-					)
-					(stroke
-						(width 0.127)
-						(type dot)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.715 -5.08) (xy 20.32 -5.08)
+						(xy 5.715 0) (xy 20.32 0)
 					)
 					(stroke
 						(width 0.127)
@@ -195,7 +158,7 @@
 				)
 				(polyline
 					(pts
-						(xy 5.715 0) (xy 20.32 0)
+						(xy 5.715 -5.08) (xy 20.32 -5.08)
 					)
 					(stroke
 						(width 0.127)
@@ -207,7 +170,7 @@
 				)
 				(polyline
 					(pts
-						(xy 7.62 -15.24) (xy 7.62 1.27)
+						(xy 5.715 -7.62) (xy 20.32 -7.62)
 					)
 					(stroke
 						(width 0.127)
@@ -219,10 +182,10 @@
 				)
 				(polyline
 					(pts
-						(xy 7.62 -15.24) (xy 21.59 -15.24)
+						(xy 5.715 -10.16) (xy 20.32 -10.16)
 					)
 					(stroke
-						(width 0.7493)
+						(width 0.127)
 						(type dot)
 					)
 					(fill
@@ -231,10 +194,10 @@
 				)
 				(polyline
 					(pts
-						(xy 7.62 -12.7) (xy 21.59 -12.7)
+						(xy 5.715 -12.7) (xy 20.32 -12.7)
 					)
 					(stroke
-						(width 0.7493)
+						(width 0.127)
 						(type dot)
 					)
 					(fill
@@ -243,11 +206,22 @@
 				)
 				(polyline
 					(pts
-						(xy 7.62 -10.16) (xy 21.59 -10.16)
+						(xy 5.715 -15.24) (xy 20.32 -15.24)
 					)
 					(stroke
-						(width 0.7493)
+						(width 0.127)
 						(type dot)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 6.35 1.27)
+					(end 21.59 -16.51)
+					(stroke
+						(width 0.254)
+						(type default)
 					)
 					(fill
 						(type background)
@@ -255,19 +229,7 @@
 				)
 				(polyline
 					(pts
-						(xy 7.62 -7.62) (xy 21.59 -7.62)
-					)
-					(stroke
-						(width 0.7493)
-						(type dot)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -5.08) (xy 21.59 -5.08)
+						(xy 7.62 0) (xy 21.59 0)
 					)
 					(stroke
 						(width 0.7493)
@@ -291,7 +253,67 @@
 				)
 				(polyline
 					(pts
-						(xy 7.62 0) (xy 21.59 0)
+						(xy 7.62 -5.08) (xy 21.59 -5.08)
+					)
+					(stroke
+						(width 0.7493)
+						(type dot)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -7.62) (xy 21.59 -7.62)
+					)
+					(stroke
+						(width 0.7493)
+						(type dot)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -10.16) (xy 21.59 -10.16)
+					)
+					(stroke
+						(width 0.7493)
+						(type dot)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -12.7) (xy 21.59 -12.7)
+					)
+					(stroke
+						(width 0.7493)
+						(type dot)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -15.24) (xy 7.62 1.27)
+					)
+					(stroke
+						(width 0.127)
+						(type dot)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -15.24) (xy 21.59 -15.24)
 					)
 					(stroke
 						(width 0.7493)
@@ -363,18 +385,6 @@
 				)
 				(polyline
 					(pts
-						(xy 23.114 -14.478) (xy 23.622 -14.478)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
 						(xy 23.114 -13.97) (xy 23.622 -13.97)
 					)
 					(stroke
@@ -387,7 +397,7 @@
 				)
 				(polyline
 					(pts
-						(xy 24.765 -14.605) (xy 24.765 -15.875)
+						(xy 23.114 -14.478) (xy 23.622 -14.478)
 					)
 					(stroke
 						(width 0.127)
@@ -411,10 +421,10 @@
 				)
 				(polyline
 					(pts
-						(xy 25.273 -14.859) (xy 24.257 -14.859)
+						(xy 24.765 -14.605) (xy 24.765 -15.875)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.127)
 						(type default)
 					)
 					(fill
@@ -435,11 +445,10 @@
 				)
 				(polyline
 					(pts
-						(xy 26.035 -15.367) (xy 25.781 -15.367) (xy 26.035 -15.367) (xy 26.035 -15.113) (xy 26.035 -15.367)
-						(xy 25.527 -14.859)
+						(xy 25.273 -14.859) (xy 24.257 -14.859)
 					)
 					(stroke
-						(width 0.127)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -459,36 +468,17 @@
 						(type background)
 					)
 				)
-				(rectangle
-					(start 2.54 3.81)
-					(end 26.67 -17.78)
+				(polyline
+					(pts
+						(xy 26.035 -15.367) (xy 25.781 -15.367) (xy 26.035 -15.367) (xy 26.035 -15.113) (xy 26.035 -15.367)
+						(xy 25.527 -14.859)
+					)
 					(stroke
-						(width 0.254)
+						(width 0.127)
 						(type default)
 					)
 					(fill
 						(type background)
-					)
-				)
-				(rectangle
-					(start 6.35 1.27)
-					(end 21.59 -16.51)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(text "Ay"
-					(at 24.384 -12.446 0)
-					(effects
-						(font
-							(size 0.635 0.635)
-							(thickness 0.15)
-						)
-						(justify left bottom)
 					)
 				)
 				(text "C1"
@@ -551,89 +541,27 @@
 						(justify left bottom)
 					)
 				)
-				(pin passive line
-					(at 0 -10.16 0)
-					(length 2.54)
-					(name "A5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
+				(text "Ay"
+					(at 24.384 -12.446 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+							(thickness 0.15)
 						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+						(justify left bottom)
 					)
 				)
 				(pin passive line
-					(at 29.21 -7.62 180)
+					(at 0 0 0)
 					(length 2.54)
-					(name "C4"
+					(name "A1"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 29.21 -5.08 180)
-					(length 2.54)
-					(name "C3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 0)
-					(length 2.54)
-					(name "A4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 29.21 0 180)
-					(length 2.54)
-					(name "C1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -660,6 +588,97 @@
 					)
 				)
 				(pin passive line
+					(at 0 -5.08 0)
+					(length 2.54)
+					(name "A3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 2.54)
+					(name "A4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 2.54)
+					(hide yes)
+					(name "A4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 0)
+					(length 2.54)
+					(name "A5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 0)
+					(length 2.54)
+					(name "A6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at 0 -15.24 0)
 					(length 2.54)
 					(name "A7"
@@ -670,6 +689,24 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 29.21 0 180)
+					(length 2.54)
+					(name "C1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -697,7 +734,26 @@
 				)
 				(pin passive line
 					(at 29.21 -5.08 180)
-					(length 2.54) hide
+					(length 2.54)
+					(name "C3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 29.21 -5.08 180)
+					(length 2.54)
+					(hide yes)
 					(name "C3"
 						(effects
 							(font
@@ -714,16 +770,16 @@
 					)
 				)
 				(pin passive line
-					(at 0 -7.62 0)
-					(length 2.54) hide
-					(name "A4"
+					(at 29.21 -7.62 180)
+					(length 2.54)
+					(name "C4"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "5"
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -749,62 +805,21 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 0 -12.7 0)
-					(length 2.54)
-					(name "A6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 0)
-					(length 2.54)
-					(name "A3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 2.54)
-					(name "A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "LED Matrices"
+		(exclude_from_sim no)
+		(at 148.59 26.416 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
 			)
 		)
+		(uuid "09026d56-300d-46cd-b27b-4851ef786783")
 	)
 	(junction
 		(at 80.01 123.19)
@@ -2534,21 +2549,8 @@
 		)
 		(uuid "fddc32d9-fc19-45d2-b0c9-17d3e8d010b4")
 	)
-	(text "LED Matrices"
-		(exclude_from_sim no)
-		(at 148.59 26.416 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-			)
-		)
-		(uuid "09026d56-300d-46cd-b27b-4851ef786783")
-	)
 	(label "RowDrive10"
 		(at 161.29 106.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2559,7 +2561,6 @@
 	)
 	(label "RowDrive9"
 		(at 82.55 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2570,7 +2571,6 @@
 	)
 	(label "RowDrive2"
 		(at 161.29 60.96 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2581,7 +2581,6 @@
 	)
 	(label "RowDrive11"
 		(at 82.55 109.22 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2592,7 +2591,6 @@
 	)
 	(label "ColumnDrive9"
 		(at 217.17 66.04 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2603,7 +2601,6 @@
 	)
 	(label "RowDrive6"
 		(at 82.55 71.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2614,7 +2611,6 @@
 	)
 	(label "RowDrive3"
 		(at 82.55 63.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2625,7 +2621,6 @@
 	)
 	(label "RowDrive2"
 		(at 82.55 60.96 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2636,7 +2631,6 @@
 	)
 	(label "ColumnDrive3"
 		(at 138.43 106.68 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2647,7 +2641,6 @@
 	)
 	(label "ColumnDrive6"
 		(at 217.17 58.42 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2658,7 +2651,6 @@
 	)
 	(label "RowDrive14"
 		(at 161.29 116.84 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2669,7 +2661,6 @@
 	)
 	(label "RowDrive12"
 		(at 82.55 111.76 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2680,7 +2671,6 @@
 	)
 	(label "RowDrive13"
 		(at 161.29 114.3 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2691,7 +2681,6 @@
 	)
 	(label "RowDrive14"
 		(at 82.55 116.84 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2702,7 +2691,6 @@
 	)
 	(label "ColumnDrive4"
 		(at 138.43 66.04 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2713,7 +2701,6 @@
 	)
 	(label "RowDrive8"
 		(at 82.55 101.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2724,7 +2711,6 @@
 	)
 	(label "ColumnDrive5"
 		(at 138.43 111.76 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2735,7 +2721,6 @@
 	)
 	(label "ColumnDrive1"
 		(at 138.43 58.42 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2746,7 +2731,6 @@
 	)
 	(label "RowDrive8"
 		(at 161.29 101.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2757,7 +2741,6 @@
 	)
 	(label "RowDrive4"
 		(at 82.55 66.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2768,7 +2751,6 @@
 	)
 	(label "RowDrive7"
 		(at 161.29 73.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2779,7 +2761,6 @@
 	)
 	(label "ColumnDrive1"
 		(at 138.43 101.6 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2790,7 +2771,6 @@
 	)
 	(label "RowDrive6"
 		(at 161.29 71.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2801,7 +2781,6 @@
 	)
 	(label "ColumnDrive7"
 		(at 217.17 60.96 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2812,7 +2791,6 @@
 	)
 	(label "RowDrive13"
 		(at 82.55 114.3 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2823,7 +2801,6 @@
 	)
 	(label "RowDrive1"
 		(at 82.55 58.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2834,7 +2811,6 @@
 	)
 	(label "RowDrive9"
 		(at 161.29 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2845,7 +2821,6 @@
 	)
 	(label "ColumnDrive2"
 		(at 138.43 104.14 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2856,7 +2831,6 @@
 	)
 	(label "RowDrive5"
 		(at 161.29 68.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2867,7 +2841,6 @@
 	)
 	(label "RowDrive5"
 		(at 82.55 68.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2878,7 +2851,6 @@
 	)
 	(label "ColumnDrive5"
 		(at 138.43 68.58 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2889,7 +2861,6 @@
 	)
 	(label "ColumnDrive6"
 		(at 217.17 101.6 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2900,7 +2871,6 @@
 	)
 	(label "RowDrive4"
 		(at 161.29 66.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2911,7 +2881,6 @@
 	)
 	(label "ColumnDrive8"
 		(at 217.17 63.5 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2922,7 +2891,6 @@
 	)
 	(label "ColumnDrive10"
 		(at 217.17 68.58 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2933,7 +2901,6 @@
 	)
 	(label "ColumnDrive10"
 		(at 217.17 111.76 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2944,7 +2911,6 @@
 	)
 	(label "RowDrive11"
 		(at 161.29 109.22 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2955,7 +2921,6 @@
 	)
 	(label "RowDrive12"
 		(at 161.29 111.76 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2966,7 +2931,6 @@
 	)
 	(label "RowDrive10"
 		(at 82.55 106.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2977,7 +2941,6 @@
 	)
 	(label "ColumnDrive4"
 		(at 138.43 109.22 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2988,7 +2951,6 @@
 	)
 	(label "RowDrive7"
 		(at 82.55 73.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2999,7 +2961,6 @@
 	)
 	(label "ColumnDrive2"
 		(at 138.43 60.96 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3010,7 +2971,6 @@
 	)
 	(label "ColumnDrive9"
 		(at 217.17 109.22 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3021,7 +2981,6 @@
 	)
 	(label "ColumnDrive7"
 		(at 217.17 104.14 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3032,7 +2991,6 @@
 	)
 	(label "RowDrive3"
 		(at 161.29 63.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3043,7 +3001,6 @@
 	)
 	(label "RowDrive1"
 		(at 161.29 58.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3054,7 +3011,6 @@
 	)
 	(label "ColumnDrive8"
 		(at 217.17 106.68 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3065,7 +3021,6 @@
 	)
 	(label "ColumnDrive3"
 		(at 138.43 63.5 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3077,7 +3032,6 @@
 	(hierarchical_label "RowDrive[8..14]"
 		(shape input)
 		(at 76.2 123.19 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3089,7 +3043,6 @@
 	(hierarchical_label "ColumnDrive[1..5]"
 		(shape input)
 		(at 144.78 85.09 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3101,7 +3054,6 @@
 	(hierarchical_label "ColumnDrive[6..10]"
 		(shape input)
 		(at 223.52 85.09 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3113,7 +3065,6 @@
 	(hierarchical_label "RowDrive[1..7]"
 		(shape input)
 		(at 76.2 43.18 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

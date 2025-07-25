@@ -1,17 +1,20 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "a86e1cab-ea0a-45e6-9194-d44b0d5c9450")
 	(paper "A4")
 	(title_block
 		(title "LED Panel Board")
 		(date "2025-01-31")
 		(rev "1.0.0")
+		(company "Antmicro")
 	)
 	(lib_symbols
 		(symbol "antmicroMechanicalParts:MP_Pad6mm_Drill3.2mm"
-			(pin_names hide)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
@@ -139,6 +142,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "antmicroMechanicalParts:Spacer_Drill5.4mm_H10mm_9774100482R"
 			(exclude_from_sim no)
@@ -290,11 +294,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "antmicropower:GND"
 			(power)
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -404,10 +413,47 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(bus_alias "SPI"
 		(members "MISO" "MOSI" "SCK" "CS")
+	)
+	(text "VESA 75x75mm"
+		(exclude_from_sim no)
+		(at 162.306 191.516 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "277a81b3-fc86-4ec9-999d-a3af14b65388")
+	)
+	(text "VESA 100x100mm"
+		(exclude_from_sim no)
+		(at 136.906 191.262 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "28ca5635-f943-495e-a1be-9ff38fe8548b")
+	)
+	(text "Enclosure"
+		(exclude_from_sim no)
+		(at 98.806 191.262 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "493fe87f-a807-464b-85a3-e63258d3d03e")
 	)
 	(junction
 		(at 90.17 179.07)
@@ -1252,42 +1298,6 @@
 			(type default)
 		)
 		(uuid "fc6aeb2c-9c27-4c95-b875-f8ee83f48717")
-	)
-	(text "VESA 75x75mm"
-		(exclude_from_sim no)
-		(at 162.306 191.516 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-		)
-		(uuid "277a81b3-fc86-4ec9-999d-a3af14b65388")
-	)
-	(text "VESA 100x100mm"
-		(exclude_from_sim no)
-		(at 136.906 191.262 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-		)
-		(uuid "28ca5635-f943-495e-a1be-9ff38fe8548b")
-	)
-	(text "Enclosure"
-		(exclude_from_sim no)
-		(at 98.806 191.262 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-		)
-		(uuid "493fe87f-a807-464b-85a3-e63258d3d03e")
 	)
 	(symbol
 		(lib_id "antmicroMechanicalParts:Spacer_Drill5.4mm_H10mm_9774100482R")
@@ -2893,6 +2903,10 @@
 	(sheet
 		(at 91.44 97.79)
 		(size 40.64 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2922,103 +2936,103 @@
 		)
 		(pin "USB{USB}" bidirectional
 			(at 91.44 107.95 180)
+			(uuid "86d14076-10ff-4ecd-bea9-c0d9e6b23207")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "86d14076-10ff-4ecd-bea9-c0d9e6b23207")
 		)
 		(pin "Trig{Triggers}" input
 			(at 91.44 118.11 180)
+			(uuid "7752f3e4-a551-4846-8bf9-8827f3353f03")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "7752f3e4-a551-4846-8bf9-8827f3353f03")
 		)
 		(pin "RowCtrl[1..7]" output
 			(at 132.08 101.6 0)
+			(uuid "745e0a2b-1cd5-45f6-ae5a-16e03e33ad92")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "745e0a2b-1cd5-45f6-ae5a-16e03e33ad92")
 		)
 		(pin "RowCtrl[8..14]" output
 			(at 132.08 104.14 0)
+			(uuid "d27a2369-0503-4d6c-9ef5-b99c8d85560e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "d27a2369-0503-4d6c-9ef5-b99c8d85560e")
 		)
 		(pin "ColumnCtrl[6..10]" output
 			(at 132.08 109.22 0)
+			(uuid "33f769a4-82ba-4788-bf2e-470e4c0bdee4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "33f769a4-82ba-4788-bf2e-470e4c0bdee4")
 		)
 		(pin "ColumnCtrl[1..5]" output
 			(at 132.08 106.68 0)
+			(uuid "28dc953d-4a76-483b-b71e-629fdd4596d3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "28dc953d-4a76-483b-b71e-629fdd4596d3")
 		)
 		(pin "IMU{IMU}" bidirectional
 			(at 132.08 99.06 0)
+			(uuid "2f1d3011-fc85-4069-a5f5-0ad1d0c043ae")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "2f1d3011-fc85-4069-a5f5-0ad1d0c043ae")
 		)
 		(pin "FPGA_SPI{SPI}" bidirectional
 			(at 91.44 104.14 180)
+			(uuid "21329c25-176d-4ada-bce6-34904ddb5b7c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "21329c25-176d-4ada-bce6-34904ddb5b7c")
 		)
 		(pin "MCU_RST" input
 			(at 91.44 111.76 180)
+			(uuid "b2001a05-41b1-473b-a10a-505004eeb7ec")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "b2001a05-41b1-473b-a10a-505004eeb7ec")
 		)
 		(pin "~{FPGA_RESET}" output
 			(at 91.44 101.6 180)
+			(uuid "58dd9b1c-4ad0-4969-85ad-9274269aab8c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "58dd9b1c-4ad0-4969-85ad-9274269aab8c")
 		)
 		(instances
 			(project "led-panel"
@@ -3031,6 +3045,10 @@
 	(sheet
 		(at 38.1 163.83)
 		(size 31.75 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -3060,13 +3078,13 @@
 		)
 		(pin "Trig{Triggers}" output
 			(at 69.85 175.26 0)
+			(uuid "8e399bdc-da74-4532-89a0-cbd8ba49a5e4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "8e399bdc-da74-4532-89a0-cbd8ba49a5e4")
 		)
 		(instances
 			(project "led-panel"
@@ -3079,6 +3097,10 @@
 	(sheet
 		(at 38.1 96.52)
 		(size 31.75 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -3108,13 +3130,13 @@
 		)
 		(pin "USB{USB}" bidirectional
 			(at 69.85 107.95 0)
+			(uuid "b146fc72-f8b6-469c-9d0d-b281ef8a0212")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "b146fc72-f8b6-469c-9d0d-b281ef8a0212")
 		)
 		(instances
 			(project "led-panel"
@@ -3127,6 +3149,10 @@
 	(sheet
 		(at 213.36 74.93)
 		(size 31.75 39.37)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -3156,43 +3182,43 @@
 		)
 		(pin "ColumnDrive[6..10]" input
 			(at 213.36 109.22 180)
+			(uuid "37056e99-b41b-49b4-8fce-d0888fd1e822")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "37056e99-b41b-49b4-8fce-d0888fd1e822")
 		)
 		(pin "ColumnDrive[1..5]" input
 			(at 213.36 106.68 180)
+			(uuid "760dfd9c-81a0-4cf7-9bcd-d2b282cc115e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "760dfd9c-81a0-4cf7-9bcd-d2b282cc115e")
 		)
 		(pin "RowDrive[8..14]" input
 			(at 213.36 82.55 180)
+			(uuid "706064c9-0ae4-418f-9532-bb8e5f5c423d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "706064c9-0ae4-418f-9532-bb8e5f5c423d")
 		)
 		(pin "RowDrive[1..7]" input
 			(at 213.36 80.01 180)
+			(uuid "a8c4b84f-322d-438b-94db-0dc255de0350")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "a8c4b84f-322d-438b-94db-0dc255de0350")
 		)
 		(instances
 			(project "led-panel"
@@ -3205,6 +3231,10 @@
 	(sheet
 		(at 38.1 134.62)
 		(size 31.75 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -3234,13 +3264,13 @@
 		)
 		(pin "Trig{Triggers}" output
 			(at 69.85 144.78 0)
+			(uuid "bd7d7c86-7e3d-4897-9edc-89bc1071a58f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "bd7d7c86-7e3d-4897-9edc-89bc1071a58f")
 		)
 		(instances
 			(project "led-panel"
@@ -3253,6 +3283,10 @@
 	(sheet
 		(at 38.1 22.86)
 		(size 31.75 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -3291,6 +3325,10 @@
 	(sheet
 		(at 161.29 31.75)
 		(size 40.64 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -3320,13 +3358,13 @@
 		)
 		(pin "IMU{IMU}" bidirectional
 			(at 161.29 52.07 180)
+			(uuid "514b1c6b-1442-4b32-a209-02f9524b53cc")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "514b1c6b-1442-4b32-a209-02f9524b53cc")
 		)
 		(instances
 			(project "led-panel"
@@ -3339,6 +3377,10 @@
 	(sheet
 		(at 161.29 97.79)
 		(size 40.64 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -3368,43 +3410,43 @@
 		)
 		(pin "ColumnDrive[1..5]" output
 			(at 201.93 106.68 0)
+			(uuid "d3744c74-3621-48f1-9ed7-05ffc2307a0a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "d3744c74-3621-48f1-9ed7-05ffc2307a0a")
 		)
 		(pin "ColumnCtrl[1..5]" input
 			(at 161.29 106.68 180)
+			(uuid "619e372f-0612-47d9-ac86-ae039b7061f7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "619e372f-0612-47d9-ac86-ae039b7061f7")
 		)
 		(pin "ColumnCtrl[6..10]" input
 			(at 161.29 109.22 180)
+			(uuid "d6a00c39-053e-4b12-85ea-6c46ceec6a64")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "d6a00c39-053e-4b12-85ea-6c46ceec6a64")
 		)
 		(pin "ColumnDrive[6..10]" output
 			(at 201.93 109.22 0)
+			(uuid "e17c48f9-f0d9-42fb-a9ec-132d0b9585e9")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "e17c48f9-f0d9-42fb-a9ec-132d0b9585e9")
 		)
 		(instances
 			(project "led-panel"
@@ -3417,6 +3459,10 @@
 	(sheet
 		(at 161.29 69.85)
 		(size 40.64 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -3446,43 +3492,43 @@
 		)
 		(pin "RowDrive[8..14]" output
 			(at 201.93 82.55 0)
+			(uuid "a0f65730-3ec2-4fe5-b3c8-267e5e9e2a14")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "a0f65730-3ec2-4fe5-b3c8-267e5e9e2a14")
 		)
 		(pin "RowDrive[1..7]" output
 			(at 201.93 80.01 0)
+			(uuid "72d00544-6510-4bdb-b2e6-3c715627b059")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "72d00544-6510-4bdb-b2e6-3c715627b059")
 		)
 		(pin "RowCtrl[8..14]" input
 			(at 161.29 82.55 180)
+			(uuid "9176206c-374f-4188-84b6-644bb86b9d87")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "9176206c-374f-4188-84b6-644bb86b9d87")
 		)
 		(pin "RowCtrl[1..7]" input
 			(at 161.29 80.01 180)
+			(uuid "127a2f1c-a242-4254-b903-a135fcc54fd2")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "127a2f1c-a242-4254-b903-a135fcc54fd2")
 		)
 		(instances
 			(project "led-panel"
@@ -3495,6 +3541,10 @@
 	(sheet
 		(at 38.1 64.77)
 		(size 31.75 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -3524,53 +3574,53 @@
 		)
 		(pin "FPGA_SPI{SPI}" bidirectional
 			(at 69.85 82.55 0)
+			(uuid "be73f057-378d-4d5b-9c12-2d8a340b05fb")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "be73f057-378d-4d5b-9c12-2d8a340b05fb")
 		)
 		(pin "IMU{IMU}" bidirectional
 			(at 69.85 68.58 0)
+			(uuid "1f59b619-0692-407d-b160-140c9fa68463")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "1f59b619-0692-407d-b160-140c9fa68463")
 		)
 		(pin "MCU_RST" output
 			(at 69.85 80.01 0)
+			(uuid "87b816a1-4402-4be8-bb73-cdffcb90bbea")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "87b816a1-4402-4be8-bb73-cdffcb90bbea")
 		)
 		(pin "FPGA_CDONE" input
 			(at 69.85 76.2 0)
+			(uuid "cfa22094-a327-4372-9e7c-f6e3ba7268e0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "cfa22094-a327-4372-9e7c-f6e3ba7268e0")
 		)
 		(pin "~{FPGA_RESET}" output
 			(at 69.85 85.09 0)
+			(uuid "1202fe49-545f-4f4c-9be3-719a299fa16c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "1202fe49-545f-4f4c-9be3-719a299fa16c")
 		)
 		(instances
 			(project "led-panel"
@@ -3583,6 +3633,10 @@
 	(sheet
 		(at 91.44 66.04)
 		(size 40.64 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -3612,93 +3666,93 @@
 		)
 		(pin "Trig{Triggers}" input
 			(at 91.44 78.74 180)
+			(uuid "1cb948cf-12de-46a9-bc11-6624d4b266f8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "1cb948cf-12de-46a9-bc11-6624d4b266f8")
 		)
 		(pin "RowCtrl[1..7]" output
 			(at 132.08 80.01 0)
+			(uuid "fa4938a3-0771-45b8-8495-39e335f33e8d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "fa4938a3-0771-45b8-8495-39e335f33e8d")
 		)
 		(pin "RowCtrl[8..14]" output
 			(at 132.08 82.55 0)
+			(uuid "a3dccdba-4919-4d04-86b3-32b730adf4cd")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "a3dccdba-4919-4d04-86b3-32b730adf4cd")
 		)
 		(pin "ColumnCtrl[1..5]" output
 			(at 132.08 85.09 0)
+			(uuid "e8b67593-bd33-4135-a412-6252e0d2d86d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "e8b67593-bd33-4135-a412-6252e0d2d86d")
 		)
 		(pin "ColumnCtrl[6..10]" output
 			(at 132.08 87.63 0)
+			(uuid "65856398-be65-475e-ac31-91ddd17c7b28")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "65856398-be65-475e-ac31-91ddd17c7b28")
 		)
 		(pin "IMU{IMU}" bidirectional
 			(at 132.08 67.31 0)
+			(uuid "73c52be4-ce7c-4788-9971-a2d3ae114bd1")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "73c52be4-ce7c-4788-9971-a2d3ae114bd1")
 		)
 		(pin "FPGA_SPI{SPI}" bidirectional
 			(at 91.44 82.55 180)
+			(uuid "5c1c0a79-9a11-4a9f-9be2-7fa63366bb40")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "5c1c0a79-9a11-4a9f-9be2-7fa63366bb40")
 		)
 		(pin "FPGA_CDONE" output
 			(at 91.44 76.2 180)
+			(uuid "725e94b0-f3f2-444a-866f-0d37d79c4140")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "725e94b0-f3f2-444a-866f-0d37d79c4140")
 		)
 		(pin "~{FPGA_RESET}" input
 			(at 91.44 85.09 180)
+			(uuid "c930b253-1d34-4b7e-bfdd-cd15417f974c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "c930b253-1d34-4b7e-bfdd-cd15417f974c")
 		)
 		(instances
 			(project "led-panel"
@@ -3713,4 +3767,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
