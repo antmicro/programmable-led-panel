@@ -1,5 +1,7 @@
 # LED Panel Board
 
+Copyright (c) 2024-2025 [Antmicro](https://www.antmicro.com)
+
 ![](img/led-panel-render.png)
 
 ## Overview
