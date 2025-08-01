@@ -26,6 +26,7 @@ The remaining files are stored in the following directories:
 
 * `img` - contains graphics for this README
 * `assets` - includes visual assets for showcasing this board on Antmicro Open Hardware Portal and System Designer
+* `doc` - includes board schematic in PDF format 
 
 ## Licensing
 
