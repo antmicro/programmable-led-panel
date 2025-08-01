@@ -1,36 +1,31 @@
 # LED Panel Board
 
-![image](assets/previews/orthoT.png)
-
-This repository contains hardware design files for a LED panel board.
-The design files were prepared in KiCad 8.x.
-
-# Jetson Orin Baseboard
-
-Copyright (c) 2022-2025 [Antmicro](https://www.antmicro.com)
-
-[![image](https://img.shields.io/badge/View%20on-Antmicro%20Open%20Hardware%20Portal-332d37?style=flat-square)](https://openhardware.antmicro.com/boards/jetson-orin-baseboard)
-[![image](https://img.shields.io/badge/View%20on-Antmicro%20Open%20Source%20Portal-332d37?style=flat-square)](https://opensource.antmicro.com/projects/jetson-orin-baseboard)
-
-![](img/assets/previews/orthoT.png)
+![](img/led-panel-render.png)
 
 ## Overview
 
-This project contains open hardware design files for a LED panel board.
+This project includes PCB design files for a simple 10x14 LED matrix panel.
+The individual LEDs from the matrix can be controlled either with Raspberry Pi RP2040 MCU or Lattice ICE40UP5K FPGA.
+The LED sequences displayed by the matrix can be synchronized with external triggering signal. 
+The LED Panel Board can then be used for measuring latency in vision systems.
+The custom paterns displayed by the LED Panel board can also be used for training and evaluation of extended reality (XR gogles, mobile robots and any other devices that use machine vision for environment mapping. 
 
-The design files were prepared in KiCad 8.x.
+The PCB design files for the LED Panel Board were prepared in KiCad 9.x.
 
 ## Key features
 
-- ...
+* 10x14 LED matrix of individually controllable LEDs
+* LED control possible with RP2040 MCU or iCE40 FPGA
+* External trigger signal
+* Fastening studs compliant with VESA display holders and similar accessories 
 
 ## Project structure
 
 The main directory contains KiCad PCB project files, a LICENSE, and a README.
 The remaining files are stored in the following directories:
 
-- `doc` - contains [documentation and usage instructions](https://antmicro.github.io/jetson-orin-baseboard)
-- `assets` - contains visual assets for the README
+* `img` - contains graphics for this README
+* `assets` - includes visual assets for showcasing this board on Antmicro Open Hardware Portal and System Designer
 
 ## Licensing
 
