@@ -1,4 +1,4 @@
-# LED Panel Board
+# Programmable LED Panel Board
 
 Copyright (c) 2024-2025 [Antmicro](https://www.antmicro.com)
 
